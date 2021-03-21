@@ -84,28 +84,15 @@
 }
 
 .mobile_footer .callcenter {
-  background-color: #D8ECE3;
-  padding: 10px 10px 10px 15px;
-  color: #008848;
+  background-color: #006d3b;
+  padding: 5px 0;
+  color: #fff;
   font-weight: 500;
+  margin: 0;
 }
-
-.mobile_footer .callcenter svg {
-  color: #008848;
+.mobile_footer .infoother .other{
+  text-align: center;
 }
-
-.mobile_footer .callcenter a {
-  color: #008848;
-}
-
-.mobile_footer .infoother {
-  padding: 10px 15px;
-}
-
-.mobile_footer .infoother .other {
-  color: #008848;
-}
-
 .mobile_footer .infoother .other span:focus {
   outline: none;
 }
@@ -130,16 +117,23 @@
   display: none;
 }
 
+.linkfooter .row{
+  margin: 0;
+}
+
 .mobile_footer .linkfooter .row div ul {
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.mobile_footer .linkfooter .row div ul li a{
+  font-size: 11px;
+  color: #000;
+}
+
+.mobile_footer .linkfooter .row div div{
   line-height: 25px;
-  padding: 15px;
 }
-
-.mobile_footer .linkfooter .row div ul li {
-  font-size: 13px;
-  color: #288ad6;
-}
-
 .mobile_footer .linkfooter .row div .linkfooter_bottom_1 p {
   color: #000;
 }
@@ -147,14 +141,13 @@
 .mobile_footer .linkfooter .row div .linkfooter_bottom_1 a img,
 .mobile_footer .linkfooter .row div .linkfooter_bottom_2 a img {
   margin: 5px 0;
-}
-
-.mobile_footer .linkfooter .row div .linkfooter_bottom_1 a img {
   width: 65%;
 }
 
-.mobile_footer .linkfooter .row div .linkfooter_bottom_2 a img {
-  width: 50%;
+.mobile_footer .linkfooter .row div .linkfooter_bottom_3 a span{
+  font-size: 10px;
+  color: #000;
+  font-weight: 500;
 }
 
 .tgdd-ref .row{
@@ -173,7 +166,33 @@
   font-size: 12px;
 }
 
-.mobile_footer .tgdd-ref div div a {
-  color: #000;
+.mobile_footer .tgdd-ref div div:last-child {
+  border-right: none;
 }
 
+.mobile_footer .tgdd-ref div div a {
+  color: #000;
+  font-size: 11px;
+}
+.callcenter{
+  font-size: 10px;
+}
+.infocc{
+  display: inline-grid;
+}
+.infocc span a{
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+}
+.linkfooter .copyright {
+  display: block;
+  font-size: 10px !important;
+  color: #999;
+  text-align: justify;
+  background: #e9edf0;
+  padding: 5px 10px 5px 5px;
+}
+.linkfooter_bottom_3{
+  display: inline-grid;
+}

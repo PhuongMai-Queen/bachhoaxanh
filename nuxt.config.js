@@ -15,7 +15,8 @@ module.exports = {
   },
   css: [
     '@/assets/css/header.css',
-    '@/assets/css/footer.css'
+    '@/assets/css/footer.css',
+    '@/assets/css/home.css'
   ],
   /*
   ** Customize the progress bar color
@@ -36,6 +37,10 @@ module.exports = {
         {
           set: '@fortawesome/free-brands-svg-icons',
           icons: ['fab']
+        },
+        {
+          set: '@fortawesome/free-regular-svg-icons',
+          icons: ['far']
         }
       ]
     }

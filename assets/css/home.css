@@ -1,6 +1,6 @@
 .mobile_content{
   background-color: #F5F8FD;
-  padding-top: 48px;
+  padding-top: 47px;
 }
 .mobile_content .groupcate .listgroup{
   overflow-x: auto !important;
@@ -13,7 +13,7 @@
 }
 .mobile_content .groupcate{
   width: 100%;
-  position: relative;
+  position: fixed;
   background: #fff;
   height: 49px;
   z-index: 2;
@@ -46,6 +46,7 @@
   text-align: center;
 }
 .groupfeature{
+  margin-top: 50px;
   margin-bottom: 10px;
 }
 

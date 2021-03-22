@@ -2242,7 +2242,7 @@
       </div>
     </div>
     <div class="mobile_content_banner">
-      <agile :autoplay="true" :navButtons="false">
+      <agile :autoplay="true" :navButtons="false" :dots="true">
         <div>
           <img src="~/assets/images/banner/hoa-don-50k-duoc-mua-gia-soc-17032021112419.jpg" width="100%">
         </div>

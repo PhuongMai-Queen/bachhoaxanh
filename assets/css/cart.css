@@ -1,0 +1,262 @@
+.mobile_cart {
+  margin-top: 10px;
+}
+
+.clear {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.cart-content,
+.checkout-content {
+  background: #fff;
+  position: relative;
+  min-height: calc(100vh - 44px);
+  display: block;
+}
+
+.list-product .title {
+  padding: 10px;
+  border-bottom: 1px solid #f0f3f5;
+  color: #515764;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.list-product .item {
+  position: relative;
+  clear: both;
+  padding: 12px 10px 10px;
+  position: relative;
+  border-bottom: 1px solid #ededed;
+  float: left;
+  width: 100%;
+}
+
+.mobile_cart .list-product .item img {
+  float: left;
+  width: 60px;
+  height: auto;
+  margin: 0 5px 0 0;
+}
+
+.mobile_cart .list-product .item .delete {
+  background: #c5cee0;
+  cursor: pointer;
+  font-size: 8px;
+  color: #fff;
+  vertical-align: middle;
+  height: 17px;
+  width: 17px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
+.mobile_cart .list-product .item .info {
+  float: left;
+  width: calc(100% - 175px);
+  position: relative;
+}
+
+.mobile_cart .list-product .item .unit-price {
+  color: #8f9bb3;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.mobile_cart .list-product .item .info .name {
+  line-height: 16px;
+  text-overflow: ellipsis;
+  white-space: initial;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: inline-block;
+  width: auto;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #222b45;
+}
+
+.mobile_cart .list-product .item .money {
+  float: right;
+  text-align: right;
+  width: 100px;
+}
+
+.mobile_cart.list-product .item .money .quantity-group {
+  position: relative;
+}
+
+.mobile_cart .quantity-group .quantity-item i {
+  float: left;
+  width: 31px;
+  font-size: 23px;
+  text-align: center;
+  border: 1px solid #edf1f7;
+  height: 33px;
+  cursor: pointer;
+  background: #fff;
+  font-style: normal;
+  border-radius: 8px;
+  line-height: 27px;
+}
+
+.mobile_cart .quantity-group .quantity-item .quantity-input {
+  float: left;
+  padding: 0 5px;
+  margin: 0 3px;
+  width: 30px;
+  border: 1px solid #ededed;
+  text-align: center;
+  height: 33px;
+  line-height: 26px;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  border-radius: 8px;
+  color: #222b45;
+}
+
+.cart-content .row {
+  /* margin-right: 0; */
+}
+
+.cart-content .btn {
+  border: 1px solid #8f9bb3;
+  height: 100%;
+  margin-top: 5px;
+  padding: 5px 9px;
+  font-size: 15px;
+}
+
+.btn-order {
+  padding: 16px 9px !important;
+  border-color: #008848 !important;
+  background: #008848;
+  color: #fff;
+  font-weight: bold;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.more {
+  margin-top: 10px;
+  position: relative;
+}
+
+.more .item::before {
+  content: "";
+  background: #8f9bb3;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
+.more .item {
+  padding: 10px 10px 5px 25px;
+  font-size: 14px;
+  position: relative;
+}
+
+.more .item a {
+  color: #222b45;
+}
+
+.more .item .viewmore b-a:focus {
+  outline: none !important;
+}
+
+/* checkout  */
+
+.mobile_checkout.container-fluid {
+  padding: 0;
+}
+
+.mobile_checkout .checkout-content {
+  background-color: #e9edf0;
+}
+
+.mobile_checkout .get-address {
+  background-color: #fff;
+}
+
+.checkout-content .back-to-cart {
+  float: left;
+  padding: 5px;
+  color: #222b45;
+  position: relative;
+  padding-left: 24px;
+  cursor: pointer;
+  font-size: 14px;
+  display: block;
+
+}
+
+.get-address {
+  display: block;
+}
+
+#get-address-model {
+  padding: 10px !important;
+}
+
+#get-address-model .modal-content {
+  background-color: #fff !important;
+  padding: 10px;
+}
+
+.checkout-content .get-address {
+  background-color: #fff;
+}
+
+.checkout-content .get-address-btn.btn-secondary {
+  background-color: transparent !important;
+  border: none !important;
+  color: #222b45;
+  display: block;
+}
+
+.checkout-content .get-address-btn.btn-secondary:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  color: #222b45;
+}
+
+.checkout-content .step {
+  background-color: #fff;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.mobile_checkout .checkout-content .col-4{
+padding-left: 5px;
+padding-right: 5px;
+}
+
+.step .title {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.step a{
+  color: #222b45;
+}
+
+a span.text-muted{
+  font-size: 0.9em;
+}
+a span.text-muted.privacy{
+  font-size: 0.7em;
+}

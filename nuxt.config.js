@@ -16,6 +16,7 @@ module.exports = {
   css: [
     '@/assets/css/header.css',
     '@/assets/css/footer.css',
+    '@/assets/css/menu.css',
     '@/assets/css/home.css',
     '@/assets/css/cart.css'
   ],

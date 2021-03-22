@@ -1,9 +1,11 @@
 .mobile_header {
   background-color: #037841;
-  padding: 5px;
+  padding: 5px 0;
+  position: fixed;
+  z-index: 10;
 }
 
-.mobile_header .row {
+.mobile_header .row-cols-lg-mobile_menu_header {
   align-items: center;
   margin-right: 0px;
   margin-left: 0px;
@@ -17,7 +19,7 @@
   font-size: 13px;
 }
 
-.mobile_header .col-5 {
+.mobile_header .input-search {
   position: relative;
   padding: 0 5px;
 }
@@ -25,13 +27,13 @@
 .mobile_header .col-5 svg {
   position: absolute;
   top: 5px;
-  right: 20px;
+  right: 12px;
   color: #adb5bd;
   font-size: 20px;
 }
 
 .mobile_header div svg {
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   outline: none;
   vertical-align: middle;
@@ -54,20 +56,13 @@
 
 .b-sidebar-footer {
   position: absolute;
-  bottom: 0;
-  right: -75px;
+  top: 0;
 }
 
 .b-sidebar-footer .align-items-right{
   padding: 0 !important;
 }
 
-.b-sidebar-footer .align-items-right .btn-secondary {
-  color: #000;
-  padding: 10px 0;
-  background-color: #EAEAEA;
-  border: none;
-}
 
 .input-side-search {
   position: relative;
@@ -79,45 +74,6 @@
   color: #525252;
   top: 16px;
   right: 25px;
-}
-
-#sidebar-footer .b-sidebar-body nav ul li,
-#sidebar-footer .b-sidebar-body nav ul .menu-side-bottom {
-  padding: 10px 15px 0 15px !important;
-  background-color: #F8F9FA;
-}
-
-#sidebar-footer .b-sidebar-body nav ul li a {
-  line-height: 16px;
-  font-size: 14px;
-  font-weight: bold;
-  color: #1d1d1d;
-  width: 100%;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 18px;
-  padding-left: 0;
-}
-
-#sidebar-footer .b-sidebar-body nav ul li a svg{
-  font-size: 15px;
-  color: #979797;
-}
-
-#sidebar-footer .b-sidebar-body nav ul .collapsed a .fa-angle-down{
-  display: block;
-  float: right;
-}
-
-#sidebar-footer .b-sidebar-body nav ul .collapsed a .fa-angle-up{
-  display: none;
-}
-
-#sidebar-footer .b-sidebar-body nav ul .not-collapsed a .fa-angle-up{
-  display: block;
-  float: right;
-}
-#sidebar-footer .b-sidebar-body nav ul .not-collapsed a .fa-angle-down{
-  display: none;
 }
 
 #sidebar-footer .b-sidebar-body nav ul li:last-child a {

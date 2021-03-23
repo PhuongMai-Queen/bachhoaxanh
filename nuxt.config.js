@@ -18,7 +18,8 @@ module.exports = {
     '@/assets/css/footer.css',
     '@/assets/css/menu.css',
     '@/assets/css/home.css',
-    '@/assets/css/cart.css'
+    '@/assets/css/cart.css',
+    '@/assets/css/products_cate.css'
   ],
   /*
   ** Customize the progress bar color

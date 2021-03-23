@@ -2355,8 +2355,8 @@ export default {
   async created() {
     this.totalPages();
   },
-  methods:{
-    async totalPages(){
+  methods: {
+    async totalPages() {
       const response = await axios.get('http://api.tvtp.vn/v0/products', {
         headers: {
           Authorization: 'Bearer cb68e963404f0b1b62229f37cf77013b7f97729b6722ae7d17e8315e9eabcbe3'
@@ -2365,19 +2365,19 @@ export default {
       this.total_pages = response.data.meta.pagination['total_pages'];
       this.total = response.data.meta.pagination['total'];
       var i = 0;
-      for (i=1; i<=this.total_pages;i++){
+      for (i = 1; i <= this.total_pages; i++) {
         this.getData(i);
       }
     },
-    async getData(id){
-      const response = await axios.get('http://api.tvtp.vn/v0/products?page=' +id, {
+    async getData(id) {
+      const response = await axios.get('http://api.tvtp.vn/v0/products?page=' + id, {
         headers: {
           Authorization: 'Bearer cb68e963404f0b1b62229f37cf77013b7f97729b6722ae7d17e8315e9eabcbe3'
         }
       });
-      this.products = this.products.concat(response.data.data).filter( (el, index) => index < this.limit);
+      this.products = this.products.concat(response.data.data).filter((el, index) => index < this.limit);
     },
-    async limitShow(){
+    async limitShow() {
       this.limit = this.limit + 9;
       this.products = [];
       this.totalPages();

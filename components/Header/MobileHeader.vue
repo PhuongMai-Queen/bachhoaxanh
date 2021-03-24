@@ -1973,6 +1973,143 @@
           <font-awesome-icon :icon="['fas', 'shopping-basket']"></font-awesome-icon>
           <span>Giỏ hàng</span>
         </div>
+        <b-sidebar id="sidebar-filter">
+          <template #footer="{ hide }">
+            <div class="d-flex align-items-right px-3 py-2">
+              <b-button align-items-right size="sm" @click="hide">
+                <img src="~/assets/images/general/delete.png" width="30%">
+                Đóng
+              </b-button>
+            </div>
+          </template>
+          <b-container class="bv-example-row ">
+            <b-row>
+              <h4>Sắp xếp theo giá: </h4>
+            </b-row>
+            <b-row class="box-filter">
+              <b-col>
+                  <span>
+                    <b> Giá cao <br> đến thấp </b>
+                    <em></em>
+                  </span>
+              </b-col>
+              <b-col>
+                  <span>
+                    <b>
+                      Giá thấp<br> đến cao
+                    </b>
+                     <em></em>
+                     </span>
+              </b-col>
+              <b-col>
+                  <span>
+                  <b> Khuyến mãi  <br> nhiều hơn</b>
+                     <em></em>
+                  </span>
+              </b-col>
+              <b-col>
+                <span>
+                  <b>Sản phẩm  <br> bán chạy  </b>
+                   <em></em>
+                </span></b-col>
+              <b-col>
+                <span>
+                  <b>Sản phẩm  <br> mới về</b>
+                   <em></em>
+                </span>
+              </b-col>
+            </b-row>
+          </b-container>
+          <b-container class="bv-example-row ">
+            <b-row>
+              <h4>Sắp xếp đóng gói : </h4>
+            </b-row>
+            <b-row class="box-filter">
+              <b-col>
+                  <span>
+                    <b> Nước ngọt <br> dạng cây  </b>
+                     <em></em>
+                  </span>
+              </b-col>
+              <b-col>
+                  <span>
+                    <b>
+                     Nước ngọt <br> lon nhỏ
+                    </b>
+                     <em></em>
+                     </span>
+              </b-col>
+              <b-col>
+                  <span>
+                  <b> Nước ngọt <br> chai lớn </b>
+                     <em></em>
+                  </span>
+              </b-col>
+              <b-col>
+                <span>
+                  <b>Nước ngọt <br> chai nhỏ  </b>
+                   <em></em>
+                </span></b-col>
+              <b-col>
+                <span>
+                  <b>Nước ngọt <br> dạng lốc</b>
+                   <em></em>
+                </span>
+              </b-col>
+            </b-row>
+          </b-container>
+          <b-container class="bv-example-row ">
+            <b-row>
+              <h4>Lọc theo thương hiệu  : </h4>
+            </b-row>
+            <b-row class="box-filter">
+              <b-col>
+                <nuxt-link to="#">
+                    <span>
+                    <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="100%">
+                       <em></em>
+                    </span>
+                </nuxt-link>
+              </b-col>
+              <b-col>
+                <nuxt-link to="#">
+                    <span>
+                    <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="100%">
+                       <em></em>
+                    </span>
+                </nuxt-link>
+              </b-col>
+              <b-col>
+                <nuxt-link to="#">
+                    <span>
+                    <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="100%">
+                       <em></em>
+                    </span>
+                </nuxt-link>
+              </b-col>
+              <b-col>
+                <nuxt-link to="#">
+                    <span>
+                    <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="100%">
+                       <em></em>
+                    </span>
+                </nuxt-link>
+              </b-col>
+              <b-col>
+                <nuxt-link to="#">
+                    <span>
+                    <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="100%">
+                       <em></em>
+                    </span>
+                </nuxt-link>
+              </b-col>
+            </b-row>
+          </b-container>
+          <div class="footer-filter">
+              <b-button >Chọn lại </b-button>
+              <b-button class="filter-apcept">Áp dụng </b-button>
+          </div>
+        </b-sidebar>
       </b-row>
     </div>
   </div>

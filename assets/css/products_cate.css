@@ -65,6 +65,14 @@
   top: -4px;
   width: 100%;
 }
+.alert-info{
+  position: absolute;
+  height: 100%;
+  right: -4px;
+  top: -4px;
+
+
+}
 .box-filter span em:after {
   content: '';
   background-image: url(//cdn.tgdd.vn/bachhoaxanh/www/Content/images/bhx@2x.v202103231525.png);

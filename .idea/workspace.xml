@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8419a4d6-f251-4b92-935d-bfb1a04aa5fa" name="Default Changelist" comment="update code">
+    <list default="true" id="8419a4d6-f251-4b92-935d-bfb1a04aa5fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/products_cate.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/products_cate.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Header/MobileHeader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header/MobileHeader.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +70,9 @@
       <workItem from="1616497656665" duration="647000" />
       <workItem from="1616506624790" duration="3325000" />
       <workItem from="1616548816606" duration="1018000" />
+      <workItem from="1616553244277" duration="134000" />
+      <workItem from="1616558493021" duration="4461000" />
+      <workItem from="1616635042958" duration="1038000" />
     </task>
     <task id="LOCAL-00001" summary="update code">
       <created>1616488812578</created>
@@ -78,7 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616488812578</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update check filter by binhit">
+      <created>1616553342753</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616553342753</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update check filter by binhit">
+      <created>1616553367082</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616553367082</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +117,7 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="update code" />
-    <option name="LAST_COMMIT_MESSAGE" value="update code" />
+    <MESSAGE value="update check filter by binhit" />
+    <option name="LAST_COMMIT_MESSAGE" value="update check filter by binhit" />
   </component>
 </project>

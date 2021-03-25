@@ -2016,7 +2016,6 @@
                 </span>
               </b-col>
             </b-row>
-            <span></span>
           </b-container>
           <b-container class="bv-example-row ">
             <b-row>

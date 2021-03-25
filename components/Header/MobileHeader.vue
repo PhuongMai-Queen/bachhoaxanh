@@ -2198,37 +2198,43 @@
             </b-row>
             <b-row class="box-filter">
               <b-col>
-                <span @click="showDismissibleAlert=true">
+                <span @click="showDismissibleAlert_count=true">
                     <b> Giá cao <br> đến thấp </b>
-                    <b-alert v-model="showDismissibleAlert" dismissible>
+                    <b-alert v-model="showDismissibleAlert_count" >
      <em></em>
     </b-alert>
                   </span>
               </b-col>
               <b-col>
-                  <span>
-                    <b>
-                      Giá thấp<br> đến cao
-                    </b>
-                     <em></em>
-                     </span>
-              </b-col>
-              <b-col>
-                  <span>
-                  <b> Khuyến mãi  <br> nhiều hơn</b>
-                     <em></em>
+                        <span @click="showDismissibleAlert_countdown=true">
+                    <b> Giá cao <br> đến thấp </b>
+                    <b-alert v-model="showDismissibleAlert_countdown" >
+     <em></em>
+    </b-alert>
                   </span>
               </b-col>
               <b-col>
-                <span>
-                  <b>Sản phẩm  <br> bán chạy  </b>
-                   <em></em>
-                </span></b-col>
+                       <span @click="showDismissibleAlert_sales=true">
+                    <b> Khuyễn mãi  <br>nhiều hơn </b>
+                    <b-alert v-model="showDismissibleAlert_sales" >
+     <em></em>
+    </b-alert>
+                  </span>
+              </b-col>
               <b-col>
-                <span>
-                  <b>Sản phẩm  <br> mới về</b>
-                   <em></em>
-                </span>
+                      <span @click="showDismissibleAlert_bestsales=true">
+                    <b> Sản phẩm <br> bán chạy </b>
+                    <b-alert v-model="showDismissibleAlert_bestsales" >
+     <em></em>
+    </b-alert>
+                  </span></b-col>
+              <b-col>
+                     <span @click="showDismissibleAlert_newsproducts=true">
+                    <b> Sản phẩm  <br> mới về  </b>
+                    <b-alert v-model="showDismissibleAlert_newsproducts" >
+     <em></em>
+    </b-alert>
+                  </span>
               </b-col>
             </b-row>
           </b-container>
@@ -2328,6 +2334,15 @@
 </template>
 <script>
 export default {
+  data() {
+    return {
+      showDismissibleAlert_count: false,
+      showDismissibleAlert_countdown:false,
+      showDismissibleAlert_sales:false,
+      showDismissibleAlert_bestsales:false,
+      showDismissibleAlert_newsproducts:false,
+    }
+  },
   methods: {
     scrollIntoView(event) {
       event.preventDefault();
@@ -2338,17 +2353,3 @@ export default {
 }
 </script>
 
-<script>
-export default {
-  data() {
-    return {
-      showDismissibleAlert: false
-    }
-  },
-  methods: {
-    showAlert() {
-      this.dismissCountDown = this.dismissSecs
-    }
-  }
-}
-</script>

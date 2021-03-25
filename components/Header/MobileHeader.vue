@@ -75,8 +75,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2883/bhx/ca-phe-pha-phin-202103201501103196.jpg">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2883/bhx/ca-phe-pha-phin-202103201501103196.jpg">
                         </nuxt-link>
                         <div class="text">
                           Cà phê<br> pha phin
@@ -92,8 +91,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8966/bhx/cafe-cafe-sua-lon-202103201501396509.jpg">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8966/bhx/cafe-cafe-sua-lon-202103201501396509.jpg">
                         </nuxt-link>
                         <div class="text">
                           Cafe, Cafe <br> sữa lon
@@ -101,8 +99,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2385/bhx/tra-kho-tui-loc-202103201501522218.jpg">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2385/bhx/tra-kho-tui-loc-202103201501522218.jpg">
                         </nuxt-link>
                         <div class="text">
                           Trà khô, <br> túi lọc
@@ -110,8 +107,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3226/bhx/nuoc-uong-tang-luc-202103201500096061.jpg">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3226/bhx/nuoc-uong-tang-luc-202103201500096061.jpg">
                         </nuxt-link>
                         <div class="text">
                           Nước uống <br> tăng lực
@@ -119,8 +115,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8965/bhx/nuoc-uong-bu-khoang-202103201500222590.jpg">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8965/bhx/nuoc-uong-bu-khoang-202103201500222590.jpg">
                         </nuxt-link>
                         <div class="text">
                           Nước uống <br> bù khoáng
@@ -128,8 +123,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3265/bhx/nuoc-ep-trai-cay-202103201458568358.jpg">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3265/bhx/nuoc-ep-trai-cay-202103201458568358.jpg">
                         </nuxt-link>
                         <div class="text">
                           Nước ép <br> trái cây
@@ -137,8 +131,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7163/bhx/trai-cay-dong-hop-202103201459282072.jpg">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7163/bhx/trai-cay-dong-hop-202103201459282072.jpg">
                         </nuxt-link>
                         <div class="text">
                           Trái cây <br> đóng hộp
@@ -154,8 +147,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2282/bhx/bia-nuoc-co-con-202103201503346998.jpg">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2282/bhx/bia-nuoc-co-con-202103201503346998.jpg">
                         </nuxt-link>
                         <div class="text">
                           Bia, nước <br> có cồn
@@ -163,8 +155,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2563/bhx/nuoc-suoi-dong-chai-202103201500377907.jpg">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2563/bhx/nuoc-suoi-dong-chai-202103201500377907.jpg">
                         </nuxt-link>
                         <div class="text">
                           Nước suối, <br> nước khoáng
@@ -172,8 +163,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8963/bhx/tra-sua-dong-chai-202103202301463403.jpg">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8963/bhx/tra-sua-dong-chai-202103202301463403.jpg">
                         </nuxt-link>
                         <div class="text">
                           Trà sữa <br> đóng chai
@@ -181,8 +171,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2947/bhx/sua-huong-trai-cay-202103201458415512.jpg">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2947/bhx/sua-huong-trai-cay-202103201458415512.jpg">
                         </nuxt-link>
                         <div class="text">
                           Sữa hương <br> trái cây
@@ -190,8 +179,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/4585/bhx/nuoc-yen-dinh-duong-202103201502312993.jpg">
+                          <img src="https://cdn.tgdd.vn/Products/Images/4585/bhx/nuoc-yen-dinh-duong-202103201502312993.jpg">
                         </nuxt-link>
                         <div class="text">
                           Nước yến <br> dinh dưỡng
@@ -207,8 +195,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7100/bhx/bot-nghe-nghe-vien-202103201502525656.jpg">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7100/bhx/bot-nghe-nghe-vien-202103201502525656.jpg">
                         </nuxt-link>
                         <div class="text">
                           Bột nghệ, <br> nghệ viên
@@ -220,8 +207,7 @@
                     <div class="drink-cate row">
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2944/bhx/sua-chua-uong-lien-202103201453362737.jpg">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2944/bhx/sua-chua-uong-lien-202103201453362737.jpg">
                         </nuxt-link>
                         <div class="text">
                           Sữa chua <br> uống liền
@@ -229,8 +215,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2386/bhx/sua-tuoi-cac-loai-202103201452535875.jpg">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2386/bhx/sua-tuoi-cac-loai-202103201452535875.jpg">
                         </nuxt-link>
                         <div class="text">
                           Sữa tươi <br> các loại
@@ -238,8 +223,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2943/bhx/sua-hat-sua-dau-202103201453075147.jpg">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2943/bhx/sua-hat-sua-dau-202103201453075147.jpg">
                         </nuxt-link>
                         <div class="text">
                           Sữa hạt, <br> sữa đậu
@@ -247,8 +231,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2526/bhx/sua-dac-cac-loai-202101191009485079.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2526/bhx/sua-dac-cac-loai-202101191009485079.png">
                         </nuxt-link>
                         <div class="text">
                           Sữa đặc <br> các loại
@@ -256,8 +239,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2945/bhx/thuc-uong-lua-mach-202103201453236788.jpg">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2945/bhx/thuc-uong-lua-mach-202103201453236788.jpg">
                         </nuxt-link>
                         <div class="text">
                           Thức uống <br> lúa mạch
@@ -273,8 +255,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2382/bhx/sua-bot-cong-thuc-202103201451339363.jpg">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2382/bhx/sua-bot-cong-thuc-202103201451339363.jpg">
                         </nuxt-link>
                         <div class="text">
                           Sữa bột <br> công thức
@@ -282,8 +263,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2946/bhx/sua-bot-pha-san-202103201454327667.jpg">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2946/bhx/sua-bot-pha-san-202103201454327667.jpg">
                         </nuxt-link>
                         <div class="text">
                           Sữa bột <br> pha sẵn
@@ -291,8 +271,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2944/bhx/sua-chua-uong-lien-202103201453362737.jpg">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2944/bhx/sua-chua-uong-lien-202103201453362737.jpg">
                         </nuxt-link>
                         <div class="text">
                           Sữa chua <br> uống liền
@@ -304,8 +283,7 @@
                     <div class="drink-cate row">
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3357/bhx/banh-quy-cac-loai-202101191016028154.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3357/bhx/banh-quy-cac-loai-202101191016028154.png">
                         </nuxt-link>
                         <div class="text">
                           Bánh quy <br> các loại
@@ -313,8 +291,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7621/bhx/banh-trung-cac-loai-202101191016251253.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7621/bhx/banh-trung-cac-loai-202101191016251253.png">
                         </nuxt-link>
                         <div class="text">
                           Bánh trứng <br> các loại
@@ -322,8 +299,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3364/bhx/banh-snack-rong-bien-202101191013131774.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3364/bhx/banh-snack-rong-bien-202101191013131774.png">
                         </nuxt-link>
                         <div class="text">
                           Bánh snack, <br> rong biển
@@ -331,8 +307,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/4888/bhx/keo-singum-cac-loai-202101191019035595.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/4888/bhx/keo-singum-cac-loai-202101191019035595.png">
                         </nuxt-link>
                         <div class="text">
                           Kẹo singum <br> các loại
@@ -340,8 +315,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2687/bhx/keo-cung-cac-loai-202101191019120098.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2687/bhx/keo-cung-cac-loai-202101191019120098.png">
                         </nuxt-link>
                         <div class="text">
                           Kẹo cứng <br> các loại
@@ -349,8 +323,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7199/bhx/keo-mem-cac-loai-202101191019428041.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7199/bhx/keo-mem-cac-loai-202101191019428041.png">
                         </nuxt-link>
                         <div class="text">
                           Kẹo mềm <br> các loại
@@ -358,8 +331,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3361/bhx/banh-gao-an-lien-202101191014218262.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3361/bhx/banh-gao-an-lien-202101191014218262.png">
                         </nuxt-link>
                         <div class="text">
                           Bánh gạo <br> ăn liền
@@ -367,8 +339,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3360/bhx/banh-xop-cac-loai-202101191015057897.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3360/bhx/banh-xop-cac-loai-202101191015057897.png">
                         </nuxt-link>
                         <div class="text">
                           Bánh xốp <br> các loại
@@ -376,8 +347,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3358/bhx/banh-bong-lan-ngot-202101191015228544.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3358/bhx/banh-bong-lan-ngot-202101191015228544.png">
                         </nuxt-link>
                         <div class="text">
                           Bánh bông <br> lan ngọt
@@ -385,8 +355,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7622/bhx/banh-socola-cac-loai-202101191018158757.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7622/bhx/banh-socola-cac-loai-202101191018158757.png">
                         </nuxt-link>
                         <div class="text">
                           Bánh socola <br> các loại
@@ -394,8 +363,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/6597/bhx/keo-socola-cac-loai-202101191018363455.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/6597/bhx/keo-socola-cac-loai-202101191018363455.png">
                         </nuxt-link>
                         <div class="text">
                           Kẹo socola <br> các loại
@@ -403,8 +371,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3362/bhx/banh-que-cac-loai-202101191017210043.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3362/bhx/banh-que-cac-loai-202101191017210043.png">
                         </nuxt-link>
                         <div class="text">
                           Bánh que <br> các loại
@@ -412,8 +379,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3359/bhx/banh-que-cac-loai-202101191017363950.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3359/bhx/banh-que-cac-loai-202101191017363950.png">
                         </nuxt-link>
                         <div class="text">
                           Bánh quế <br>Bánh quế
@@ -421,8 +387,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3488/bhx/keo-mut-cac-loai-202101191030461283.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3488/bhx/keo-mut-cac-loai-202101191030461283.png">
                         </nuxt-link>
                         <div class="text">
                           Kẹo mứt <br> các loại
@@ -430,8 +395,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3487/bhx/hat-kho-cac-loai-202101191031129321.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3487/bhx/hat-kho-cac-loai-202101191031129321.png">
                         </nuxt-link>
                         <div class="text">
                           Hạt khô <br> các loại
@@ -439,8 +403,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3368/bhx/rau-cau-cac-loai-202103201507450595.jpg">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3368/bhx/rau-cau-cac-loai-202103201507450595.jpg">
                         </nuxt-link>
                         <div class="text">
                           Rau câu <br> các loại
@@ -448,8 +411,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3445/bhx/cac-loai-banh-khac-202101191031369432.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3445/bhx/cac-loai-banh-khac-202101191031369432.png">
                         </nuxt-link>
                         <div class="text">
                           Các loại <br> bánh khác
@@ -457,8 +419,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8318/bhx/kho-che-bien-san-202101191032218293.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8318/bhx/kho-che-bien-san-202101191032218293.png">
                         </nuxt-link>
                         <div class="text">
                           Khô chế <br> biến sẵn
@@ -466,8 +427,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8320/bhx/do-kho-an-lien-khac-202006020954260996.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8320/bhx/do-kho-an-lien-khac-202006020954260996.png">
                         </nuxt-link>
                         <div class="text">
                           Cơm cháy, <br> bánh tráng
@@ -475,8 +435,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3365/bhx/hat-trai-cay-say-202101191020287508.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3365/bhx/hat-trai-cay-say-202101191020287508.png">
                         </nuxt-link>
                         <div class="text">
                           Hạt, trái <br> cây sấy
@@ -484,8 +443,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3357/bhx/banh-quy-cac-loai-202101191016028154.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3357/bhx/banh-quy-cac-loai-202101191016028154.png">
                         </nuxt-link>
                         <div class="text">
                           Bánh quy <br> các loại
@@ -497,8 +455,7 @@
                     <div class="drink-cate row">
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2963/bhx/bun-goi-an-lien-202101191036052196.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2963/bhx/bun-goi-an-lien-202101191036052196.png">
                         </nuxt-link>
                         <div class="text">
                           Bún gói <br> ăn liền
@@ -506,8 +463,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2566/bhx/pho-goi-an-lien-202101191034573607.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2566/bhx/pho-goi-an-lien-202101191034573607.png">
                         </nuxt-link>
                         <div class="text">
                           Phở gói <br> ăn liền
@@ -523,8 +479,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2965/bhx/hu-tieu-an-lien-202101191035054907.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2965/bhx/hu-tieu-an-lien-202101191035054907.png">
                         </nuxt-link>
                         <div class="text">
                           Hủ tiếu <br> ăn liền
@@ -532,8 +487,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2964/bhx/mien-goi-an-lien-202101191035260246.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2964/bhx/mien-goi-an-lien-202101191035260246.png">
                         </nuxt-link>
                         <div class="text">
                           Miến gói <br> ăn liền
@@ -541,8 +495,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7167/bhx/canh-goi-an-lien-202101191035340416.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7167/bhx/canh-goi-an-lien-202101191035340416.png">
                         </nuxt-link>
                         <div class="text">
                           Canh gói <br> ăn liền
@@ -550,8 +503,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2564/bhx/chao-goi-chao-tuoi-202101191033493330.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2564/bhx/chao-goi-chao-tuoi-202101191033493330.png">
                         </nuxt-link>
                         <div class="text">
                           Cháo gói, <br> cháo tươi
@@ -559,8 +511,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7162/bhx/banh-gao-han-quoc-202101191037192049.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7162/bhx/banh-gao-han-quoc-202101191037192049.png">
                         </nuxt-link>
                         <div class="text">
                           Bánh gạo <br> Hàn Quốc
@@ -568,8 +519,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2963/bhx/bun-goi-an-lien-202101191036052196.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2963/bhx/bun-goi-an-lien-202101191036052196.png">
                         </nuxt-link>
                         <div class="text">
                           Bún gói <br> ăn liền
@@ -581,8 +531,7 @@
                     <div class="drink-cate row">
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2804/bhx/duong-cat-nuoc-duong-202101191041037575.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2804/bhx/duong-cat-nuoc-duong-202101191041037575.png">
                         </nuxt-link>
                         <div class="text">
                           Đường cát, <br> nước đường
@@ -590,8 +539,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2803/bhx/muoi-an-cac-loai-202101191041121818.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2803/bhx/muoi-an-cac-loai-202101191041121818.png">
                         </nuxt-link>
                         <div class="text">
                           Muối ăn <br> các loại
@@ -599,8 +547,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2809/bhx/tieu-den-tieu-xay-202101191041462608.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2809/bhx/tieu-den-tieu-xay-202101191041462608.png">
                         </nuxt-link>
                         <div class="text">
                           Tiêu đen, <br> tiêu xay
@@ -608,8 +555,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2286/bhx/dau-an-cac-loai-202101191038388488.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2286/bhx/dau-an-cac-loai-202101191038388488.png">
                         </nuxt-link>
                         <div class="text">
                           Dầu ăn <br> các loại
@@ -617,8 +563,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2806/bhx/hat-nem-cac-loai-202101191039531814.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2806/bhx/hat-nem-cac-loai-202101191039531814.png">
                         </nuxt-link>
                         <div class="text">
                           Hạt nêm <br> các loại
@@ -626,8 +571,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2805/bhx/bot-ngot-cac-loai-202101191039447440.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2805/bhx/bot-ngot-cac-loai-202101191039447440.png">
                         </nuxt-link>
                         <div class="text">
                           Bột ngọt <br> các loại
@@ -635,8 +579,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2808/bhx/bot-canh-cac-loai-202101191040101160.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2808/bhx/bot-canh-cac-loai-202101191040101160.png">
                         </nuxt-link>
                         <div class="text">
                           Bột canh <br> các loại
@@ -644,8 +587,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2289/bhx/nuoc-mam-cac-loai-202101191039178222.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2289/bhx/nuoc-mam-cac-loai-202101191039178222.png">
                         </nuxt-link>
                         <div class="text">
                           Nước mắm <br> các loại
@@ -661,8 +603,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8275/bhx/hoi-que-thao-qua-202101191053115082.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8275/bhx/hoi-que-thao-qua-202101191053115082.png">
                         </nuxt-link>
                         <div class="text">
                           Hồi, quế, <br> thảo quả
@@ -673,7 +614,7 @@
                           <img src="https://cdn.tgdd.vn/Products/Images/3526/bhx/sa-te-ot-bot-202101191053586737.png">
                         </nuxt-link>
                         <div class="text">
-                          Sa tế, <br> ớt bột
+                          Sa tế, <br>  ớt bột
                         </div>
                       </div>
                       <div class="col-4">
@@ -681,13 +622,12 @@
                           <img src="https://cdn.tgdd.vn/Products/Images/8271/bhx/gia-vi-nem-san-202101191054099247.png">
                         </nuxt-link>
                         <div class="text">
-                          Gia vị <br> nêm sẵn
+                          Gia vị <br>  nêm sẵn
                         </div>
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8276/bhx/nuoc-mau-hat-dieu-202101191054271369.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8276/bhx/nuoc-mau-hat-dieu-202101191054271369.png">
                         </nuxt-link>
                         <div class="text">
                           Nước màu, <br> hạt điều
@@ -695,8 +635,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2567/bhx/tuong-ot-tuong-den-202101191041387651.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2567/bhx/tuong-ot-tuong-den-202101191041387651.png">
                         </nuxt-link>
                         <div class="text">
                           Tương ớt, <br> tương đen
@@ -704,8 +643,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2683/bhx/nuoc-tuong-cac-loai-202101191038455490.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2683/bhx/nuoc-tuong-cac-loai-202101191038455490.png">
                         </nuxt-link>
                         <div class="text">
                           Nước tương <br> các loại
@@ -713,8 +651,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3405/bhx/dau-hao-cac-loai-202101191042093103.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3405/bhx/dau-hao-cac-loai-202101191042093103.png">
                         </nuxt-link>
                         <div class="text">
                           Dầu hào <br> các loại
@@ -722,8 +659,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3466/bhx/giam-an-cac-loai-202101191043060728.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3466/bhx/giam-an-cac-loai-202101191043060728.png">
                         </nuxt-link>
                         <div class="text">
                           Giấm ăn <br> các loại
@@ -739,8 +675,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3228/bhx/sot-mayonnaise-cac-loai-202101191044149375.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3228/bhx/sot-mayonnaise-cac-loai-202101191044149375.png">
                         </nuxt-link>
                         <div class="text">
                           Các loại <br> mayonnaise
@@ -748,8 +683,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7779/bhx/nuoc-cham-cac-loai-202101191045093746.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7779/bhx/nuoc-cham-cac-loai-202101191045093746.png">
                         </nuxt-link>
                         <div class="text">
                           Nước chấm <br> các loại
@@ -757,8 +691,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8279/bhx/mam-tom-cac-loai-202101191046207783.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8279/bhx/mam-tom-cac-loai-202101191046207783.png">
                         </nuxt-link>
                         <div class="text">
                           Mắm tôm <br> các loại
@@ -766,8 +699,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8280/bhx/mam-ruoc-cac-loai-202101191046496280.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8280/bhx/mam-ruoc-cac-loai-202101191046496280.png">
                         </nuxt-link>
                         <div class="text">
                           Mắm ruốc <br> các loại
@@ -775,8 +707,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8281/bhx/mam-nem-cac-loai-202101191046584505.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8281/bhx/mam-nem-cac-loai-202101191046584505.png">
                         </nuxt-link>
                         <div class="text">
                           Mắm nêm <br> các loại
@@ -784,8 +715,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3528/bhx/mu-tat-cac-loai-202101191048035488.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3528/bhx/mu-tat-cac-loai-202101191048035488.png">
                         </nuxt-link>
                         <div class="text">
                           Mù tạt <br> các loại
@@ -797,8 +727,7 @@
                     <div class="drink-cate row">
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2513/bhx/gao-ngon-cac-loai-202101191055092230.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2513/bhx/gao-ngon-cac-loai-202101191055092230.png">
                         </nuxt-link>
                         <div class="text">
                           Gạo ngon <br> các loại
@@ -806,8 +735,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8638/bhx/mi-chay-an-lien-202101191111437111.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8638/bhx/mi-chay-an-lien-202101191111437111.png">
                         </nuxt-link>
                         <div class="text">
                           Mì chay <br> ăn liền
@@ -815,8 +743,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8641/bhx/hu-tieu-goi-chay-202101191111516000.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8641/bhx/hu-tieu-goi-chay-202101191111516000.png">
                         </nuxt-link>
                         <div class="text">
                           Hủ tiếu <br> gói chay
@@ -824,8 +751,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8640/bhx/pho-chay-an-lien-202101191112104519.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8640/bhx/pho-chay-an-lien-202101191112104519.png">
                         </nuxt-link>
                         <div class="text">
                           Phở chay <br> ăn liền
@@ -833,8 +759,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8643/bhx/bun-chay-an-lien-202101191112192414.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8643/bhx/bun-chay-an-lien-202101191112192414.png">
                         </nuxt-link>
                         <div class="text">
                           Bún chay <br> ăn liền
@@ -842,8 +767,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8639/bhx/chao-chay-an-lien-202101191112588781.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8639/bhx/chao-chay-an-lien-202101191112588781.png">
                         </nuxt-link>
                         <div class="text">
                           Cháo chay <br> ăn liền
@@ -851,8 +775,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8644/bhx/nuoc-mam-an-chay-202101191112511683.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8644/bhx/nuoc-mam-an-chay-202101191112511683.png">
                         </nuxt-link>
                         <div class="text">
                           Nước mắm <br> ăn chay
@@ -860,8 +783,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8645/bhx/hat-nem-an-chay-202101191113148211.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8645/bhx/hat-nem-an-chay-202101191113148211.png">
                         </nuxt-link>
                         <div class="text">
                           Hạt nêm <br> ăn chay
@@ -869,8 +791,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7082/bhx/vang-dau-suon-non-202101191113236226.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7082/bhx/vang-dau-suon-non-202101191113236226.png">
                         </nuxt-link>
                         <div class="text">
                           Váng đậu, <br> sườn non
@@ -878,8 +799,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8642/bhx/mien-chay-an-lien-202101191114072777.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8642/bhx/mien-chay-an-lien-202101191114072777.png">
                         </nuxt-link>
                         <div class="text">
                           Miến chay <br> ăn liền
@@ -887,8 +807,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3525/bhx/tuong-chao-cac-loai-202101191114233127.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3525/bhx/tuong-chao-cac-loai-202101191114233127.png">
                         </nuxt-link>
                         <div class="text">
                           Tương, chao <br> các loại
@@ -896,8 +815,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3507/bhx/xuc-xich-tiet-trung-202101191102416056.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3507/bhx/xuc-xich-tiet-trung-202101191102416056.png">
                         </nuxt-link>
                         <div class="text">
                           Xúc xích <br> tiệt trùng
@@ -905,8 +823,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3506/bhx/lap-xuong-cac-loai-202101191103099063.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3506/bhx/lap-xuong-cac-loai-202101191103099063.png">
                         </nuxt-link>
                         <div class="text">
                           Lạp xưởng <br> các loại
@@ -922,8 +839,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8159/bhx/nui-kho-cac-loai-202101191058261473.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8159/bhx/nui-kho-cac-loai-202101191058261473.png">
                         </nuxt-link>
                         <div class="text">
                           Nui khô <br> các loại
@@ -931,8 +847,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8160/bhx/mien-hu-tieu-pho-202101191058350359.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8160/bhx/mien-hu-tieu-pho-202101191058350359.png">
                         </nuxt-link>
                         <div class="text">
                           Miến, hủ <br> tiếu, phở
@@ -940,8 +855,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8163/bhx/bun-kho-bun-tuoi-202101191059091502.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8163/bhx/bun-kho-bun-tuoi-202101191059091502.png">
                         </nuxt-link>
                         <div class="text">
                           Bún khô, <br> bún tươi
@@ -949,8 +863,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8298/bhx/rong-bien-an-lien-202101191104133511.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8298/bhx/rong-bien-an-lien-202101191104133511.png">
                         </nuxt-link>
                         <div class="text">
                           Rong biển <br> ăn liền
@@ -958,8 +871,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7083/bhx/rong-bien-nau-canh-202101191104214802.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7083/bhx/rong-bien-nau-canh-202101191104214802.png">
                         </nuxt-link>
                         <div class="text">
                           Rong biển <br> nấu canh
@@ -967,8 +879,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2388/bhx/bot-che-bien-san-202101191109277810.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2388/bhx/bot-che-bien-san-202101191109277810.png">
                         </nuxt-link>
                         <div class="text">
                           Bột chế <br> biến sẵn
@@ -976,8 +887,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7605/bhx/bot-kho-cac-loai-202101191109466818.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7605/bhx/bot-kho-cac-loai-202101191109466818.png">
                         </nuxt-link>
                         <div class="text">
                           Bột khô <br> các loại
@@ -985,8 +895,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2864/bhx/bot-chien-gion-xu-202101191110021745.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2864/bhx/bot-chien-gion-xu-202101191110021745.png">
                         </nuxt-link>
                         <div class="text">
                           Bột chiên <br> giòn, xù
@@ -994,8 +903,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2865/bhx/bot-lam-rau-cau-202101191110180765.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2865/bhx/bot-lam-rau-cau-202101191110180765.png">
                         </nuxt-link>
                         <div class="text">
                           Bột làm <br> rau câu
@@ -1003,8 +911,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3237/bhx/ca-hop-cac-loai-202101191100088146.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3237/bhx/ca-hop-cac-loai-202101191100088146.png">
                         </nuxt-link>
                         <div class="text">
                           Cá hộp <br> các loại
@@ -1012,8 +919,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3238/bhx/heo-hop-cac-loai-202101191100246765.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3238/bhx/heo-hop-cac-loai-202101191100246765.png">
                         </nuxt-link>
                         <div class="text">
                           Heo hộp <br> các loại
@@ -1021,8 +927,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3239/bhx/bo-hop-cac-loai-202101191100337812.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3239/bhx/bo-hop-cac-loai-202101191100337812.png">
                         </nuxt-link>
                         <div class="text">
                           Bò hộp <br> các loại
@@ -1030,8 +935,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3240/bhx/pate-hop-cac-loai-202101191101060934.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3240/bhx/pate-hop-cac-loai-202101191101060934.png">
                         </nuxt-link>
                         <div class="text">
                           Pate hộp <br> các loại
@@ -1039,8 +943,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8164/bhx/thit-ga-dong-hop-202101191100583065.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8164/bhx/thit-ga-dong-hop-202101191100583065.png">
                         </nuxt-link>
                         <div class="text">
                           Thịt gà <br> đóng hộp
@@ -1048,8 +951,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7220/bhx/rau-cu-dong-hop-202101191101519876.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7220/bhx/rau-cu-dong-hop-202101191101519876.png">
                         </nuxt-link>
                         <div class="text">
                           Rau củ <br> đóng hộp
@@ -1057,8 +959,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3235/bhx/dau-kho-cac-loai-202101191104571896.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3235/bhx/dau-kho-cac-loai-202101191104571896.png">
                         </nuxt-link>
                         <div class="text">
                           Đậu khô <br> các loại
@@ -1074,8 +975,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2903/bhx/ngu-coc-yen-mach-202101191057161925.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2903/bhx/ngu-coc-yen-mach-202101191057161925.png">
                         </nuxt-link>
                         <div class="text">
                           Ngũ cốc, <br> yến mạch
@@ -1083,8 +983,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7086/bhx/nuoc-cot-dua-lon-202101191105595016.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7086/bhx/nuoc-cot-dua-lon-202101191105595016.png">
                         </nuxt-link>
                         <div class="text">
                           Nước cốt <br> dừa lon
@@ -1092,8 +991,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7221/bhx/nguyen-lieu-nau-che-202101191108553220.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7221/bhx/nguyen-lieu-nau-che-202101191108553220.png">
                         </nuxt-link>
                         <div class="text">
                           Nguyên liệu <br> nấu chè
@@ -1101,8 +999,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3233/bhx/banh-trang-cac-loai-202101191103287246.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3233/bhx/banh-trang-cac-loai-202101191103287246.png">
                         </nuxt-link>
                         <div class="text">
                           Bánh tráng <br> các loại
@@ -1110,8 +1007,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3234/bhx/banh-phong-banh-da-202101191103370908.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3234/bhx/banh-phong-banh-da-202101191103370908.png">
                         </nuxt-link>
                         <div class="text">
                           Bánh phồng, <br> bánh đa
@@ -1119,8 +1015,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8285/bhx/ca-mam-cac-loai-202101191110456928.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8285/bhx/ca-mam-cac-loai-202101191110456928.png">
                         </nuxt-link>
                         <div class="text">
                           Cá mắm <br> các loại
@@ -1128,8 +1023,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3527/bhx/dua-mam-cac-loai-202101191110532585.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3527/bhx/dua-mam-cac-loai-202101191110532585.png">
                         </nuxt-link>
                         <div class="text">
                           Dưa mắm <br> các loại
@@ -1137,8 +1031,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2513/bhx/gao-ngon-cac-loai-202101191055092230.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2513/bhx/gao-ngon-cac-loai-202101191055092230.png">
                         </nuxt-link>
                         <div class="text">
                           Gạo ngon <br> các loại
@@ -1150,8 +1043,7 @@
                     <div class="drink-cate row">
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7172/bhx/thit-hai-san-dong-202101191135401545.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7172/bhx/thit-hai-san-dong-202101191135401545.png">
                         </nuxt-link>
                         <div class="text">
                           Thịt, hải <br> sản đông
@@ -1159,8 +1051,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7578/bhx/trai-cay-nhap-khau-202101191124534951.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7578/bhx/trai-cay-nhap-khau-202101191124534951.png">
                         </nuxt-link>
                         <div class="text">
                           Trái cây <br> nhập khẩu
@@ -1168,8 +1059,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7558/bhx/sua-chua-vang-sua-202101191125403642.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7558/bhx/sua-chua-vang-sua-202101191125403642.png">
                         </nuxt-link>
                         <div class="text">
                           Sữa chua, <br> váng sữa
@@ -1177,8 +1067,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7598/bhx/sua-chua-men-song-202101191126088031.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7598/bhx/sua-chua-men-song-202101191126088031.png">
                         </nuxt-link>
                         <div class="text">
                           Sữa chua <br> men sống
@@ -1186,8 +1075,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7599/bhx/pho-mai-an-lien-202101191126009421.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7599/bhx/pho-mai-an-lien-202101191126009421.png">
                         </nuxt-link>
                         <div class="text">
                           Phô mai <br> ăn liền
@@ -1195,8 +1083,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7618/bhx/xuc-xich-cac-loai-202101191133271412.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7618/bhx/xuc-xich-cac-loai-202101191133271412.png">
                         </nuxt-link>
                         <div class="text">
                           Xúc xích <br> các loại
@@ -1204,8 +1091,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7169/bhx/cha-lua-thit-nguoi-202101191134359413.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7169/bhx/cha-lua-thit-nguoi-202101191134359413.png">
                         </nuxt-link>
                         <div class="text">
                           Chả lụa, <br> thịt nguội
@@ -1213,8 +1099,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7258/bhx/banh-xep-ha-cao-202101191128443530.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7258/bhx/banh-xep-ha-cao-202101191128443530.png">
                         </nuxt-link>
                         <div class="text">
                           Bánh xếp, <br> há cảo
@@ -1222,8 +1107,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7301/bhx/banh-bao-dong-lanh-202101191128549336.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7301/bhx/banh-bao-dong-lanh-202101191128549336.png">
                         </nuxt-link>
                         <div class="text">
                           Bánh bao <br> đông lạnh
@@ -1231,8 +1115,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8359/bhx/banh-pizza-cac-loai-202101191129514296.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8359/bhx/banh-pizza-cac-loai-202101191129514296.png">
                         </nuxt-link>
                         <div class="text">
                           Bánh Pizza <br> các loại
@@ -1240,8 +1123,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7740/bhx/banh-mi-tuoi-ngot-202101191127377206.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7740/bhx/banh-mi-tuoi-ngot-202101191127377206.png">
                         </nuxt-link>
                         <div class="text">
                           Bánh mì <br> tươi ngọt
@@ -1249,8 +1131,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/9026/bhx/banh-sandwich-cac-loai-202101191127453094.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/9026/bhx/banh-sandwich-cac-loai-202101191127453094.png">
                         </nuxt-link>
                         <div class="text">
                           Sandwich các <br> loại
@@ -1258,8 +1139,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/9027/bhx/banh-ngot-cac-loai-202101191128051838.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/9027/bhx/banh-ngot-cac-loai-202101191128051838.png">
                         </nuxt-link>
                         <div class="text">
                           Bánh ngọt <br> các loại
@@ -1267,8 +1147,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7170/bhx/ca-vien-bo-vien-202101191135128624.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7170/bhx/ca-vien-bo-vien-202101191135128624.png">
                         </nuxt-link>
                         <div class="text">
                           Cá viên, <br> bò viên
@@ -1276,8 +1155,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7459/bhx/kim-chi-dua-muoi-202101191137165148.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7459/bhx/kim-chi-dua-muoi-202101191137165148.png">
                         </nuxt-link>
                         <div class="text">
                           Kim chi, <br> dưa muối
@@ -1285,8 +1163,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7171/bhx/cha-gio-cha-ram-202101191127162702.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7171/bhx/cha-gio-cha-ram-202101191127162702.png">
                         </nuxt-link>
                         <div class="text">
                           Chả giò, <br> chả ram
@@ -1294,8 +1171,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7461/bhx/dau-hu-cac-loai-202101191136088565.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7461/bhx/dau-hu-cac-loai-202101191136088565.png">
                         </nuxt-link>
                         <div class="text">
                           Đậu hũ <br> các loại
@@ -1303,8 +1179,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7460/bhx/banh-flan-cac-loai-202101191136253978.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7460/bhx/banh-flan-cac-loai-202101191136253978.png">
                         </nuxt-link>
                         <div class="text">
                           Bánh flan <br> các loại
@@ -1312,8 +1187,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7259/bhx/thuc-pham-lam-san-202101191135347752.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7259/bhx/thuc-pham-lam-san-202101191135347752.png">
                         </nuxt-link>
                         <div class="text">
                           Thực phẩm <br> làm sẵn
@@ -1321,8 +1195,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8778/bhx/nuoc-sam-tra-sua-202101191124365161.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8778/bhx/nuoc-sam-tra-sua-202101191124365161.png">
                         </nuxt-link>
                         <div class="text">
                           Nước sâm, <br> trà sữa
@@ -1330,8 +1203,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7172/bhx/thit-hai-san-dong-202101191135401545.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7172/bhx/thit-hai-san-dong-202101191135401545.png">
                         </nuxt-link>
                         <div class="text">
                           Thịt, hải <br> sản đông
@@ -1343,8 +1215,7 @@
                     <div class="drink-cate row">
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8682/bhx/khan-uot-khan-sua-202101191141463556.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8682/bhx/khan-uot-khan-sua-202101191141463556.png">
                         </nuxt-link>
                         <div class="text">
                           Khăn ướt, <br> khăn sữa
@@ -1360,8 +1231,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/9080/bhx/sua-pha-san-cho-be-202101191139193461.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/9080/bhx/sua-pha-san-cho-be-202101191139193461.png">
                         </nuxt-link>
                         <div class="text">
                           Sữa pha <br> sẵn cho bé
@@ -1369,8 +1239,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2605/bhx/bot-banh-an-dam-202101191139274244.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2605/bhx/bot-banh-an-dam-202101191139274244.png">
                         </nuxt-link>
                         <div class="text">
                           Bột, bánh <br> ăn dặm
@@ -1378,8 +1247,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3286/bhx/nuoc-giat-cho-be-202101191141151168.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3286/bhx/nuoc-giat-cho-be-202101191141151168.png">
                         </nuxt-link>
                         <div class="text">
                           Nước giặt <br> cho bé
@@ -1403,8 +1271,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3027/bhx/ban-chai-cho-be-202101191142130234.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3027/bhx/ban-chai-cho-be-202101191142130234.png">
                         </nuxt-link>
                         <div class="text">
                           Bàn chải <br> cho bé
@@ -1412,8 +1279,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3028/bhx/danh-rang-cho-be-202101191142401034.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3028/bhx/danh-rang-cho-be-202101191142401034.png">
                         </nuxt-link>
                         <div class="text">
                           Đánh răng <br> cho bé
@@ -1453,8 +1319,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8681/bhx/khau-trang-cho-be-202101191143229091.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8681/bhx/khau-trang-cho-be-202101191143229091.png">
                         </nuxt-link>
                         <div class="text">
                           Khẩu trang <br> cho bé
@@ -1462,8 +1327,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8738/bhx/tam-bong-cho-be-202101191144041249.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8738/bhx/tam-bong-cho-be-202101191144041249.png">
                         </nuxt-link>
                         <div class="text">
                           Tăm bông <br> cho bé
@@ -1471,8 +1335,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3063/bhx/phan-thom-duong-am-202101191140389481.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3063/bhx/phan-thom-duong-am-202101191140389481.png">
                         </nuxt-link>
                         <div class="text">
                           Phấn thơm, <br> dưỡng ẩm
@@ -1480,8 +1343,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8683/bhx/binh-sua-nuoc-rua-202101191142478142.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8683/bhx/binh-sua-nuoc-rua-202101191142478142.png">
                         </nuxt-link>
                         <div class="text">
                           Bình sữa, <br> nước rửa
@@ -1489,8 +1351,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8682/bhx/khan-uot-khan-sua-202101191141463556.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8682/bhx/khan-uot-khan-sua-202101191141463556.png">
                         </nuxt-link>
                         <div class="text">
                           Khăn ướt, <br> khăn sữa
@@ -1502,8 +1363,7 @@
                     <div class="drink-cate row">
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3003/bhx/khan-uot-cac-loai-202101191151358335.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3003/bhx/khan-uot-cac-loai-202101191151358335.png">
                         </nuxt-link>
                         <div class="text">
                           Khăn ướt <br> các loại
@@ -1511,8 +1371,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2483/bhx/dau-goi-cac-loai-202101191145083094.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2483/bhx/dau-goi-cac-loai-202101191145083094.png">
                         </nuxt-link>
                         <div class="text">
                           Dầu gội <br> các loại
@@ -1520,8 +1379,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3004/bhx/khan-giay-cac-loai-202101191150026451.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3004/bhx/khan-giay-cac-loai-202101191150026451.png">
                         </nuxt-link>
                         <div class="text">
                           Khăn giấy <br> các loại
@@ -1529,8 +1387,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/9081/bhx/khan-giay-ve-sinh-202101191151290602.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/9081/bhx/khan-giay-ve-sinh-202101191151290602.png">
                         </nuxt-link>
                         <div class="text">
                           Khăn giấy <br> vệ sinh
@@ -1538,8 +1395,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2484/bhx/dau-xa-cac-loai-202101191145190601.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2484/bhx/dau-xa-cac-loai-202101191145190601.png">
                         </nuxt-link>
                         <div class="text">
                           Dầu xả <br> các loại
@@ -1547,8 +1403,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7518/bhx/tam-goi-cac-loai-202101191145379177.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7518/bhx/tam-goi-cac-loai-202101191145379177.png">
                         </nuxt-link>
                         <div class="text">
                           Tắm gội <br> các loại
@@ -1556,8 +1411,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2504/bhx/sua-kem-rua-mat-202101191153176839.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2504/bhx/sua-kem-rua-mat-202101191153176839.png">
                         </nuxt-link>
                         <div class="text">
                           Sữa, kem <br> rửa mặt
@@ -1565,8 +1419,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3708/bhx/tay-trang-cac-loai-202101191153240749.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3708/bhx/tay-trang-cac-loai-202101191153240749.png">
                         </nuxt-link>
                         <div class="text">
                           Tẩy trang <br> các loại
@@ -1574,8 +1427,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/4945/bhx/khan-bong-tay-trang-202101191153314535.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/4945/bhx/khan-bong-tay-trang-202101191153314535.png">
                         </nuxt-link>
                         <div class="text">
                           Khăn, bông <br> tẩy trang
@@ -1583,8 +1435,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2446/bhx/tuyp-kem-danh-rang-202101191151498523.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2446/bhx/tuyp-kem-danh-rang-202101191151498523.png">
                         </nuxt-link>
                         <div class="text">
                           Tuýp kem <br> đánh răng
@@ -1592,8 +1443,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2491/bhx/ban-chai-danh-rang-202101191152059473.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2491/bhx/ban-chai-danh-rang-202101191152059473.png">
                         </nuxt-link>
                         <div class="text">
                           Bàn chải <br> đánh răng
@@ -1601,8 +1451,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2516/bhx/bang-ve-sinh-tampon-202101191149323972.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2516/bhx/bang-ve-sinh-tampon-202101191149323972.png">
                         </nuxt-link>
                         <div class="text">
                           Gói băng <br> vệ sinh
@@ -1610,8 +1459,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2517/bhx/dung-dich-ve-sinh-202101191149397258.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2517/bhx/dung-dich-ve-sinh-202101191149397258.png">
                         </nuxt-link>
                         <div class="text">
                           Dung dịch <br> vệ sinh
@@ -1619,8 +1467,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2486/bhx/nuoc-gel-rua-tay-202101191150094424.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2486/bhx/nuoc-gel-rua-tay-202101191150094424.png">
                         </nuxt-link>
                         <div class="text">
                           Nước, gel <br> rửa tay
@@ -1628,8 +1475,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/5872/bhx/khau-trang-cac-loai-202101191149130620.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/5872/bhx/khau-trang-cac-loai-202101191149130620.png">
                         </nuxt-link>
                         <div class="text">
                           Khẩu trang <br> các loại
@@ -1637,8 +1483,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2444/bhx/sua-tam-cac-loai-202101191146309033.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2444/bhx/sua-tam-cac-loai-202101191146309033.png">
                         </nuxt-link>
                         <div class="text">
                           Sữa tắm <br> các loại
@@ -1646,8 +1491,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2485/bhx/xa-bong-cac-loai-202101191146236879.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2485/bhx/xa-bong-cac-loai-202101191146236879.png">
                         </nuxt-link>
                         <div class="text">
                           Xà bông <br> các loại
@@ -1655,8 +1499,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2490/bhx/nuoc-muoi-suc-mieng-202101191152202123.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2490/bhx/nuoc-muoi-suc-mieng-202101191152202123.png">
                         </nuxt-link>
                         <div class="text">
                           Nước muối, <br> súc miệng
@@ -1664,8 +1507,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2492/bhx/tam-chi-nha-khoa-202101191152277910.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2492/bhx/tam-chi-nha-khoa-202101191152277910.png">
                         </nuxt-link>
                         <div class="text">
                           Tăm, chỉ <br> nha khoa
@@ -1673,8 +1515,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2507/bhx/lan-xit-khu-mui-202101191149485473.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2507/bhx/lan-xit-khu-mui-202101191149485473.png">
                         </nuxt-link>
                         <div class="text">
                           Lăn xịt <br> khử mùi
@@ -1682,8 +1523,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3485/bhx/dao-bot-cao-rau-202101191159017618.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3485/bhx/dao-bot-cao-rau-202101191159017618.png">
                         </nuxt-link>
                         <div class="text">
                           Dao, bọt <br> cạo râu
@@ -1691,8 +1531,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/6642/bhx/nuoc-hoa-hong-toner-202101191153503423.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/6642/bhx/nuoc-hoa-hong-toner-202101191153503423.png">
                         </nuxt-link>
                         <div class="text">
                           Nước hoa <br> hồng, toner
@@ -1700,8 +1539,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/6562/bhx/duong-da-cac-loai-202101191153577750.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/6562/bhx/duong-da-cac-loai-202101191153577750.png">
                         </nuxt-link>
                         <div class="text">
                           Dưỡng da <br> các loại
@@ -1709,8 +1547,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/6653/bhx/mat-na-cac-loai-202101191154365042.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/6653/bhx/mat-na-cac-loai-202101191154365042.png">
                         </nuxt-link>
                         <div class="text">
                           Mặt nạ <br> các loại
@@ -1718,8 +1555,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/5436/bhx/kem-tay-wax-long-202101191159212825.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/5436/bhx/kem-tay-wax-long-202101191159212825.png">
                         </nuxt-link>
                         <div class="text">
                           Kem tẩy, <br> wax lông
@@ -1727,8 +1563,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7658/bhx/kem-xit-con-trung-202101191159482700.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7658/bhx/kem-xit-con-trung-202101191159482700.png">
                         </nuxt-link>
                         <div class="text">
                           Kem, xịt <br> côn trùng
@@ -1736,8 +1571,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3124/bhx/tam-bong-ray-tai-202101191159548972.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3124/bhx/tam-bong-ray-tai-202101191159548972.png">
                         </nuxt-link>
                         <div class="text">
                           Tăm bông <br> ráy tai
@@ -1745,8 +1579,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7700/bhx/quan-lot-mot-lan-202101191200022978.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7700/bhx/quan-lot-mot-lan-202101191200022978.png">
                         </nuxt-link>
                         <div class="text">
                           Quần lót <br> một lần
@@ -1754,8 +1587,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3425/bhx/ta-cho-nguoi-lon-202101191200129835.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3425/bhx/ta-cho-nguoi-lon-202101191200129835.png">
                         </nuxt-link>
                         <div class="text">
                           Tã cho <br> người lớn
@@ -1763,8 +1595,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8740/bhx/do-cham-soc-mong-202101191201168808.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8740/bhx/do-cham-soc-mong-202101191201168808.png">
                         </nuxt-link>
                         <div class="text">
                           Đồ chăm <br> sóc móng
@@ -1772,8 +1603,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/8758/bhx/bang-dan-ca-nhan-202101191201242384.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/8758/bhx/bang-dan-ca-nhan-202101191201242384.png">
                         </nuxt-link>
                         <div class="text">
                           Băng dán <br> cá nhân
@@ -1781,8 +1611,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3104/bhx/sua-duong-toan-than-202101191157171273.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3104/bhx/sua-duong-toan-than-202101191157171273.png">
                         </nuxt-link>
                         <div class="text">
                           Sữa dưỡng <br> toàn thân
@@ -1790,8 +1619,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/6658/bhx/kem-gel-chong-nang-202101191157250192.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/6658/bhx/kem-gel-chong-nang-202101191157250192.png">
                         </nuxt-link>
                         <div class="text">
                           Kem, gel <br> chống nắng
@@ -1807,8 +1635,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3740/bhx/kem-u-duong-toc-202101191157409332.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3740/bhx/kem-u-duong-toc-202101191157409332.png">
                         </nuxt-link>
                         <div class="text">
                           Kem ủ, <br> xịt dưỡng tóc
@@ -1816,8 +1643,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2505/bhx/keo-gel-vuot-toc-202101191157486600.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2505/bhx/keo-gel-vuot-toc-202101191157486600.png">
                         </nuxt-link>
                         <div class="text">
                           Keo, gel <br> vuốt tóc
@@ -1829,8 +1655,7 @@
                     <div class="drink-cate row">
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2463/bhx/bot-giat-cac-loai-202101191202135986.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2463/bhx/bot-giat-cac-loai-202101191202135986.png">
                         </nuxt-link>
                         <div class="text">
                           Bột giặt <br> các loại
@@ -1838,8 +1663,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2464/bhx/nuoc-giat-cac-loai-202101191202550703.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2464/bhx/nuoc-giat-cac-loai-202101191202550703.png">
                         </nuxt-link>
                         <div class="text">
                           Nước giặt <br> các loại
@@ -1847,8 +1671,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/9083/bhx/giat-xa-cac-loai-202101191203044281.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/9083/bhx/giat-xa-cac-loai-202101191203044281.png">
                         </nuxt-link>
                         <div class="text">
                           Giặt xả <br> các loại
@@ -1856,8 +1679,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2387/bhx/xa-bong-rua-chen-202101191203274766.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2387/bhx/xa-bong-rua-chen-202101191203274766.png">
                         </nuxt-link>
                         <div class="text">
                           Nước rửa <br> chén dĩa
@@ -1865,8 +1687,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2465/bhx/nuoc-xa-quan-ao-202101191203110053.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2465/bhx/nuoc-xa-quan-ao-202101191203110053.png">
                         </nuxt-link>
                         <div class="text">
                           Nước xả <br> quần áo
@@ -1874,8 +1695,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2510/bhx/nuoc-lau-san-nha-202101191204324314.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2510/bhx/nuoc-lau-san-nha-202101191204324314.png">
                         </nuxt-link>
                         <div class="text">
                           Nước lau <br> sàn nhà
@@ -1883,8 +1703,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2783/bhx/khan-nuoc-lau-bep-202101191204406935.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2783/bhx/khan-nuoc-lau-bep-202101191204406935.png">
                         </nuxt-link>
                         <div class="text">
                           Khăn, nước <br> lau bếp
@@ -1892,8 +1711,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2512/bhx/dung-dich-lau-kinh-202101191204517935.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2512/bhx/dung-dich-lau-kinh-202101191204517935.png">
                         </nuxt-link>
                         <div class="text">
                           Dung dịch <br> lau kính
@@ -1901,8 +1719,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2787/bhx/nuoc-tay-da-nang-202101191206430605.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2787/bhx/nuoc-tay-da-nang-202101191206430605.png">
                         </nuxt-link>
                         <div class="text">
                           Nước tẩy <br> đa năng
@@ -1910,8 +1727,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2511/bhx/tay-rua-nha-tam-202101191203206953.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2511/bhx/tay-rua-nha-tam-202101191203206953.png">
                         </nuxt-link>
                         <div class="text">
                           Tẩy rửa <br> nhà tắm
@@ -1919,8 +1735,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3346/bhx/nuoc-xit-thom-phong-202101191207037625.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3346/bhx/nuoc-xit-thom-phong-202101191207037625.png">
                         </nuxt-link>
                         <div class="text">
                           Nước xịt <br> thơm phòng
@@ -1928,8 +1743,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3345/bhx/sap-thom-tui-thom-202101191226028593.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3345/bhx/sap-thom-tui-thom-202101191226028593.png">
                         </nuxt-link>
                         <div class="text">
                           Sáp thơm, <br> túi thơm
@@ -1937,8 +1751,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2530/bhx/binh-diet-con-trung-202101191235123443.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2530/bhx/binh-diet-con-trung-202101191235123443.png">
                         </nuxt-link>
                         <div class="text">
                           Bình diệt <br> côn trùng
@@ -1946,8 +1759,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/2493/bhx/nuoc-tay-quan-ao-202101191226151470.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/2493/bhx/nuoc-tay-quan-ao-202101191226151470.png">
                         </nuxt-link>
                         <div class="text">
                           Nước tẩy <br> quần áo
@@ -1955,8 +1767,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/6553/bhx/tui-bao-dung-rac-202101191236179944.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/6553/bhx/tui-bao-dung-rac-202101191236179944.png">
                         </nuxt-link>
                         <div class="text">
                           Túi, bao <br> đựng rác
@@ -1968,8 +1779,7 @@
                     <div class="drink-cate row">
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3728/bhx/khan-lau-tap-de-202101191303098275.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3728/bhx/khan-lau-tap-de-202101191303098275.png">
                         </nuxt-link>
                         <div class="text">
                           Khăn lau, <br> tạp dề
@@ -1977,8 +1787,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7694/bhx/lot-noi-nhac-noi-202101191303225404.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7694/bhx/lot-noi-nhac-noi-202101191303225404.png">
                         </nuxt-link>
                         <div class="text">
                           Lót nồi, <br> nhấc nồi
@@ -1986,8 +1795,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7401/bhx/giay-bac-tham-dau-202101191309371727.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7401/bhx/giay-bac-tham-dau-202101191309371727.png">
                         </nuxt-link>
                         <div class="text">
                           Giấy bạc, <br> thấm dầu
@@ -1995,8 +1803,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7479/bhx/vi-bep-thung-nuong-202101191310100803.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7479/bhx/vi-bep-thung-nuong-202101191310100803.png">
                         </nuxt-link>
                         <div class="text">
                           Vỉ, bếp, <br> thùng nướng
@@ -2004,8 +1811,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3732/bhx/mieng-rua-chen-noi-202101191310573520.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3732/bhx/mieng-rua-chen-noi-202101191310573520.png">
                         </nuxt-link>
                         <div class="text">
                           Miếng rửa <br> chén, nồi
@@ -2013,8 +1819,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7696/bhx/dung-cu-vat-cam-202101191312138038.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7696/bhx/dung-cu-vat-cam-202101191312138038.png">
                         </nuxt-link>
                         <div class="text">
                           Dụng cụ <br> vắt cam
@@ -2030,8 +1835,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3727/bhx/khan-tam-bong-tam-202101191315332148.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3727/bhx/khan-tam-bong-tam-202101191315332148.png">
                         </nuxt-link>
                         <div class="text">
                           Khăn tắm, <br> bông tắm
@@ -2039,8 +1843,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7942/bhx/moc-dan-tren-tuong-202101191316248411.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7942/bhx/moc-dan-tren-tuong-202101191316248411.png">
                         </nuxt-link>
                         <div class="text">
                           Móc dán <br> treo tường
@@ -2048,8 +1851,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/7695/bhx/gang-tay-cac-loai-202101191316391060.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/7695/bhx/gang-tay-cac-loai-202101191316391060.png">
                         </nuxt-link>
                         <div class="text">
                           Găng tay <br> bằng nylon
@@ -2057,8 +1859,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3730/bhx/gang-tay-cac-loai-202101191317201207.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3730/bhx/gang-tay-cac-loai-202101191317201207.png">
                         </nuxt-link>
                         <div class="text">
                           Găng tay <br> các loại
@@ -2074,8 +1875,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/6553/bhx/tui-bao-dung-rac-202101191236179944.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/6553/bhx/tui-bao-dung-rac-202101191236179944.png">
                         </nuxt-link>
                         <div class="text">
                           Túi, bao <br> đựng rác
@@ -2083,8 +1883,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/5225/bhx/ly-dung-cac-loai-202101191258472721.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/5225/bhx/ly-dung-cac-loai-202101191258472721.png">
                         </nuxt-link>
                         <div class="text">
                           Ly đơn, <br> bộ ly
@@ -2092,8 +1891,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/56/bhx/pin-tieu-cac-loai-202101191322481794.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/56/bhx/pin-tieu-cac-loai-202101191322481794.png">
                         </nuxt-link>
                         <div class="text">
                           Pin tiểu <br> trái cây
@@ -2101,8 +1899,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/4352/bhx/do-dung-mot-lan-202101191237241328.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/4352/bhx/do-dung-mot-lan-202101191237241328.png">
                         </nuxt-link>
                         <div class="text">
                           Đồ dùng <br> một lần
@@ -2110,8 +1907,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3187/bhx/dao-cat-cac-loai-202101191300010143.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3187/bhx/dao-cat-cac-loai-202101191300010143.png">
                         </nuxt-link>
                         <div class="text">
                           Dao nhôm <br> các loại
@@ -2119,8 +1915,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/5227/bhx/muong-nia-cac-loai-202101191259470405.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/5227/bhx/muong-nia-cac-loai-202101191259470405.png">
                         </nuxt-link>
                         <div class="text">
                           Muỗng, nĩa <br> các loại
@@ -2128,8 +1923,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/4326/bhx/mang-boc-thuc-pham-202101191236267118.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/4326/bhx/mang-boc-thuc-pham-202101191236267118.png">
                         </nuxt-link>
                         <div class="text">
                           Màng bọc <br> thực phẩm
@@ -2137,8 +1931,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/4929/bhx/hop-dung-thuc-pham-202101191236344607.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/4929/bhx/hop-dung-thuc-pham-202101191236344607.png">
                         </nuxt-link>
                         <div class="text">
                           Hộp đựng <br> thực phẩm
@@ -2146,8 +1939,7 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img
-                            src="https://cdn.tgdd.vn/Products/Images/3728/bhx/khan-lau-tap-de-202101191303098275.png">
+                          <img src="https://cdn.tgdd.vn/Products/Images/3728/bhx/khan-lau-tap-de-202101191303098275.png">
                         </nuxt-link>
                         <div class="text">
                           Khăn lau, <br> tạp dề
@@ -2198,43 +1990,30 @@
             </b-row>
             <b-row class="box-filter">
               <b-col>
-                <span @click="showDismissibleAlert_count=true">
+                  <span>
                     <b> Giá cao <br> đến thấp </b>
-                    <b-alert v-model="showDismissibleAlert_count" >
-     <em></em>
-    </b-alert>
                   </span>
               </b-col>
               <b-col>
-                        <span @click="showDismissibleAlert_countdown=true">
-                    <b> Giá cao <br> đến thấp </b>
-                    <b-alert v-model="showDismissibleAlert_countdown" >
-     <em></em>
-    </b-alert>
+                  <span>
+                    <b>
+                      Giá thấp<br> đến cao
+                    </b>
+                     </span>
+              </b-col>
+              <b-col>
+                  <span>
+                  <b> Khuyến mãi  <br> nhiều hơn</b>
                   </span>
               </b-col>
               <b-col>
-                       <span @click="showDismissibleAlert_sales=true">
-                    <b> Khuyễn mãi  <br>nhiều hơn </b>
-                    <b-alert v-model="showDismissibleAlert_sales" >
-     <em></em>
-    </b-alert>
-                  </span>
-              </b-col>
+                <span>
+                  <b>Sản phẩm  <br> bán chạy  </b>
+                </span></b-col>
               <b-col>
-                      <span @click="showDismissibleAlert_bestsales=true">
-                    <b> Sản phẩm <br> bán chạy </b>
-                    <b-alert v-model="showDismissibleAlert_bestsales" >
-     <em></em>
-    </b-alert>
-                  </span></b-col>
-              <b-col>
-                     <span @click="showDismissibleAlert_newsproducts=true">
-                    <b> Sản phẩm  <br> mới về  </b>
-                    <b-alert v-model="showDismissibleAlert_newsproducts" >
-     <em></em>
-    </b-alert>
-                  </span>
+                <span>
+                  <b>Sản phẩm  <br> mới về</b>
+                </span>
               </b-col>
             </b-row>
           </b-container>
@@ -2246,7 +2025,6 @@
               <b-col>
                   <span>
                     <b> Nước ngọt <br> dạng cây  </b>
-                     <em></em>
                   </span>
               </b-col>
               <b-col>
@@ -2254,38 +2032,33 @@
                     <b>
                      Nước ngọt <br> lon nhỏ
                     </b>
-                     <em></em>
                      </span>
               </b-col>
               <b-col>
                   <span>
                   <b> Nước ngọt <br> chai lớn </b>
-                     <em></em>
                   </span>
               </b-col>
               <b-col>
                 <span>
                   <b>Nước ngọt <br> chai nhỏ  </b>
-                   <em></em>
                 </span></b-col>
               <b-col>
                 <span>
                   <b>Nước ngọt <br> dạng lốc</b>
-                   <em></em>
                 </span>
               </b-col>
             </b-row>
           </b-container>
           <b-container class="bv-example-row ">
             <b-row>
-              <h4>Lọc theo thương hiệu : </h4>
+              <h4>Lọc theo thương hiệu  : </h4>
             </b-row>
             <b-row class="box-filter">
               <b-col>
                 <nuxt-link to="#">
                     <span>
                     <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="100%">
-                       <em></em>
                     </span>
                 </nuxt-link>
               </b-col>
@@ -2293,7 +2066,6 @@
                 <nuxt-link to="#">
                     <span>
                     <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="100%">
-                       <em></em>
                     </span>
                 </nuxt-link>
               </b-col>
@@ -2301,7 +2073,6 @@
                 <nuxt-link to="#">
                     <span>
                     <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="100%">
-                       <em></em>
                     </span>
                 </nuxt-link>
               </b-col>
@@ -2309,7 +2080,6 @@
                 <nuxt-link to="#">
                     <span>
                     <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="100%">
-                       <em></em>
                     </span>
                 </nuxt-link>
               </b-col>
@@ -2317,16 +2087,11 @@
                 <nuxt-link to="#">
                     <span>
                     <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="100%">
-                       <em></em>
                     </span>
                 </nuxt-link>
               </b-col>
             </b-row>
           </b-container>
-          <div class="footer-filter">
-            <b-button>Chọn lại</b-button>
-            <b-button class="filter-apcept">Áp dụng</b-button>
-          </div>
         </b-sidebar>
       </b-row>
     </div>
@@ -2334,15 +2099,6 @@
 </template>
 <script>
 export default {
-  data() {
-    return {
-      showDismissibleAlert_count: false,
-      showDismissibleAlert_countdown:false,
-      showDismissibleAlert_sales:false,
-      showDismissibleAlert_bestsales:false,
-      showDismissibleAlert_newsproducts:false,
-    }
-  },
   methods: {
     scrollIntoView(event) {
       event.preventDefault();
@@ -2352,4 +2108,3 @@ export default {
   }
 }
 </script>
-

@@ -57,7 +57,8 @@
                     <div class="drink-cate row">
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img src="https://cdn.tgdd.vn/Products/Images/2443/bhx/nuoc-ngot-cac-loai-202103201457569683.jpg">
+                          <img
+                            src="https://cdn.tgdd.vn/Products/Images/2443/bhx/nuoc-ngot-cac-loai-202103201457569683.jpg">
                         </nuxt-link>
                         <div class="text">
                           Nước ngọt<br> các loại
@@ -65,7 +66,8 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img src="https://cdn.tgdd.vn/Products/Images/8938/bhx/nuoc-tra-giai-khat-202103201458129503.jpg">
+                          <img
+                            src="https://cdn.tgdd.vn/Products/Images/8938/bhx/nuoc-tra-giai-khat-202103201458129503.jpg">
                         </nuxt-link>
                         <div class="text">
                           Nước trà<br> giải khát
@@ -1970,10 +1972,8 @@
           </nuxt-link>
         </div>
         <div class="div-col col-2 mobile_header_cart">
-          <nuxt-link to="/cart/">
           <font-awesome-icon :icon="['fas', 'shopping-basket']"></font-awesome-icon>
-          <span>Giỏ hàng</span>          </nuxt-link>
-
+          <span>Giỏ hàng</span>
         </div>
         <b-sidebar id="sidebar-filter">
           <template #footer="{ hide }">
@@ -1999,7 +1999,7 @@
                     <b>
                       Giá thấp<br> đến cao
                     </b>
-                    </span>
+                     </span>
               </b-col>
               <b-col>
                   <span>

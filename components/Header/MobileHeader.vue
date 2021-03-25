@@ -1970,8 +1970,10 @@
           </nuxt-link>
         </div>
         <div class="div-col col-2 mobile_header_cart">
+          <nuxt-link to="/cart/">
           <font-awesome-icon :icon="['fas', 'shopping-basket']"></font-awesome-icon>
-          <span>Giỏ hàng</span>
+          <span>Giỏ hàng</span>          </nuxt-link>
+
         </div>
         <b-sidebar id="sidebar-filter">
           <template #footer="{ hide }">
@@ -1997,7 +1999,7 @@
                     <b>
                       Giá thấp<br> đến cao
                     </b>
-                     </span>
+                    </span>
               </b-col>
               <b-col>
                   <span>

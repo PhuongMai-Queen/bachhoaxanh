@@ -1611,7 +1611,8 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img src="https://cdn.tgdd.vn/Products/Images/3104/bhx/sua-duong-toan-than-202101191157171273.png">
+                          <img
+                            src="https://cdn.tgdd.vn/Products/Images/3104/bhx/sua-duong-toan-than-202101191157171273.png">
                         </nuxt-link>
                         <div class="text">
                           Sữa dưỡng <br> toàn thân
@@ -1619,7 +1620,8 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img src="https://cdn.tgdd.vn/Products/Images/6658/bhx/kem-gel-chong-nang-202101191157250192.png">
+                          <img
+                            src="https://cdn.tgdd.vn/Products/Images/6658/bhx/kem-gel-chong-nang-202101191157250192.png">
                         </nuxt-link>
                         <div class="text">
                           Kem, gel <br> chống nắng
@@ -1635,7 +1637,8 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img src="https://cdn.tgdd.vn/Products/Images/3740/bhx/kem-u-duong-toc-202101191157409332.png">
+                          <img
+                            src="https://cdn.tgdd.vn/Products/Images/3740/bhx/kem-u-duong-toc-202101191157409332.png">
                         </nuxt-link>
                         <div class="text">
                           Kem ủ, <br> xịt dưỡng tóc
@@ -1643,7 +1646,8 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img src="https://cdn.tgdd.vn/Products/Images/2505/bhx/keo-gel-vuot-toc-202101191157486600.png">
+                          <img
+                            src="https://cdn.tgdd.vn/Products/Images/2505/bhx/keo-gel-vuot-toc-202101191157486600.png">
                         </nuxt-link>
                         <div class="text">
                           Keo, gel <br> vuốt tóc
@@ -1655,7 +1659,8 @@
                     <div class="drink-cate row">
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img src="https://cdn.tgdd.vn/Products/Images/2463/bhx/bot-giat-cac-loai-202101191202135986.png">
+                          <img
+                            src="https://cdn.tgdd.vn/Products/Images/2463/bhx/bot-giat-cac-loai-202101191202135986.png">
                         </nuxt-link>
                         <div class="text">
                           Bột giặt <br> các loại
@@ -1663,7 +1668,8 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img src="https://cdn.tgdd.vn/Products/Images/2464/bhx/nuoc-giat-cac-loai-202101191202550703.png">
+                          <img
+                            src="https://cdn.tgdd.vn/Products/Images/2464/bhx/nuoc-giat-cac-loai-202101191202550703.png">
                         </nuxt-link>
                         <div class="text">
                           Nước giặt <br> các loại
@@ -1679,7 +1685,8 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img src="https://cdn.tgdd.vn/Products/Images/2387/bhx/xa-bong-rua-chen-202101191203274766.png">
+                          <img
+                            src="https://cdn.tgdd.vn/Products/Images/2387/bhx/xa-bong-rua-chen-202101191203274766.png">
                         </nuxt-link>
                         <div class="text">
                           Nước rửa <br> chén dĩa
@@ -1695,7 +1702,8 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img src="https://cdn.tgdd.vn/Products/Images/2510/bhx/nuoc-lau-san-nha-202101191204324314.png">
+                          <img
+                            src="https://cdn.tgdd.vn/Products/Images/2510/bhx/nuoc-lau-san-nha-202101191204324314.png">
                         </nuxt-link>
                         <div class="text">
                           Nước lau <br> sàn nhà
@@ -1711,7 +1719,8 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img src="https://cdn.tgdd.vn/Products/Images/2512/bhx/dung-dich-lau-kinh-202101191204517935.png">
+                          <img
+                            src="https://cdn.tgdd.vn/Products/Images/2512/bhx/dung-dich-lau-kinh-202101191204517935.png">
                         </nuxt-link>
                         <div class="text">
                           Dung dịch <br> lau kính
@@ -1719,7 +1728,8 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img src="https://cdn.tgdd.vn/Products/Images/2787/bhx/nuoc-tay-da-nang-202101191206430605.png">
+                          <img
+                            src="https://cdn.tgdd.vn/Products/Images/2787/bhx/nuoc-tay-da-nang-202101191206430605.png">
                         </nuxt-link>
                         <div class="text">
                           Nước tẩy <br> đa năng
@@ -1735,7 +1745,8 @@
                       </div>
                       <div class="col-4">
                         <nuxt-link to="#">
-                          <img src="https://cdn.tgdd.vn/Products/Images/3346/bhx/nuoc-xit-thom-phong-202101191207037625.png">
+                          <img
+                            src="https://cdn.tgdd.vn/Products/Images/3346/bhx/nuoc-xit-thom-phong-202101191207037625.png">
                         </nuxt-link>
                         <div class="text">
                           Nước xịt <br> thơm phòng
@@ -1990,30 +2001,43 @@
             </b-row>
             <b-row class="box-filter">
               <b-col>
-                  <span>
+                <span @click="showDismissibleAlert_count=true">
                     <b> Giá cao <br> đến thấp </b>
+                    <b-alert v-model="showDismissibleAlert_count" >
+     <em></em>
+    </b-alert>
                   </span>
               </b-col>
               <b-col>
-                  <span>
-                    <b>
-                      Giá thấp<br> đến cao
-                    </b>
-                     </span>
-              </b-col>
-              <b-col>
-                  <span>
-                  <b> Khuyến mãi  <br> nhiều hơn</b>
+                        <span @click="showDismissibleAlert_countdown=true">
+                    <b> Giá cao <br> đến thấp </b>
+                    <b-alert v-model="showDismissibleAlert_countdown" >
+     <em></em>
+    </b-alert>
                   </span>
               </b-col>
               <b-col>
-                <span>
-                  <b>Sản phẩm  <br> bán chạy  </b>
-                </span></b-col>
+                       <span @click="showDismissibleAlert_sales=true">
+                    <b> Khuyễn mãi  <br>nhiều hơn </b>
+                    <b-alert v-model="showDismissibleAlert_sales" >
+     <em></em>
+    </b-alert>
+                  </span>
+              </b-col>
               <b-col>
-                <span>
-                  <b>Sản phẩm  <br> mới về</b>
-                </span>
+                      <span @click="showDismissibleAlert=true">
+                    <b> Sản phẩm <br> bán chạy </b>
+                    <b-alert v-model="showDismissibleAlert" >
+     <em></em>
+    </b-alert>
+                  </span></b-col>
+              <b-col>
+                     <span @click="showDismissibleAlert=true">
+                    <b> Sản phẩm  <br> mới về  </b>
+                    <b-alert v-model="showDismissibleAlert" >
+     <em></em>
+    </b-alert>
+                  </span>
               </b-col>
             </b-row>
             <span></span>
@@ -2026,6 +2050,7 @@
               <b-col>
                   <span>
                     <b> Nước ngọt <br> dạng cây  </b>
+                     <em></em>
                   </span>
               </b-col>
               <b-col>
@@ -2033,6 +2058,7 @@
                     <b>
                      Nước ngọt <br> lon nhỏ
                     </b>
+                     <em></em>
                      </span>
               </b-col>
               <b-col>
@@ -2043,23 +2069,26 @@
               <b-col>
                 <span>
                   <b>Nước ngọt <br> chai nhỏ  </b>
+                   <em></em>
                 </span></b-col>
               <b-col>
                 <span>
                   <b>Nước ngọt <br> dạng lốc</b>
+                   <em></em>
                 </span>
               </b-col>
             </b-row>
           </b-container>
           <b-container class="bv-example-row ">
             <b-row>
-              <h4>Lọc theo thương hiệu  : </h4>
+              <h4>Lọc theo thương hiệu : </h4>
             </b-row>
             <b-row class="box-filter">
               <b-col>
                 <nuxt-link to="#">
                     <span>
                     <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="100%">
+                       <em></em>
                     </span>
                 </nuxt-link>
               </b-col>
@@ -2081,6 +2110,7 @@
                 <nuxt-link to="#">
                     <span>
                     <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="100%">
+                       <em></em>
                     </span>
                 </nuxt-link>
               </b-col>
@@ -2093,6 +2123,10 @@
               </b-col>
             </b-row>
           </b-container>
+          <div class="footer-filter">
+            <b-button>Chọn lại</b-button>
+            <b-button class="filter-apcept">Áp dụng</b-button>
+          </div>
         </b-sidebar>
       </b-row>
     </div>
@@ -2100,6 +2134,14 @@
 </template>
 <script>
 export default {
+  data() {
+    return {
+      showDismissibleAlert_count: false,
+      showDismissibleAlert_countdown:false,
+      showDismissibleAlert_sales:false,
+
+    }
+  },
   methods: {
     scrollIntoView(event) {
       event.preventDefault();

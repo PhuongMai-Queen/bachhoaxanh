@@ -286,13 +286,220 @@
         </div>
       </div>
     </div>
+    <div class="groupfeature">
+      <div class="cate cateproduct">
+        <div class="product row">
+          <div class="product-item col-4">
+            <div class="product-box">
+              <nuxt-link to="#">
+                <img src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png" width="100%">
+              </nuxt-link>
+              <div class="productinfo">
+                <h3 class="product-name">6 lon nước ngọt Mirinda xá xị 330ml</h3>
+              </div>
+              <div class="box-buy">
+                <nuxt-link to="#">
+                  <div class="row">
+                    <div class="price col-7">
+                      <span>38.000₫</span>
+                    </div>
+                    <div class="buy col-5"><span>MUA</span></div>
+                  </div>
+                </nuxt-link>
+              </div>
+            </div>
+          </div>
+          <div class="product-item col-4">
+            <div class="product-box">
+              <nuxt-link to="#">
+                <img src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png" width="100%">
+              </nuxt-link>
+              <div class="productinfo">
+                <h3 class="product-name">6 lon nước ngọt Mirinda xá xị 330ml</h3>
+              </div>
+              <div class="box-buy">
+                <nuxt-link to="#">
+                  <div class="row">
+                    <div class="price col-7">
+                      <span>38.000₫</span>
+                    </div>
+                    <div class="buy col-5"><span>MUA</span></div>
+                  </div>
+                </nuxt-link>
+              </div>
+            </div>
+          </div>
+          <div class="product-item col-4">
+            <div class="product-box">
+              <nuxt-link to="#">
+                <img src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png" width="100%">
+              </nuxt-link>
+              <div class="productinfo">
+                <h3 class="product-name">6 lon nước ngọt Mirinda xá xị 330ml</h3>
+              </div>
+              <div class="box-buy">
+                <nuxt-link to="#">
+                  <div class="row">
+                    <div class="price col-7">
+                      <span>38.000₫</span>
+                    </div>
+                    <div class="buy col-5"><span>MUA</span></div>
+                  </div>
+                </nuxt-link>
+              </div>
+            </div>
+          </div>
+          <div class="product-item col-4">
+            <div class="product-box">
+              <nuxt-link to="#">
+                <img src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png" width="100%">
+              </nuxt-link>
+              <div class="productinfo">
+                <h3 class="product-name">6 lon nước ngọt Mirinda xá xị 330ml</h3>
+              </div>
+              <div class="box-buy">
+                <nuxt-link to="#">
+                  <div class="row">
+                    <div class="price col-7">
+                      <span>38.000₫</span>
+                    </div>
+                    <div class="buy col-5"><span>MUA</span></div>
+                  </div>
+                </nuxt-link>
+              </div>
+            </div>
+          </div>
+          <div class="product-item col-4">
+            <div class="product-box">
+              <nuxt-link to="#">
+                <img src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png" width="100%">
+              </nuxt-link>
+              <div class="productinfo">
+                <h3 class="product-name">6 lon nước ngọt Mirinda xá xị 330ml</h3>
+              </div>
+              <div class="box-buy">
+                <nuxt-link to="#">
+                  <div class="row">
+                    <div class="price col-7">
+                      <span>38.000₫</span>
+                    </div>
+                    <div class="buy col-5"><span>MUA</span></div>
+                  </div>
+                </nuxt-link>
+              </div>
+            </div>
+          </div>
+          <div class="product-item col-4">
+            <div class="product-box">
+              <nuxt-link to="#">
+                <img src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png" width="100%">
+              </nuxt-link>
+              <div class="productinfo">
+                <h3 class="product-name">6 lon nước ngọt Mirinda xá xị 330ml</h3>
+              </div>
+              <div class="box-buy">
+                <nuxt-link to="#">
+                  <div class="row">
+                    <div class="price col-7">
+                      <span>38.000₫</span>
+                    </div>
+                    <div class="buy col-5"><span>MUA</span></div>
+                  </div>
+                </nuxt-link>
+              </div>
+            </div>
+          </div>
+          <div class="product-item col-4">
+            <div class="product-box">
+              <nuxt-link to="#">
+                <img src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png" width="100%">
+              </nuxt-link>
+              <div class="productinfo">
+                <h3 class="product-name">6 lon nước ngọt Mirinda xá xị 330ml</h3>
+              </div>
+              <div class="box-buy">
+                <nuxt-link to="#">
+                  <div class="row">
+                    <div class="price col-7">
+                      <span>38.000₫</span>
+                    </div>
+                    <div class="buy col-5"><span>MUA</span></div>
+                  </div>
+                </nuxt-link>
+              </div>
+            </div>
+          </div>
+          <div class="product-item col-4">
+            <div class="product-box">
+              <nuxt-link to="#">
+                <img src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png" width="100%">
+              </nuxt-link>
+              <div class="productinfo">
+                <h3 class="product-name">6 lon nước ngọt Mirinda xá xị 330ml</h3>
+              </div>
+              <div class="box-buy">
+                <nuxt-link to="#">
+                  <div class="row">
+                    <div class="price col-7">
+                      <span>38.000₫</span>
+                    </div>
+                    <div class="buy col-5"><span>MUA</span></div>
+                  </div>
+                </nuxt-link>
+              </div>
+            </div>
+          </div>
+          <div class="product-item col-4">
+            <div class="product-box">
+              <nuxt-link to="#">
+                <img src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png" width="100%">
+              </nuxt-link>
+              <div class="productinfo">
+                <h3 class="product-name">6 lon nước ngọt Mirinda xá xị 330ml</h3>
+              </div>
+              <div class="box-buy">
+                <nuxt-link to="#">
+                  <div class="row">
+                    <div class="price col-7">
+                      <span>38.000₫</span>
+                    </div>
+                    <div class="buy col-5"><span>MUA</span></div>
+                  </div>
+                </nuxt-link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="viewmore">
+        <span>Còn 123 sản phẩm  <b>đồ uống các loại</b>
+          <font-awesome-icon :icon="['fas', 'angle-down']"></font-awesome-icon>
+        </span>
+      </div>
+    </div>
+    <div class="contain-boxintro">
+      <div class="boxintro " data-video="">
+
+        <div class="contain-article article">
+          <article class="article minheight" id="minheight">
+            <a href="https://www.bachhoaxanh.com/nuoc-ngot" name="Nước ngọt chính hãng tại Bách Hoá XANH" target="_self" title="Nước ngọt chính hãng tại Bách Hoá XANH">Nước ngọt</a>, <strong>nước ngọt có ga</strong> hay còn&nbsp;được gọi là<strong> nước giải khát có ga</strong> là loại nước thường chứa&nbsp;cacbon điôxít bão hòa, chất làm ngọt, và thường có thêm hương liệu.&nbsp;Một số nước giải khát có ga khác còn chứa caffeine, phẩm màu, chất bảo quản và các thành phần khác được kiểm định an toàn cho sức khỏe. Nước ngọt tại Bách hoá XANH đảm bảo chính hãng, chất lượng, an toàn sức khoẻ.<br>
+            <br>
+            Hiện có <strong>rất nhiều thương hiệu nước ngọt tại Bách hoá XANH</strong>&nbsp;như <a href="https://www.bachhoaxanh.com/nuoc-ngot-coca-cola" name="CocaCola chính hãng tại Bách Hoá XANH" target="_blank" title="CocaCola chính hãng tại Bách Hoá XANH">Coca Cola</a>, <a href="https://www.bachhoaxanh.com/nuoc-ngot-pepsi" name="Pepsi chính hãng tại Bách Hoá XANH" target="_blank" title="Pepsi chính hãng tại Bách Hoá XANH">Pepsi</a>, <a href="https://www.bachhoaxanh.com/nuoc-ngot-fanta" name="Fanta chính hãng tại Bách Hoá XANH" target="_blank" title="Fanta chính hãng tại Bách Hoá XANH">Fanta</a>, <a href="https://www.bachhoaxanh.com/nuoc-ngot-mirinda" name="Mirinda chính hãng tại Bách Hoá XANH" target="_blank" title="Mirinda chính hãng tại Bách Hoá XANH">Mirinda</a>, <a href="https://www.bachhoaxanh.com/nuoc-ngot-7-up" name="7 up chính hãng tại Bách Hoá XANH" target="_blank" title="7 up chính hãng tại Bách Hoá XANH">7 up</a>,... cùng nhiều thương hiệu khác cũng rất được người dùng ưa chuộng và chọn mua.<br>
+            <br>
+            Nước ngọt được dùng để <strong>giải khát nhanh hay dùng chung trong các bữa tiệc</strong>. Với lượng ga mạnh cùng khả năng kích thích vị giác, người dùng sẽ <strong>cảm thấy ngon miệng hơn khi ăn uống</strong> cùng bạn bè và gia đình.<br>
+            <br>
+            Ngoài nước ngọt ra nước giải khát còn có thêm những biến thể khác như <a href="https://www.bachhoaxanh.com/nuoc-ngot-nuoc-tang-luc" name="Nước tăng lực chính hãng Bách Hoá XANH" target="_blank" title="Nước tăng lực chính hãng Bách Hoá XANH">nước tăng lực</a>, <a href="https://www.bachhoaxanh.com/nuoc-ngot-bu-khoang" name="Nước bù khoáng, nước uống trong thể thao" target="_blank" title="Nước bù khoáng, nước uống trong thể thao">nước bù khoáng</a> hay thậm chí là nước uống thảo dược giúp bổ sung dưỡng chất và tăng cường sức khoẻ.
+            <div class="ovlarticle"></div>
+          </article>
+          <div id="viewmore" class="xemthem" @click="viewMore">Xem thêm</div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
-
 <script>
 import axios from "~/node_modules/axios";
 import {VueAgile} from '~/node_modules/vue-agile'
-
 export default {
   components: {
     agile: VueAgile
@@ -336,6 +543,10 @@ export default {
       this.limit = this.limit + 9;
       this.products = [];
       this.totalPages();
+    },
+    viewMore(){
+      document.querySelector("#minheight").style.maxHeight = "max-content";
+      document.querySelector("#viewmore").style.display = "none";
     }
   }
 }

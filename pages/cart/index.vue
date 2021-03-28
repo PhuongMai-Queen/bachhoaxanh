@@ -123,7 +123,7 @@
               <button class="btn btn-block">Dùng phiếu mua hàng</button>
             </div>
             <div class="col-4">
-              <a class="btn btn-block btn-order">Đặt hàng</a>
+              <a class="btn btn-block btn-order" href="/cart/checkout">Đặt hàng</a>
             </div>
           </div>
         </div>
@@ -140,16 +140,16 @@
           </div>
 
           <div class="item">
-            <div class="viewmore">
+            <div class="cart-viewmore">
               <b-a v-b-toggle.viewmore
                 >Xem thêm Khuyến mãi đặc biệt cho đơn 50.000₫
 
                 <font-awesome-icon
                   :icon="['fas', 'angle-down']"
                 ></font-awesome-icon>
-                <!-- <font-awesome-icon
+                <font-awesome-icon
                   :icon="['fas', 'angle-up']"
-                ></font-awesome-icon> -->
+                ></font-awesome-icon>
               </b-a>
               <b-collapse id="viewmore" class="mt-2">
                 <div class="row">

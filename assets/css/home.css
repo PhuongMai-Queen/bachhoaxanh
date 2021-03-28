@@ -19,6 +19,7 @@
   z-index: 2;
   top: auto;
   box-shadow: 0 5px 10px rgb(198 218 248 / 25%);
+  height: auto;
 }
 .mobile_content .groupcate .listgroup a{
   display: inline-block;
@@ -45,8 +46,11 @@
   color: #008848;
   text-align: center;
 }
-.groupfeature{
+
+.groupfeaturefresh{
   margin-top: 50px;
+}
+.groupfeature{
   margin-bottom: 10px;
 }
 

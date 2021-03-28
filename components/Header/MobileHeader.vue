@@ -2289,6 +2289,9 @@
                         aria-controls="collapse-4"
                         @click="nuocngot_chailon = ! nuocngot_chailon">
                   <b> Nước ngọt <br> chai lớn </b>
+                                              <b-alert v-model="nuocngot_chailon">
+     <em></em>
+    </b-alert>
                   </span>
               </b-col>
               <b-col>
@@ -2321,38 +2324,53 @@
             <b-row class="box-filter">
               <b-col>
                 <nuxt-link to="#">
-                    <span>
+                      <span :class=" brand1 ? null : 'collapsed'"
+                            :aria-expanded="  brand1 ? 'true' : 'false'"
+                            aria-controls="collapse-4"
+                            @click="brand1 = ! brand1">
                     <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="100%">
-                       <em></em>
+                        <b-alert v-model="brand1">
+     <em></em>
+    </b-alert>
                     </span>
                 </nuxt-link>
               </b-col>
               <b-col>
                 <nuxt-link to="#">
-                    <span>
+                       <span :class=" brand2 ? null : 'collapsed'"
+                             :aria-expanded="  brand2 ? 'true' : 'false'"
+                             aria-controls="collapse-4"
+                             @click="brand2 = ! brand2">
                     <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="100%">
+                                            <b-alert v-model="brand2">
+     <em></em>
+    </b-alert>
                     </span>
                 </nuxt-link>
               </b-col>
               <b-col>
                 <nuxt-link to="#">
-                    <span>
+                       <span :class=" brand3 ? null : 'collapsed'"
+                             :aria-expanded="  brand3 ? 'true' : 'false'"
+                             aria-controls="collapse-4"
+                             @click="brand3 = ! brand3">
                     <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="100%">
+                                            <b-alert v-model="brand3">
+     <em></em>
+    </b-alert>
                     </span>
                 </nuxt-link>
               </b-col>
               <b-col>
                 <nuxt-link to="#">
-                    <span>
+                    <span :class=" brand5 ? null : 'collapsed'"
+                          :aria-expanded="  brand5 ? 'true' : 'false'"
+                          aria-controls="collapse-4"
+                          @click="brand5 = ! brand5">
                     <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="100%">
-                       <em></em>
-                    </span>
-                </nuxt-link>
-              </b-col>
-              <b-col>
-                <nuxt-link to="#">
-                    <span>
-                    <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="100%">
+                                         <b-alert v-model="brand5">
+     <em></em>
+    </b-alert>
                     </span>
                 </nuxt-link>
               </b-col>
@@ -2380,7 +2398,13 @@ export default {
       nuocngot_lonnho:false,
       nuocngot_chailon:false,
       nuocngot_chainho:false,
-      nuocngot_dangloc:false
+      nuocngot_dangloc:false,
+      brand1:false,
+      brand2:false,
+      brand3:false,
+      brand4:false,
+      brand5:false,
+
 
     }
   },

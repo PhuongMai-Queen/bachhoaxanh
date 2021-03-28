@@ -1,25 +1,27 @@
 .mobile_content{
   background-color: #f4f9ff;
-  padding-top: 47px;
+  padding-top: 50px;
 }
+
 .mobile_content .groupcate .listgroup{
   overflow-x: auto !important;
-  white-space: nowrap !important;
   flex-wrap: wrap !important;
   max-height: 65px;
   height: 49px;
   vertical-align: text-bottom;
   padding-left: 1px;
 }
+
+.mobile_content .groupcate .listgroup .scrollspy{
+  display: inline-flex;
+}
 .mobile_content .groupcate{
   width: 100%;
   position: fixed;
   background: #fff;
-  height: 49px;
   z-index: 2;
   top: auto;
   box-shadow: 0 5px 10px rgb(198 218 248 / 25%);
-  height: auto;
 }
 .mobile_content .groupcate .listgroup a{
   display: inline-block;
@@ -32,19 +34,15 @@
   border-radius: 4px;
   line-height: 14px;
 }
-.mobile_content .groupcate .listgroup a span ,
-.fixed-menu .card-header ul li a span{
-  font-size: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.mobile_content .groupcate .listgroup .scrollspy a{
   height: 38px;
   border-radius: 5px;
   width: 64px;
-  background: #fff;
   border: 1px solid #c5cee0;
-  color: #008848;
-  text-align: center;
+  margin: 4px 2px;
+  text-transform: none;
+  font-weight: 500;
+  padding: 5px;
 }
 
 .groupfeaturefresh{
@@ -116,6 +114,7 @@
 .cateproduct .product div .product-box img{
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
+  height: 120px;
 }
 .cateproduct .product div .product-box .box-buy{
   border-top: 1px solid #e4e9f2;
@@ -207,7 +206,7 @@
 .fixed-menu .card-header ul li a{
   padding: 0 5px 0 8px;
 }
-.nav-pills .nav-link.active span{
+.mobile_content .groupcate .listgroup .scrollspy a.active{
   background: #008848 !important;
   color: #fff101 !important;
 }

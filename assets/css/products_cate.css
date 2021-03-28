@@ -87,3 +87,33 @@
   top: 0;
   right: 0;
 }
+.boxintro {
+  padding: 10px;
+  background: #fff;
+}
+.contain-boxintro .contain-article.article {
+  display: inline;
+}
+.boxintro .minheight {
+  max-height: 80px;
+  overflow: hidden;
+  position: relative;
+}
+.boxintro .xemthem {
+  font-size: 13px;
+  display: block;
+  text-align: center;
+  color: #008945;
+  background: none;
+}
+.boxintro .xemthem:after {
+  content: '';
+  width: 0;
+  right: 0;
+  border-top: 6px solid #008945;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  display: inline-block;
+  vertical-align: middle;
+  margin: -2px 0 0 5px;
+}

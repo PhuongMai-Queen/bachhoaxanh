@@ -2196,22 +2196,9 @@
   </div>
 </template>
 <script>
-import {
-  mdbListGroupItem,
-  mdbScrollSpy
-} from "mdbvue";
-
 export default {
-  components: {
-    mdbListGroupItem
-  },
   data() {
     return {
-      active: 0,
-      nested: 0,
-      nav: 0,
-      scrollSections: [],
-      loading: true,
       showDismissibleAlert_count: false,
       showDismissibleAlert_countdown: false,
       showDismissibleAlert_sales: false,
@@ -2227,64 +2214,17 @@ export default {
       brand3:false,
       brand4:false,
       brand5:false,
-    };
-  },
-  methods: {
-    setActive(i) {
-      this.active = i;
+
+
     }
   },
-  mounted() {
-    setTimeout(() => {
-      this.scrollSections = [
-        {
-          id: "section1",
-          title: "Đồ uống các loại"
-        },
-        {
-          id: "section2",
-          title: "Sữa uống các loại"
+  methods: {
+    scrollIntoView(event) {
+      event.preventDefault();
+      const href = event.target.getAttribute('href');
+      const el = href ? document.querySelector(href) : null;
+    },
 
-        },
-        {
-          id: "section3",
-          title: "Bánh kẹo các loại"
-        },
-        {
-          id: "section4",
-          title: "Mì, cháo, phở, bún"
-        },
-        {
-          id: "section5",
-          title: "Dầu ăn, gia vị"
-        },
-        {
-          id: "section6",
-          title: "Gạo, bột, đồ khô"
-        },{
-          id: "section7",
-          title: "Đồ mát, đông lạnh"
-        },
-        {
-          id: "section8",
-          title: "Tã, đồ cho bé"
-        },
-        {
-          id: "section9",
-          title: "Chăm sóc cá nhân"
-        },
-        {
-          id: "section10",
-          title: "Vệ sinh nhà cửa"
-        },
-        {
-          id: "section11",
-          title: "Đồ dùng gia đình"
-        }
-      ]
-      this.loading = false;
-    }, 1000)
-  },
-  directives: { mdbScrollSpy }
-};
+  }
+}
 </script>

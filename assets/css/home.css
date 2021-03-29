@@ -23,15 +23,12 @@
   top: auto;
   box-shadow: 0 5px 10px rgb(198 218 248 / 25%);
 }
-.mobile_content .groupcate .listgroup a{
+.lighten-4 ul li a{
   display: inline-block;
   overflow: hidden;
   text-align: center;
   color: #008848;
   position: relative;
-  background: #fff;
-  padding: 6px 0 0 8px;
-  border-radius: 4px;
   line-height: 14px;
 }
 .mobile_content .groupcate .listgroup .scrollspy a{

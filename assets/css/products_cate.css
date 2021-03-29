@@ -117,3 +117,88 @@
   vertical-align: middle;
   margin: -2px 0 0 5px;
 }
+/* croll filter */
+.scrollfilter.fixtop {
+  display: block;
+}
+
+.scrollfilter {
+  display: none;
+  position: fixed;
+  top: 45px;
+  z-index: 11;
+  background: #fff;
+  box-shadow: 0 0 9px #9c9c9c;
+  width: 100%;
+  max-width: 640px;
+}
+.scrollfilter div.more.px80 {
+  width: 80px;
+}
+
+.scrollfilter div.more {
+  position: absolute;
+  background: #f5f8fd;
+  width: 60px;
+  height: 47px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  border-right: 1px solid #e4e9f2;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.scrollfilter .scroll-lst.px80 {
+  padding-left: 82px;
+}
+.scrollfilter .scroll-lst {
+  display: block;
+  overflow: hidden;
+  padding: 5px 7px 5px 62px;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap !important;
+  -webkit-flex-wrap: wrap !important;
+  -ms-flex-wrap: wrap !important;
+  flex-wrap: wrap !important;
+  -ms-overflow-style: none;
+  -ms-scroll-snap-type: mandatory;
+  -ms-scroll-snap-points-x: snapInterval(0%,100%);
+  -ms-scroll-chaining: chained;
+  position: relative;
+}
+.scrollfilter .it {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+  width: 60px;
+  height: 37px;
+}
+.scrollfilter .it span {
+  border-radius: 5px;
+  color: #008945;
+  margin: 7px 2px 3px;
+  font-size: 12px;
+  border: 1px solid #008945;
+  line-height: 14px;
+  width: 60px;
+  height: 37px;
+  max-height: 30px;
+  text-align: center;
+  overflow: hidden;
+  display: table-cell;
+  vertical-align: middle;
+}
+.scrollfilter .it span b {
+  display: block;
+  max-width: 60px;
+  font-weight: normal;
+  overflow: hidden;
+  line-height: 14px;
+  letter-spacing: -.9px;
+}
+

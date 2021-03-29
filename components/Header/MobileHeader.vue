@@ -2200,9 +2200,7 @@ export default {
       const href = event.target.getAttribute('href');
       const el = href ? document.querySelector(href) : null;
     },
-    uncheckallfilter(){
 
-    }
 
   }
 }

@@ -3,9 +3,8 @@
   padding-top: 50px;
 }
 
-.mobile_content .groupcate .listgroup{
+.lighten-4 ul{
   overflow-x: auto !important;
-  flex-wrap: wrap !important;
   max-height: 65px;
   height: 49px;
   vertical-align: text-bottom;
@@ -15,7 +14,7 @@
 .mobile_content .groupcate .listgroup .scrollspy{
   display: inline-flex;
 }
-.mobile_content .groupcate{
+.lighten-4{
   width: 100%;
   position: fixed;
   background: #fff;
@@ -30,16 +29,17 @@
   color: #008848;
   position: relative;
   line-height: 14px;
-}
-.mobile_content .groupcate .listgroup .scrollspy a{
-  height: 38px;
-  border-radius: 5px;
   width: 64px;
+  height: 37px;
   border: 1px solid #c5cee0;
   margin: 4px 2px;
   text-transform: none;
-  font-weight: 500;
+  font-size: 12px;
   padding: 5px;
+}
+.lighten-4 ul li a.active{
+  background: #008848 !important;
+  color: #fff101 !important;
 }
 
 .groupfeaturefresh{
@@ -128,10 +128,14 @@
   font-size: 14px;
   color: #222b45;
 }
-.cateproduct .product div .product-box .box-buy .buy{
+.cateproduct .product div .product-box .box-buy .buy a div .buy{
   border-left: 1px solid #ebf0f9;
   font-size: 14px;
   color: #222b45;
+}
+.cateproduct .product div .product-box .box-buy .buy button{
+  border: none;
+  background-color: #fff;
 }
 .cateproduct .product .product-item{
   padding: 3px;
@@ -202,10 +206,6 @@
 }
 .fixed-menu .card-header ul li a{
   padding: 0 5px 0 8px;
-}
-.mobile_content .groupcate .listgroup .scrollspy a.active{
-  background: #008848 !important;
-  color: #fff101 !important;
 }
 .fixed-menu .card-header{
   background-color: #fff;

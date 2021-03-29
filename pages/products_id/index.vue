@@ -358,6 +358,7 @@
         </b-row>
       </b-container>
     </div>
+    <span></span>
     <div class="cate cateproduct cateproduct_id">
       <div class="product row">
         <div class="product-item col-4">

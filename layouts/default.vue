@@ -2,32 +2,33 @@
   <div>
     <div v-if="$device.isDesktop">
       Layout Desktop
-      <nuxt/>
+      <nuxt />
     </div>
     <div v-else-if="$device.isTablet">
       Layout Tablet
-      <nuxt/>
+      <nuxt />
     </div>
     <div v-else>
-      <mobile-header/>
-      <nuxt/>
-      <mobile-footer/>
+      <mobile-header />
+      <nuxt />
+      <mobile-footer />
     </div>
   </div>
 </template>
 <script>
-import MobileHeader from '~/components/Header/MobileHeader.vue';
-import MobileFooter from '~/components/Footer/MobileFooter.vue';
+import MobileHeader from "~/components/Header/MobileHeader.vue";
+import MobileFooter from "~/components/Footer/MobileFooter.vue";
 export default {
   components: {
     MobileHeader,
-    MobileFooter
+    MobileFooter,
   }
-}
+};
 </script>
 <style>
 html {
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -37,7 +38,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
   margin: 0;
 }
@@ -71,4 +74,3 @@ html {
   background-color: #35495e;
 }
 </style>
-

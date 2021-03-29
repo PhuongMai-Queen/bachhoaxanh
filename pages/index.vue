@@ -270,7 +270,11 @@
                       <div class="price col-7">
                         <span>{{item.price_formatted}}</span>
                       </div>
-                      <div class="buy col-5"><span>MUA</span></div>
+                      <div class="buy col-5">
+                        <button type="button" class="" @click="addToCart(item.id, item.price)">
+                          MUA
+                        </button>
+                      </div>
                     </div>
                   </nuxt-link>
                 </div>

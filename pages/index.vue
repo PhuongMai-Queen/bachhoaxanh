@@ -9,63 +9,103 @@
     <div class="groupcate">
       <div class="listgroup">
         <nuxt-link to="#">
-          <span>Sữa tươi<br> các loại</span>
+          <span
+            >Sữa tươi<br />
+            các loại</span
+          >
         </nuxt-link>
         <nuxt-link to="#">
-          <span>Nước ngọt<br> các loại</span>
+          <span
+            >Nước ngọt<br />
+            các loại</span
+          >
         </nuxt-link>
         <nuxt-link to="#">
-          <span>Mì gói<br> ăn liền</span>
+          <span
+            >Mì gói<br />
+            ăn liền</span
+          >
         </nuxt-link>
         <nuxt-link to="#">
-          <span>Dầu ăn<br> các loại</span>
+          <span
+            >Dầu ăn<br />
+            các loại</span
+          >
         </nuxt-link>
         <nuxt-link to="#">
-          <span>Khăn ướt<br> các loại</span>
+          <span
+            >Khăn ướt<br />
+            các loại</span
+          >
         </nuxt-link>
         <nuxt-link to="#">
-          <span>Dầu gội<br> các loại</span>
+          <span
+            >Dầu gội<br />
+            các loại</span
+          >
         </nuxt-link>
         <nuxt-link to="#">
-          <span>Gạo ngon<br> các loại</span>
+          <span
+            >Gạo ngon<br />
+            các loại</span
+          >
         </nuxt-link>
         <nuxt-link to="#">
-          <span>Thịt, hải<br> sản đông</span>
+          <span
+            >Thịt, hải<br />
+            sản đông</span
+          >
         </nuxt-link>
         <nuxt-link to="#">
-          <span>Trái cây<br> nhập khẩu</span>
+          <span
+            >Trái cây<br />
+            nhập khẩu</span
+          >
         </nuxt-link>
         <nuxt-link to="#">
-          <span>Bia, nước<br> có cồn</span>
+          <span
+            >Bia, nước<br />
+            có cồn</span
+          >
         </nuxt-link>
         <nuxt-link to="#">
-          <span>Tất cả<br> ngành hàng</span>
+          <span
+            >Tất cả<br />
+            ngành hàng</span
+          >
         </nuxt-link>
       </div>
     </div>
     <div class="groupfeature groupfeaturefresh">
       <div class="banner five-billion">
-        <img src="~/assets/images/banner/freshBanner.v202103021255.png" width="90%">
+        <img
+          src="~/assets/images/banner/freshBanner.v202103021255.png"
+          width="90%"
+        />
       </div>
       <div class="cate-list">
         <div class="cate-item">
           <span>
-            Rau củ,<br>  rau nêm
+            Rau củ,<br />
+            rau nêm
           </span>
         </div>
         <div class="cate-item">
           <span>
-            Trái cây<br>  tươi ngon
+            Trái cây<br />
+            tươi ngon
           </span>
         </div>
         <div class="cate-item">
           <span>
-            Đồ sơ<br>  chế sẵn
+            Đồ sơ<br />
+            chế sẵn
           </span>
         </div>
         <div class="cate-item">
           <span>
-            Thực phẩm<br>  đông lạnh
+            Thực phẩm<br />
+            đông lạnh
           </span>
         </div>
       </div>
@@ -74,7 +114,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/7578/234004/bhx/nho-den-nhap-khau-hop-500g-202103170006116633_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/7578/234004/bhx/nho-den-nhap-khau-hop-500g-202103170006116633_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Nho đen tươi nhập khẩu túi 500g</h3>
@@ -94,7 +137,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/7578/234004/bhx/nho-den-nhap-khau-hop-500g-202103170006116633_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/7578/234004/bhx/nho-den-nhap-khau-hop-500g-202103170006116633_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Nho đen tươi nhập khẩu túi 500g</h3>
@@ -114,7 +160,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/7578/234004/bhx/nho-den-nhap-khau-hop-500g-202103170006116633_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/7578/234004/bhx/nho-den-nhap-khau-hop-500g-202103170006116633_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Nho đen tươi nhập khẩu túi 500g</h3>
@@ -134,7 +183,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/7578/234004/bhx/nho-den-nhap-khau-hop-500g-202103170006116633_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/7578/234004/bhx/nho-den-nhap-khau-hop-500g-202103170006116633_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Nho đen tươi nhập khẩu túi 500g</h3>
@@ -154,7 +206,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/7578/234004/bhx/nho-den-nhap-khau-hop-500g-202103170006116633_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/7578/234004/bhx/nho-den-nhap-khau-hop-500g-202103170006116633_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Nho đen tươi nhập khẩu túi 500g</h3>
@@ -174,7 +229,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/7578/234004/bhx/nho-den-nhap-khau-hop-500g-202103170006116633_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/7578/234004/bhx/nho-den-nhap-khau-hop-500g-202103170006116633_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Nho đen tươi nhập khẩu túi 500g</h3>
@@ -194,7 +252,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/7578/234004/bhx/nho-den-nhap-khau-hop-500g-202103170006116633_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/7578/234004/bhx/nho-den-nhap-khau-hop-500g-202103170006116633_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Nho đen tươi nhập khẩu túi 500g</h3>
@@ -214,7 +275,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/7578/234004/bhx/nho-den-nhap-khau-hop-500g-202103170006116633_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/7578/234004/bhx/nho-den-nhap-khau-hop-500g-202103170006116633_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Nho đen tươi nhập khẩu túi 500g</h3>
@@ -234,7 +298,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/7578/234004/bhx/nho-den-nhap-khau-hop-500g-202103170006116633_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/7578/234004/bhx/nho-den-nhap-khau-hop-500g-202103170006116633_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Nho đen tươi nhập khẩu túi 500g</h3>
@@ -254,7 +321,8 @@
         </div>
       </div>
       <div class="viewmore">
-        <span>Xem thêm 99 sản phẩm <b>thịt, cá, trứng, rau</b>
+        <span
+          >Xem thêm 99 sản phẩm <b>thịt, cá, trứng, rau</b>
           <font-awesome-icon :icon="['fas', 'angle-down']"></font-awesome-icon>
         </span>
       </div>
@@ -262,21 +330,29 @@
     <div class="groupfeature">
       <div class="cate cateproduct">
         <div class="product row">
-          <div class="product-item col-4" v-for="item in products" :key="item.id">
+          <div
+            class="product-item col-4"
+            v-for="item in products"
+            :key="item.id"
+          >
             <div class="product-box">
               <nuxt-link to="#">
-                <img :src="item.thumbnail" width="100%">
+                <img :src="item.thumbnail" width="100%" />
               </nuxt-link>
               <div class="productinfo">
-                <h3 class="product-name">{{item.name}}</h3>
+                <h3 class="product-name">{{ item.name }}</h3>
               </div>
               <div class="box-buy">
                 <nuxt-link to="#">
                   <div class="row">
                     <div class="price col-7">
-                      <span>{{item.price_formatted}}</span>
+                      <span>{{ item.price_formatted }}</span>
                     </div>
-                    <div class="buy col-5"><span>MUA</span></div>
+                    <div class="buy col-5">
+                      <button type="button" class="" @click="addToCart(item.id)">
+                        MUA
+                      </button>
+                    </div>
                   </div>
                 </nuxt-link>
               </div>
@@ -288,46 +364,44 @@
         <div class="cate-list">
           <div class="cate-item">
             <span>
-              Socola <br> lúa mạch
+              Socola <br />
+              lúa mạch
             </span>
           </div>
           <div class="cate-item">
-            <span>
-              Sữa chua <br>ăn
-            </span>
+            <span> Sữa chua <br />ăn </span>
+          </div>
+          <div class="cate-item">
+            <span> Sữa chua<br />uống </span>
+          </div>
+          <div class="cate-item">
+            <span> Sữa<br />bắp </span>
           </div>
           <div class="cate-item">
             <span>
-              Sữa chua<br>uống
+              Sữa <br />
+              trái cây
             </span>
           </div>
           <div class="cate-item">
-            <span>
-              Sữa<br>bắp
-            </span>
+            <span> Sữa <br />túi </span>
           </div>
           <div class="cate-item">
             <span>
-              Sữa <br> trái cây
-            </span>
-          </div>
-          <div class="cate-item">
-            <span>
-              Sữa <br>túi
-            </span>
-          </div>
-          <div class="cate-item">
-            <span>
-              Sữa <br> chai
+              Sữa <br />
+              chai
             </span>
           </div>
         </div>
       </div>
-      <div v-if="total-limit > 0">
+      <div v-if="total - limit > 0">
         <div class="viewmore" @click="limitShow()">
-        <span>Xem thêm {{total-limit}} sản phẩm  <b>sữa uống các loại</b>
-          <font-awesome-icon :icon="['fas', 'angle-down']"></font-awesome-icon>
-        </span>
+          <span
+            >Xem thêm {{ total - limit }} sản phẩm <b>sữa uống các loại</b>
+            <font-awesome-icon
+              :icon="['fas', 'angle-down']"
+            ></font-awesome-icon>
+          </span>
         </div>
       </div>
     </div>
@@ -337,10 +411,15 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
-                <h3 class="product-name">6 lon nước ngọt Mirinda xá xị 330ml</h3>
+                <h3 class="product-name">
+                  6 lon nước ngọt Mirinda xá xị 330ml
+                </h3>
               </div>
               <div class="box-buy">
                 <nuxt-link to="#">
@@ -357,10 +436,15 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
-                <h3 class="product-name">6 lon nước ngọt Mirinda xá xị 330ml</h3>
+                <h3 class="product-name">
+                  6 lon nước ngọt Mirinda xá xị 330ml
+                </h3>
               </div>
               <div class="box-buy">
                 <nuxt-link to="#">
@@ -377,10 +461,15 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
-                <h3 class="product-name">6 lon nước ngọt Mirinda xá xị 330ml</h3>
+                <h3 class="product-name">
+                  6 lon nước ngọt Mirinda xá xị 330ml
+                </h3>
               </div>
               <div class="box-buy">
                 <nuxt-link to="#">
@@ -397,10 +486,15 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
-                <h3 class="product-name">6 lon nước ngọt Mirinda xá xị 330ml</h3>
+                <h3 class="product-name">
+                  6 lon nước ngọt Mirinda xá xị 330ml
+                </h3>
               </div>
               <div class="box-buy">
                 <nuxt-link to="#">
@@ -417,10 +511,15 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
-                <h3 class="product-name">6 lon nước ngọt Mirinda xá xị 330ml</h3>
+                <h3 class="product-name">
+                  6 lon nước ngọt Mirinda xá xị 330ml
+                </h3>
               </div>
               <div class="box-buy">
                 <nuxt-link to="#">
@@ -437,10 +536,15 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
-                <h3 class="product-name">6 lon nước ngọt Mirinda xá xị 330ml</h3>
+                <h3 class="product-name">
+                  6 lon nước ngọt Mirinda xá xị 330ml
+                </h3>
               </div>
               <div class="box-buy">
                 <nuxt-link to="#">
@@ -457,10 +561,15 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
-                <h3 class="product-name">6 lon nước ngọt Mirinda xá xị 330ml</h3>
+                <h3 class="product-name">
+                  6 lon nước ngọt Mirinda xá xị 330ml
+                </h3>
               </div>
               <div class="box-buy">
                 <nuxt-link to="#">
@@ -477,10 +586,15 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
-                <h3 class="product-name">6 lon nước ngọt Mirinda xá xị 330ml</h3>
+                <h3 class="product-name">
+                  6 lon nước ngọt Mirinda xá xị 330ml
+                </h3>
               </div>
               <div class="box-buy">
                 <nuxt-link to="#">
@@ -497,10 +611,15 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
-                <h3 class="product-name">6 lon nước ngọt Mirinda xá xị 330ml</h3>
+                <h3 class="product-name">
+                  6 lon nước ngọt Mirinda xá xị 330ml
+                </h3>
               </div>
               <div class="box-buy">
                 <nuxt-link to="#">
@@ -517,7 +636,8 @@
         </div>
       </div>
       <div class="viewmore">
-        <span>Xem thêm 207 sản phẩm  <b>đồ uống các loại</b>
+        <span
+          >Xem thêm 207 sản phẩm <b>đồ uống các loại</b>
           <font-awesome-icon :icon="['fas', 'angle-down']"></font-awesome-icon>
         </span>
       </div>
@@ -528,7 +648,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2565/184778/bhx/feature/mi-yumyum-vi-tom-yum-kung-nuoc-trong-goi-67g-202103181100294164.png" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2565/184778/bhx/feature/mi-yumyum-vi-tom-yum-kung-nuoc-trong-goi-67g-202103181100294164.png"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Mì YumYum vị Tom Yum Kung gói 67g</h3>
@@ -548,7 +671,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2565/184778/bhx/feature/mi-yumyum-vi-tom-yum-kung-nuoc-trong-goi-67g-202103181100294164.png" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2565/184778/bhx/feature/mi-yumyum-vi-tom-yum-kung-nuoc-trong-goi-67g-202103181100294164.png"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Mì YumYum vị Tom Yum Kung gói 67g</h3>
@@ -568,7 +694,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2565/184778/bhx/feature/mi-yumyum-vi-tom-yum-kung-nuoc-trong-goi-67g-202103181100294164.png" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2565/184778/bhx/feature/mi-yumyum-vi-tom-yum-kung-nuoc-trong-goi-67g-202103181100294164.png"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Mì YumYum vị Tom Yum Kung gói 67g</h3>
@@ -588,7 +717,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2565/184778/bhx/feature/mi-yumyum-vi-tom-yum-kung-nuoc-trong-goi-67g-202103181100294164.png" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2565/184778/bhx/feature/mi-yumyum-vi-tom-yum-kung-nuoc-trong-goi-67g-202103181100294164.png"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Mì YumYum vị Tom Yum Kung gói 67g</h3>
@@ -608,7 +740,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2565/184778/bhx/feature/mi-yumyum-vi-tom-yum-kung-nuoc-trong-goi-67g-202103181100294164.png" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2565/184778/bhx/feature/mi-yumyum-vi-tom-yum-kung-nuoc-trong-goi-67g-202103181100294164.png"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Mì YumYum vị Tom Yum Kung gói 67g</h3>
@@ -628,7 +763,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2565/184778/bhx/feature/mi-yumyum-vi-tom-yum-kung-nuoc-trong-goi-67g-202103181100294164.png" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2565/184778/bhx/feature/mi-yumyum-vi-tom-yum-kung-nuoc-trong-goi-67g-202103181100294164.png"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Mì YumYum vị Tom Yum Kung gói 67g</h3>
@@ -648,7 +786,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2565/184778/bhx/feature/mi-yumyum-vi-tom-yum-kung-nuoc-trong-goi-67g-202103181100294164.png" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2565/184778/bhx/feature/mi-yumyum-vi-tom-yum-kung-nuoc-trong-goi-67g-202103181100294164.png"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Mì YumYum vị Tom Yum Kung gói 67g</h3>
@@ -668,7 +809,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2565/184778/bhx/feature/mi-yumyum-vi-tom-yum-kung-nuoc-trong-goi-67g-202103181100294164.png" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2565/184778/bhx/feature/mi-yumyum-vi-tom-yum-kung-nuoc-trong-goi-67g-202103181100294164.png"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Mì YumYum vị Tom Yum Kung gói 67g</h3>
@@ -688,7 +832,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2565/184778/bhx/feature/mi-yumyum-vi-tom-yum-kung-nuoc-trong-goi-67g-202103181100294164.png" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2565/184778/bhx/feature/mi-yumyum-vi-tom-yum-kung-nuoc-trong-goi-67g-202103181100294164.png"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Mì YumYum vị Tom Yum Kung gói 67g</h3>
@@ -708,7 +855,8 @@
         </div>
       </div>
       <div class="viewmore">
-        <span>Xem thêm 18 sản phẩm  <b>mì, cháo, phở, bún</b>
+        <span
+          >Xem thêm 18 sản phẩm <b>mì, cháo, phở, bún</b>
           <font-awesome-icon :icon="['fas', 'angle-down']"></font-awesome-icon>
         </span>
       </div>
@@ -719,7 +867,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/3405/228641/bhx/dau-hao-kum-chun-lee-kum-kee-chai-255g-202103030749227644_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/3405/228641/bhx/dau-hao-kum-chun-lee-kum-kee-chai-255g-202103030749227644_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Dầu hào Lee Kum Kee chai 255g</h3>
@@ -739,7 +890,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/3405/228641/bhx/dau-hao-kum-chun-lee-kum-kee-chai-255g-202103030749227644_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/3405/228641/bhx/dau-hao-kum-chun-lee-kum-kee-chai-255g-202103030749227644_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Dầu hào Lee Kum Kee chai 255g</h3>
@@ -759,7 +913,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/3405/228641/bhx/dau-hao-kum-chun-lee-kum-kee-chai-255g-202103030749227644_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/3405/228641/bhx/dau-hao-kum-chun-lee-kum-kee-chai-255g-202103030749227644_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Dầu hào Lee Kum Kee chai 255g</h3>
@@ -779,7 +936,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/3405/228641/bhx/dau-hao-kum-chun-lee-kum-kee-chai-255g-202103030749227644_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/3405/228641/bhx/dau-hao-kum-chun-lee-kum-kee-chai-255g-202103030749227644_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Dầu hào Lee Kum Kee chai 255g</h3>
@@ -799,7 +959,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/3405/228641/bhx/dau-hao-kum-chun-lee-kum-kee-chai-255g-202103030749227644_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/3405/228641/bhx/dau-hao-kum-chun-lee-kum-kee-chai-255g-202103030749227644_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Dầu hào Lee Kum Kee chai 255g</h3>
@@ -819,7 +982,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/3405/228641/bhx/dau-hao-kum-chun-lee-kum-kee-chai-255g-202103030749227644_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/3405/228641/bhx/dau-hao-kum-chun-lee-kum-kee-chai-255g-202103030749227644_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Dầu hào Lee Kum Kee chai 255g</h3>
@@ -839,7 +1005,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/3405/228641/bhx/dau-hao-kum-chun-lee-kum-kee-chai-255g-202103030749227644_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/3405/228641/bhx/dau-hao-kum-chun-lee-kum-kee-chai-255g-202103030749227644_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Dầu hào Lee Kum Kee chai 255g</h3>
@@ -859,7 +1028,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/3405/228641/bhx/dau-hao-kum-chun-lee-kum-kee-chai-255g-202103030749227644_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/3405/228641/bhx/dau-hao-kum-chun-lee-kum-kee-chai-255g-202103030749227644_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Dầu hào Lee Kum Kee chai 255g</h3>
@@ -879,7 +1051,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/3405/228641/bhx/dau-hao-kum-chun-lee-kum-kee-chai-255g-202103030749227644_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/3405/228641/bhx/dau-hao-kum-chun-lee-kum-kee-chai-255g-202103030749227644_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Dầu hào Lee Kum Kee chai 255g</h3>
@@ -899,7 +1074,8 @@
         </div>
       </div>
       <div class="viewmore">
-        <span>Xem thêm 18 sản phẩm  <b>dầu ăn, gia vị</b>
+        <span
+          >Xem thêm 18 sản phẩm <b>dầu ăn, gia vị</b>
           <font-awesome-icon :icon="['fas', 'angle-down']"></font-awesome-icon>
         </span>
       </div>
@@ -910,10 +1086,15 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2444/194743/bhx/sua-tam-duong-am-sang-da-hazeline-yen-mach-dau-tam-896ml-202103012258167412_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2444/194743/bhx/sua-tam-duong-am-sang-da-hazeline-yen-mach-dau-tam-896ml-202103012258167412_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
-                <h3 class="product-name">Sữa tắm sáng da Hazeline chai 896ml</h3>
+                <h3 class="product-name">
+                  Sữa tắm sáng da Hazeline chai 896ml
+                </h3>
               </div>
               <div class="box-buy">
                 <nuxt-link to="#">
@@ -930,10 +1111,15 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2444/194743/bhx/sua-tam-duong-am-sang-da-hazeline-yen-mach-dau-tam-896ml-202103012258167412_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2444/194743/bhx/sua-tam-duong-am-sang-da-hazeline-yen-mach-dau-tam-896ml-202103012258167412_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
-                <h3 class="product-name">Sữa tắm sáng da Hazeline chai 896ml</h3>
+                <h3 class="product-name">
+                  Sữa tắm sáng da Hazeline chai 896ml
+                </h3>
               </div>
               <div class="box-buy">
                 <nuxt-link to="#">
@@ -950,10 +1136,15 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2444/194743/bhx/sua-tam-duong-am-sang-da-hazeline-yen-mach-dau-tam-896ml-202103012258167412_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2444/194743/bhx/sua-tam-duong-am-sang-da-hazeline-yen-mach-dau-tam-896ml-202103012258167412_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
-                <h3 class="product-name">Sữa tắm sáng da Hazeline chai 896ml</h3>
+                <h3 class="product-name">
+                  Sữa tắm sáng da Hazeline chai 896ml
+                </h3>
               </div>
               <div class="box-buy">
                 <nuxt-link to="#">
@@ -970,10 +1161,15 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2444/194743/bhx/sua-tam-duong-am-sang-da-hazeline-yen-mach-dau-tam-896ml-202103012258167412_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2444/194743/bhx/sua-tam-duong-am-sang-da-hazeline-yen-mach-dau-tam-896ml-202103012258167412_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
-                <h3 class="product-name">Sữa tắm sáng da Hazeline chai 896ml</h3>
+                <h3 class="product-name">
+                  Sữa tắm sáng da Hazeline chai 896ml
+                </h3>
               </div>
               <div class="box-buy">
                 <nuxt-link to="#">
@@ -990,10 +1186,15 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2444/194743/bhx/sua-tam-duong-am-sang-da-hazeline-yen-mach-dau-tam-896ml-202103012258167412_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2444/194743/bhx/sua-tam-duong-am-sang-da-hazeline-yen-mach-dau-tam-896ml-202103012258167412_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
-                <h3 class="product-name">Sữa tắm sáng da Hazeline chai 896ml</h3>
+                <h3 class="product-name">
+                  Sữa tắm sáng da Hazeline chai 896ml
+                </h3>
               </div>
               <div class="box-buy">
                 <nuxt-link to="#">
@@ -1010,10 +1211,15 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2444/194743/bhx/sua-tam-duong-am-sang-da-hazeline-yen-mach-dau-tam-896ml-202103012258167412_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2444/194743/bhx/sua-tam-duong-am-sang-da-hazeline-yen-mach-dau-tam-896ml-202103012258167412_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
-                <h3 class="product-name">Sữa tắm sáng da Hazeline chai 896ml</h3>
+                <h3 class="product-name">
+                  Sữa tắm sáng da Hazeline chai 896ml
+                </h3>
               </div>
               <div class="box-buy">
                 <nuxt-link to="#">
@@ -1030,10 +1236,15 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2444/194743/bhx/sua-tam-duong-am-sang-da-hazeline-yen-mach-dau-tam-896ml-202103012258167412_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2444/194743/bhx/sua-tam-duong-am-sang-da-hazeline-yen-mach-dau-tam-896ml-202103012258167412_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
-                <h3 class="product-name">Sữa tắm sáng da Hazeline chai 896ml</h3>
+                <h3 class="product-name">
+                  Sữa tắm sáng da Hazeline chai 896ml
+                </h3>
               </div>
               <div class="box-buy">
                 <nuxt-link to="#">
@@ -1050,10 +1261,15 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2444/194743/bhx/sua-tam-duong-am-sang-da-hazeline-yen-mach-dau-tam-896ml-202103012258167412_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2444/194743/bhx/sua-tam-duong-am-sang-da-hazeline-yen-mach-dau-tam-896ml-202103012258167412_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
-                <h3 class="product-name">Sữa tắm sáng da Hazeline chai 896ml</h3>
+                <h3 class="product-name">
+                  Sữa tắm sáng da Hazeline chai 896ml
+                </h3>
               </div>
               <div class="box-buy">
                 <nuxt-link to="#">
@@ -1070,10 +1286,15 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2444/194743/bhx/sua-tam-duong-am-sang-da-hazeline-yen-mach-dau-tam-896ml-202103012258167412_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2444/194743/bhx/sua-tam-duong-am-sang-da-hazeline-yen-mach-dau-tam-896ml-202103012258167412_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
-                <h3 class="product-name">Sữa tắm sáng da Hazeline chai 896ml</h3>
+                <h3 class="product-name">
+                  Sữa tắm sáng da Hazeline chai 896ml
+                </h3>
               </div>
               <div class="box-buy">
                 <nuxt-link to="#">
@@ -1090,7 +1311,8 @@
         </div>
       </div>
       <div class="viewmore">
-        <span>Xem thêm 306 sản phẩm   <b>chăm sóc cá nhân</b>
+        <span
+          >Xem thêm 306 sản phẩm <b>chăm sóc cá nhân</b>
           <font-awesome-icon :icon="['fas', 'angle-down']"></font-awesome-icon>
         </span>
       </div>
@@ -1101,7 +1323,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2513/159559/bhx/gao-thom-vua-gao-lang-ta-tui-2kg-202103040808562277_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2513/159559/bhx/gao-thom-vua-gao-lang-ta-tui-2kg-202103040808562277_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Gạo thơm dẻo Vua Gạo Làng Ta 2kg</h3>
@@ -1121,7 +1346,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2513/159559/bhx/gao-thom-vua-gao-lang-ta-tui-2kg-202103040808562277_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2513/159559/bhx/gao-thom-vua-gao-lang-ta-tui-2kg-202103040808562277_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Gạo thơm dẻo Vua Gạo Làng Ta 2kg</h3>
@@ -1141,7 +1369,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2513/159559/bhx/gao-thom-vua-gao-lang-ta-tui-2kg-202103040808562277_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2513/159559/bhx/gao-thom-vua-gao-lang-ta-tui-2kg-202103040808562277_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Gạo thơm dẻo Vua Gạo Làng Ta 2kg</h3>
@@ -1161,7 +1392,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2513/159559/bhx/gao-thom-vua-gao-lang-ta-tui-2kg-202103040808562277_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2513/159559/bhx/gao-thom-vua-gao-lang-ta-tui-2kg-202103040808562277_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Gạo thơm dẻo Vua Gạo Làng Ta 2kg</h3>
@@ -1181,7 +1415,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2513/159559/bhx/gao-thom-vua-gao-lang-ta-tui-2kg-202103040808562277_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2513/159559/bhx/gao-thom-vua-gao-lang-ta-tui-2kg-202103040808562277_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Gạo thơm dẻo Vua Gạo Làng Ta 2kg</h3>
@@ -1201,7 +1438,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2513/159559/bhx/gao-thom-vua-gao-lang-ta-tui-2kg-202103040808562277_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2513/159559/bhx/gao-thom-vua-gao-lang-ta-tui-2kg-202103040808562277_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Gạo thơm dẻo Vua Gạo Làng Ta 2kg</h3>
@@ -1221,7 +1461,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2513/159559/bhx/gao-thom-vua-gao-lang-ta-tui-2kg-202103040808562277_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2513/159559/bhx/gao-thom-vua-gao-lang-ta-tui-2kg-202103040808562277_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Gạo thơm dẻo Vua Gạo Làng Ta 2kg</h3>
@@ -1241,7 +1484,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2513/159559/bhx/gao-thom-vua-gao-lang-ta-tui-2kg-202103040808562277_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2513/159559/bhx/gao-thom-vua-gao-lang-ta-tui-2kg-202103040808562277_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Gạo thơm dẻo Vua Gạo Làng Ta 2kg</h3>
@@ -1261,7 +1507,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2513/159559/bhx/gao-thom-vua-gao-lang-ta-tui-2kg-202103040808562277_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2513/159559/bhx/gao-thom-vua-gao-lang-ta-tui-2kg-202103040808562277_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Gạo thơm dẻo Vua Gạo Làng Ta 2kg</h3>
@@ -1281,7 +1530,8 @@
         </div>
       </div>
       <div class="viewmore">
-        <span>Xem thêm 54 sản phẩm <b>gạo, bột, đồ khô</b>
+        <span
+          >Xem thêm 54 sản phẩm <b>gạo, bột, đồ khô</b>
           <font-awesome-icon :icon="['fas', 'angle-down']"></font-awesome-icon>
         </span>
       </div>
@@ -1292,7 +1542,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/7558/198074/bhx/loc-4-hop-sua-chua-vinamilk-it-duong-100g-202103020020082219_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/7558/198074/bhx/loc-4-hop-sua-chua-vinamilk-it-duong-100g-202103020020082219_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Lốc 4 hộp sữa chua ít đường 100g</h3>
@@ -1312,7 +1565,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/7558/198074/bhx/loc-4-hop-sua-chua-vinamilk-it-duong-100g-202103020020082219_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/7558/198074/bhx/loc-4-hop-sua-chua-vinamilk-it-duong-100g-202103020020082219_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Lốc 4 hộp sữa chua ít đường 100g</h3>
@@ -1332,7 +1588,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/7558/198074/bhx/loc-4-hop-sua-chua-vinamilk-it-duong-100g-202103020020082219_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/7558/198074/bhx/loc-4-hop-sua-chua-vinamilk-it-duong-100g-202103020020082219_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Lốc 4 hộp sữa chua ít đường 100g</h3>
@@ -1352,7 +1611,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/7558/198074/bhx/loc-4-hop-sua-chua-vinamilk-it-duong-100g-202103020020082219_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/7558/198074/bhx/loc-4-hop-sua-chua-vinamilk-it-duong-100g-202103020020082219_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Lốc 4 hộp sữa chua ít đường 100g</h3>
@@ -1372,7 +1634,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/7558/198074/bhx/loc-4-hop-sua-chua-vinamilk-it-duong-100g-202103020020082219_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/7558/198074/bhx/loc-4-hop-sua-chua-vinamilk-it-duong-100g-202103020020082219_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Lốc 4 hộp sữa chua ít đường 100g</h3>
@@ -1392,7 +1657,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/7558/198074/bhx/loc-4-hop-sua-chua-vinamilk-it-duong-100g-202103020020082219_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/7558/198074/bhx/loc-4-hop-sua-chua-vinamilk-it-duong-100g-202103020020082219_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Lốc 4 hộp sữa chua ít đường 100g</h3>
@@ -1412,7 +1680,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/7558/198074/bhx/loc-4-hop-sua-chua-vinamilk-it-duong-100g-202103020020082219_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/7558/198074/bhx/loc-4-hop-sua-chua-vinamilk-it-duong-100g-202103020020082219_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Lốc 4 hộp sữa chua ít đường 100g</h3>
@@ -1432,7 +1703,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/7558/198074/bhx/loc-4-hop-sua-chua-vinamilk-it-duong-100g-202103020020082219_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/7558/198074/bhx/loc-4-hop-sua-chua-vinamilk-it-duong-100g-202103020020082219_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Lốc 4 hộp sữa chua ít đường 100g</h3>
@@ -1452,7 +1726,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/7558/198074/bhx/loc-4-hop-sua-chua-vinamilk-it-duong-100g-202103020020082219_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/7558/198074/bhx/loc-4-hop-sua-chua-vinamilk-it-duong-100g-202103020020082219_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Lốc 4 hộp sữa chua ít đường 100g</h3>
@@ -1472,7 +1749,8 @@
         </div>
       </div>
       <div class="viewmore">
-        <span>Xem thêm 18 sản phẩm <b>đồ mát, đông lạnh</b>
+        <span
+          >Xem thêm 18 sản phẩm <b>đồ mát, đông lạnh</b>
           <font-awesome-icon :icon="['fas', 'angle-down']"></font-awesome-icon>
         </span>
       </div>
@@ -1483,7 +1761,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/3357/212664/bhx/banh-quy-bo-truyen-thong-andersens-danish-hop-100g-202103011514087125_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/3357/212664/bhx/banh-quy-bo-truyen-thong-andersens-danish-hop-100g-202103011514087125_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Bánh quy bơ Danish 10 gói x 10g</h3>
@@ -1503,7 +1784,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/3357/212664/bhx/banh-quy-bo-truyen-thong-andersens-danish-hop-100g-202103011514087125_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/3357/212664/bhx/banh-quy-bo-truyen-thong-andersens-danish-hop-100g-202103011514087125_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Bánh quy bơ Danish 10 gói x 10g</h3>
@@ -1523,7 +1807,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/3357/212664/bhx/banh-quy-bo-truyen-thong-andersens-danish-hop-100g-202103011514087125_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/3357/212664/bhx/banh-quy-bo-truyen-thong-andersens-danish-hop-100g-202103011514087125_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Bánh quy bơ Danish 10 gói x 10g</h3>
@@ -1543,7 +1830,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/3357/212664/bhx/banh-quy-bo-truyen-thong-andersens-danish-hop-100g-202103011514087125_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/3357/212664/bhx/banh-quy-bo-truyen-thong-andersens-danish-hop-100g-202103011514087125_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Bánh quy bơ Danish 10 gói x 10g</h3>
@@ -1563,7 +1853,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/3357/212664/bhx/banh-quy-bo-truyen-thong-andersens-danish-hop-100g-202103011514087125_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/3357/212664/bhx/banh-quy-bo-truyen-thong-andersens-danish-hop-100g-202103011514087125_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Bánh quy bơ Danish 10 gói x 10g</h3>
@@ -1583,7 +1876,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/3357/212664/bhx/banh-quy-bo-truyen-thong-andersens-danish-hop-100g-202103011514087125_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/3357/212664/bhx/banh-quy-bo-truyen-thong-andersens-danish-hop-100g-202103011514087125_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Bánh quy bơ Danish 10 gói x 10g</h3>
@@ -1603,7 +1899,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/3357/212664/bhx/banh-quy-bo-truyen-thong-andersens-danish-hop-100g-202103011514087125_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/3357/212664/bhx/banh-quy-bo-truyen-thong-andersens-danish-hop-100g-202103011514087125_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Bánh quy bơ Danish 10 gói x 10g</h3>
@@ -1623,7 +1922,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/3357/212664/bhx/banh-quy-bo-truyen-thong-andersens-danish-hop-100g-202103011514087125_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/3357/212664/bhx/banh-quy-bo-truyen-thong-andersens-danish-hop-100g-202103011514087125_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Bánh quy bơ Danish 10 gói x 10g</h3>
@@ -1643,7 +1945,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/3357/212664/bhx/banh-quy-bo-truyen-thong-andersens-danish-hop-100g-202103011514087125_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/3357/212664/bhx/banh-quy-bo-truyen-thong-andersens-danish-hop-100g-202103011514087125_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Bánh quy bơ Danish 10 gói x 10g</h3>
@@ -1663,7 +1968,8 @@
         </div>
       </div>
       <div class="viewmore">
-        <span>Xem thêm 117 sản phẩm <b>bánh kẹo các loại</b>
+        <span
+          >Xem thêm 117 sản phẩm <b>bánh kẹo các loại</b>
           <font-awesome-icon :icon="['fas', 'angle-down']"></font-awesome-icon>
         </span>
       </div>
@@ -1674,7 +1980,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2530/88282/bhx/binh-xit-muoi-raid-huong-cam-chanh-600ml-202103031359427512_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2530/88282/bhx/binh-xit-muoi-raid-huong-cam-chanh-600ml-202103031359427512_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Bình xịt muỗi Raid cam chanh 600ml</h3>
@@ -1694,7 +2003,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2530/88282/bhx/binh-xit-muoi-raid-huong-cam-chanh-600ml-202103031359427512_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2530/88282/bhx/binh-xit-muoi-raid-huong-cam-chanh-600ml-202103031359427512_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Bình xịt muỗi Raid cam chanh 600ml</h3>
@@ -1714,7 +2026,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2530/88282/bhx/binh-xit-muoi-raid-huong-cam-chanh-600ml-202103031359427512_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2530/88282/bhx/binh-xit-muoi-raid-huong-cam-chanh-600ml-202103031359427512_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Bình xịt muỗi Raid cam chanh 600ml</h3>
@@ -1734,7 +2049,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2530/88282/bhx/binh-xit-muoi-raid-huong-cam-chanh-600ml-202103031359427512_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2530/88282/bhx/binh-xit-muoi-raid-huong-cam-chanh-600ml-202103031359427512_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Bình xịt muỗi Raid cam chanh 600ml</h3>
@@ -1754,7 +2072,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2530/88282/bhx/binh-xit-muoi-raid-huong-cam-chanh-600ml-202103031359427512_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2530/88282/bhx/binh-xit-muoi-raid-huong-cam-chanh-600ml-202103031359427512_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Bình xịt muỗi Raid cam chanh 600ml</h3>
@@ -1774,7 +2095,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2530/88282/bhx/binh-xit-muoi-raid-huong-cam-chanh-600ml-202103031359427512_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2530/88282/bhx/binh-xit-muoi-raid-huong-cam-chanh-600ml-202103031359427512_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Bình xịt muỗi Raid cam chanh 600ml</h3>
@@ -1794,7 +2118,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2530/88282/bhx/binh-xit-muoi-raid-huong-cam-chanh-600ml-202103031359427512_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2530/88282/bhx/binh-xit-muoi-raid-huong-cam-chanh-600ml-202103031359427512_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Bình xịt muỗi Raid cam chanh 600ml</h3>
@@ -1814,7 +2141,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2530/88282/bhx/binh-xit-muoi-raid-huong-cam-chanh-600ml-202103031359427512_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2530/88282/bhx/binh-xit-muoi-raid-huong-cam-chanh-600ml-202103031359427512_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Bình xịt muỗi Raid cam chanh 600ml</h3>
@@ -1834,7 +2164,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/2530/88282/bhx/binh-xit-muoi-raid-huong-cam-chanh-600ml-202103031359427512_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/2530/88282/bhx/binh-xit-muoi-raid-huong-cam-chanh-600ml-202103031359427512_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Bình xịt muỗi Raid cam chanh 600ml</h3>
@@ -1854,7 +2187,8 @@
         </div>
       </div>
       <div class="viewmore">
-        <span>Xem thêm 162 sản phẩm <b>vệ sinh nhà cửa</b>
+        <span
+          >Xem thêm 162 sản phẩm <b>vệ sinh nhà cửa</b>
           <font-awesome-icon :icon="['fas', 'angle-down']"></font-awesome-icon>
         </span>
       </div>
@@ -1865,7 +2199,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/4326/227749/bhx/tui-dung-thuc-pham-tu-huy-sinh-hoc-bach-hoa-xanh-25-x-35-cm-120-tui-202010201606514964_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/4326/227749/bhx/tui-dung-thuc-pham-tu-huy-sinh-hoc-bach-hoa-xanh-25-x-35-cm-120-tui-202010201606514964_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">120 túi tự Bách hoá XANH 25x35cm</h3>
@@ -1885,7 +2222,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/4326/227749/bhx/tui-dung-thuc-pham-tu-huy-sinh-hoc-bach-hoa-xanh-25-x-35-cm-120-tui-202010201606514964_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/4326/227749/bhx/tui-dung-thuc-pham-tu-huy-sinh-hoc-bach-hoa-xanh-25-x-35-cm-120-tui-202010201606514964_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">120 túi tự Bách hoá XANH 25x35cm</h3>
@@ -1905,7 +2245,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/4326/227749/bhx/tui-dung-thuc-pham-tu-huy-sinh-hoc-bach-hoa-xanh-25-x-35-cm-120-tui-202010201606514964_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/4326/227749/bhx/tui-dung-thuc-pham-tu-huy-sinh-hoc-bach-hoa-xanh-25-x-35-cm-120-tui-202010201606514964_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">120 túi tự Bách hoá XANH 25x35cm</h3>
@@ -1925,7 +2268,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/4326/227749/bhx/tui-dung-thuc-pham-tu-huy-sinh-hoc-bach-hoa-xanh-25-x-35-cm-120-tui-202010201606514964_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/4326/227749/bhx/tui-dung-thuc-pham-tu-huy-sinh-hoc-bach-hoa-xanh-25-x-35-cm-120-tui-202010201606514964_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">120 túi tự Bách hoá XANH 25x35cm</h3>
@@ -1945,7 +2291,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/4326/227749/bhx/tui-dung-thuc-pham-tu-huy-sinh-hoc-bach-hoa-xanh-25-x-35-cm-120-tui-202010201606514964_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/4326/227749/bhx/tui-dung-thuc-pham-tu-huy-sinh-hoc-bach-hoa-xanh-25-x-35-cm-120-tui-202010201606514964_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">120 túi tự Bách hoá XANH 25x35cm</h3>
@@ -1965,7 +2314,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/4326/227749/bhx/tui-dung-thuc-pham-tu-huy-sinh-hoc-bach-hoa-xanh-25-x-35-cm-120-tui-202010201606514964_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/4326/227749/bhx/tui-dung-thuc-pham-tu-huy-sinh-hoc-bach-hoa-xanh-25-x-35-cm-120-tui-202010201606514964_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">120 túi tự Bách hoá XANH 25x35cm</h3>
@@ -1985,7 +2337,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/4326/227749/bhx/tui-dung-thuc-pham-tu-huy-sinh-hoc-bach-hoa-xanh-25-x-35-cm-120-tui-202010201606514964_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/4326/227749/bhx/tui-dung-thuc-pham-tu-huy-sinh-hoc-bach-hoa-xanh-25-x-35-cm-120-tui-202010201606514964_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">120 túi tự Bách hoá XANH 25x35cm</h3>
@@ -2005,7 +2360,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/4326/227749/bhx/tui-dung-thuc-pham-tu-huy-sinh-hoc-bach-hoa-xanh-25-x-35-cm-120-tui-202010201606514964_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/4326/227749/bhx/tui-dung-thuc-pham-tu-huy-sinh-hoc-bach-hoa-xanh-25-x-35-cm-120-tui-202010201606514964_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">120 túi tự Bách hoá XANH 25x35cm</h3>
@@ -2025,7 +2383,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/4326/227749/bhx/tui-dung-thuc-pham-tu-huy-sinh-hoc-bach-hoa-xanh-25-x-35-cm-120-tui-202010201606514964_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/4326/227749/bhx/tui-dung-thuc-pham-tu-huy-sinh-hoc-bach-hoa-xanh-25-x-35-cm-120-tui-202010201606514964_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">120 túi tự Bách hoá XANH 25x35cm</h3>
@@ -2045,7 +2406,8 @@
         </div>
       </div>
       <div class="viewmore">
-        <span>Xem thêm 9 sản phẩm <b>đồ dùng gia đình</b>
+        <span
+          >Xem thêm 9 sản phẩm <b>đồ dùng gia đình</b>
           <font-awesome-icon :icon="['fas', 'angle-down']"></font-awesome-icon>
         </span>
       </div>
@@ -2056,7 +2418,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/3445/224725/bhx/banh-que-dui-ga-vi-nuoc-mam-dorkbua-goi-18g-202007151401475055_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/3445/224725/bhx/banh-que-dui-ga-vi-nuoc-mam-dorkbua-goi-18g-202007151401475055_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Bánh que vị nước mắm Dorkbua 18g</h3>
@@ -2076,7 +2441,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/3445/224725/bhx/banh-que-dui-ga-vi-nuoc-mam-dorkbua-goi-18g-202007151401475055_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/3445/224725/bhx/banh-que-dui-ga-vi-nuoc-mam-dorkbua-goi-18g-202007151401475055_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Bánh que vị nước mắm Dorkbua 18g</h3>
@@ -2096,7 +2464,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/3445/224725/bhx/banh-que-dui-ga-vi-nuoc-mam-dorkbua-goi-18g-202007151401475055_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/3445/224725/bhx/banh-que-dui-ga-vi-nuoc-mam-dorkbua-goi-18g-202007151401475055_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Bánh que vị nước mắm Dorkbua 18g</h3>
@@ -2116,7 +2487,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/3445/224725/bhx/banh-que-dui-ga-vi-nuoc-mam-dorkbua-goi-18g-202007151401475055_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/3445/224725/bhx/banh-que-dui-ga-vi-nuoc-mam-dorkbua-goi-18g-202007151401475055_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Bánh que vị nước mắm Dorkbua 18g</h3>
@@ -2136,7 +2510,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/3445/224725/bhx/banh-que-dui-ga-vi-nuoc-mam-dorkbua-goi-18g-202007151401475055_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/3445/224725/bhx/banh-que-dui-ga-vi-nuoc-mam-dorkbua-goi-18g-202007151401475055_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Bánh que vị nước mắm Dorkbua 18g</h3>
@@ -2156,7 +2533,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/3445/224725/bhx/banh-que-dui-ga-vi-nuoc-mam-dorkbua-goi-18g-202007151401475055_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/3445/224725/bhx/banh-que-dui-ga-vi-nuoc-mam-dorkbua-goi-18g-202007151401475055_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Bánh que vị nước mắm Dorkbua 18g</h3>
@@ -2176,7 +2556,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/3445/224725/bhx/banh-que-dui-ga-vi-nuoc-mam-dorkbua-goi-18g-202007151401475055_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/3445/224725/bhx/banh-que-dui-ga-vi-nuoc-mam-dorkbua-goi-18g-202007151401475055_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Bánh que vị nước mắm Dorkbua 18g</h3>
@@ -2196,7 +2579,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/3445/224725/bhx/banh-que-dui-ga-vi-nuoc-mam-dorkbua-goi-18g-202007151401475055_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/3445/224725/bhx/banh-que-dui-ga-vi-nuoc-mam-dorkbua-goi-18g-202007151401475055_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Bánh que vị nước mắm Dorkbua 18g</h3>
@@ -2216,7 +2602,10 @@
           <div class="product-item col-4">
             <div class="product-box">
               <nuxt-link to="#">
-                <img src="https://cdn.tgdd.vn/Products/Images/3445/224725/bhx/banh-que-dui-ga-vi-nuoc-mam-dorkbua-goi-18g-202007151401475055_300x300.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Products/Images/3445/224725/bhx/banh-que-dui-ga-vi-nuoc-mam-dorkbua-goi-18g-202007151401475055_300x300.jpg"
+                  width="100%"
+                />
               </nuxt-link>
               <div class="productinfo">
                 <h3 class="product-name">Bánh que vị nước mắm Dorkbua 18g</h3>
@@ -2236,7 +2625,8 @@
         </div>
       </div>
       <div class="viewmore">
-        <span>Xem thêm 118 sản phẩm <b>xả kho giá sốc</b>
+        <span
+          >Xem thêm 118 sản phẩm <b>xả kho giá sốc</b>
           <font-awesome-icon :icon="['fas', 'angle-down']"></font-awesome-icon>
         </span>
       </div>
@@ -2244,55 +2634,92 @@
     <div class="mobile_content_banner">
       <agile :autoplay="true" :navButtons="false" :dots="true">
         <div>
-          <img src="~/assets/images/banner/hoa-don-50k-duoc-mua-gia-soc-17032021112419.jpg" width="100%">
+          <img
+            src="~/assets/images/banner/hoa-don-50k-duoc-mua-gia-soc-17032021112419.jpg"
+            width="100%"
+          />
         </div>
         <div>
-          <img src="~/assets/images/banner/tra-dam-da-giam-den-40-15032021144328.jpg" width="100%">
+          <img
+            src="~/assets/images/banner/tra-dam-da-giam-den-40-15032021144328.jpg"
+            width="100%"
+          />
         </div>
         <div>
-          <img src="~/assets/images/banner/sale-het-y-giam-gia-me-ly-chi-tu-3300d-1703202115523.jpg" width="100%">
+          <img
+            src="~/assets/images/banner/sale-het-y-giam-gia-me-ly-chi-tu-3300d-1703202115523.jpg"
+            width="100%"
+          />
         </div>
         <div>
-          <img src="~/assets/images/banner/sua-abbott-cho-be-cao-hon-thong-minh-hon-0511202015554.jpg" width="100%">
+          <img
+            src="~/assets/images/banner/sua-abbott-cho-be-cao-hon-thong-minh-hon-0511202015554.jpg"
+            width="100%"
+          />
         </div>
         <div>
-          <img src="~/assets/images/banner/mua-thung-sua-milo-uong-lien-cao-trung-thuong-100-0203202115117.jpg" width="100%">
+          <img
+            src="~/assets/images/banner/mua-thung-sua-milo-uong-lien-cao-trung-thuong-100-0203202115117.jpg"
+            width="100%"
+          />
         </div>
         <div>
-          <img src="~/assets/images/banner/da-dep-toc-xinh-1903202182240.jpg" width="100%">
+          <img
+            src="~/assets/images/banner/da-dep-toc-xinh-1903202182240.jpg"
+            width="100%"
+          />
         </div>
       </agile>
     </div>
     <div class="tips">
       <div class="newvideo">
-        <iframe width="100%" height="200" src="https://www.youtube.com/embed/WeRLE0DyDEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe
+          width="100%"
+          height="200"
+          src="https://www.youtube.com/embed/WeRLE0DyDEo"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </div>
       <div class="nomehews">
         <div class="row">
           <div class="col-6">
             <div class="row">
               <div class="col-4">
-                <img src="https://cdn.tgdd.vn/Files/2021/03/20/1336836/be-an-thoa-thich-voi-banh-trung-ibo-vua-ngon-lai-bo-duong-202103201455237916.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Files/2021/03/20/1336836/be-an-thoa-thich-voi-banh-trung-ibo-vua-ngon-lai-bo-duong-202103201455237916.jpg"
+                  width="100%"
+                />
               </div>
               <div class="col-8">
-                <p>Bé ăn thỏa thích với bánh trứng I.B.O vừa ngon lại bổ... </p>
+                <p>Bé ăn thỏa thích với bánh trứng I.B.O vừa ngon lại bổ...</p>
               </div>
             </div>
           </div>
           <div class="col-6">
             <div class="row">
               <div class="col-4">
-                <img src="https://cdn.tgdd.vn/Files/2021/03/20/1336854/tat-tan-tat-nhung-cach-tiet-trung-do-dung-chai-lo-trong-nha-khong-can-may-moc-hien-dai-202103201517561890.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Files/2021/03/20/1336854/tat-tan-tat-nhung-cach-tiet-trung-do-dung-chai-lo-trong-nha-khong-can-may-moc-hien-dai-202103201517561890.jpg"
+                  width="100%"
+                />
               </div>
               <div class="col-8">
-                <p>Tất tần tật những cách tiệt trùng đồ dùng, chai lọ trong... </p>
+                <p>
+                  Tất tần tật những cách tiệt trùng đồ dùng, chai lọ trong...
+                </p>
               </div>
             </div>
           </div>
           <div class="col-6">
             <div class="row">
               <div class="col-4">
-                <img src="https://cdn.tgdd.vn/Files/2017/09/17/1022409/cach-got-vo-khoai-so-khong-so-bi-ngua-tay-202103211425170172.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Files/2017/09/17/1022409/cach-got-vo-khoai-so-khong-so-bi-ngua-tay-202103211425170172.jpg"
+                  width="100%"
+                />
               </div>
               <div class="col-8">
                 <p>Cách gọt vỏ khoai sọ không sợ bị...</p>
@@ -2302,30 +2729,41 @@
           <div class="col-6">
             <div class="row">
               <div class="col-4">
-                <img src="https://cdn.tgdd.vn/Files/2021/03/20/1336844/nuoc-nha-dam-chuong-duong-thuc-uong-tuyet-voi-danh-cho-suc-khoe-202103201451194842.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Files/2021/03/20/1336844/nuoc-nha-dam-chuong-duong-thuc-uong-tuyet-voi-danh-cho-suc-khoe-202103201451194842.jpg"
+                  width="100%"
+                />
               </div>
               <div class="col-8">
-                <p>Nước nha đam Chương Dương thức uống tuyệt... </p>
+                <p>Nước nha đam Chương Dương thức uống tuyệt...</p>
               </div>
             </div>
           </div>
           <div class="col-6">
             <div class="row">
               <div class="col-4">
-                <img src="https://cdn.tgdd.vn/Files/2021/03/20/1336818/cach-lam-tiet-canh-bang-cu-den-da-ngon-an-toan-lai-con-dep-da-202103201347197210.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Files/2021/03/20/1336818/cach-lam-tiet-canh-bang-cu-den-da-ngon-an-toan-lai-con-dep-da-202103201347197210.jpg"
+                  width="100%"
+                />
               </div>
               <div class="col-8">
-                <p>Cách làm tiết canh bằng củ dền đã ngon an toàn lại còn đẹp... </p>
+                <p>
+                  Cách làm tiết canh bằng củ dền đã ngon an toàn lại còn đẹp...
+                </p>
               </div>
             </div>
           </div>
           <div class="col-6">
             <div class="row">
               <div class="col-4">
-                <img src="https://cdn.tgdd.vn/Files/2021/03/20/1336781/4-nguyen-lieu-dau-goi-tu-thien-nhien-giup-toc-khoe-bong-muot-cua-phu-nu-viet-thoi-xa-xua-202103201153268534.jpg" width="100%">
+                <img
+                  src="https://cdn.tgdd.vn/Files/2021/03/20/1336781/4-nguyen-lieu-dau-goi-tu-thien-nhien-giup-toc-khoe-bong-muot-cua-phu-nu-viet-thoi-xa-xua-202103201153268534.jpg"
+                  width="100%"
+                />
               </div>
               <div class="col-8">
-                <p>4 nguyên liệu dầu gội từ thiên nhiên giúp tóc khỏe... </p>
+                <p>4 nguyên liệu dầu gội từ thiên nhiên giúp tóc khỏe...</p>
               </div>
             </div>
           </div>
@@ -2337,45 +2775,52 @@
 
 <script>
 import axios from "~/node_modules/axios";
-import { VueAgile } from '~/node_modules/vue-agile'
+import { VueAgile } from "~/node_modules/vue-agile";
 export default {
   components: {
     agile: VueAgile
   },
-  data () {
+  data() {
     return {
-      products:[],
+      products: [],
       data: [],
-      total:[],
+      total: [],
       total_pages: null,
       error: null,
       limit: 9
-    }
+    };
   },
   async created() {
     this.totalPages();
   },
   methods: {
     async totalPages() {
-      const response = await axios.get('http://api.tvtp.vn/v0/products', {
+      const response = await axios.get("http://api.tvtp.vn/v0/products", {
         headers: {
-          Authorization: 'Bearer cb68e963404f0b1b62229f37cf77013b7f97729b6722ae7d17e8315e9eabcbe3'
+          Authorization:
+            "Bearer cb68e963404f0b1b62229f37cf77013b7f97729b6722ae7d17e8315e9eabcbe3"
         }
       });
-      this.total_pages = response.data.meta.pagination['total_pages'];
-      this.total = response.data.meta.pagination['total'];
+      this.total_pages = response.data.meta.pagination["total_pages"];
+      this.total = response.data.meta.pagination["total"];
       var i = 0;
       for (i = 1; i <= this.total_pages; i++) {
         this.getData(i);
       }
     },
     async getData(id) {
-      const response = await axios.get('http://api.tvtp.vn/v0/products?page=' + id, {
-        headers: {
-          Authorization: 'Bearer cb68e963404f0b1b62229f37cf77013b7f97729b6722ae7d17e8315e9eabcbe3'
+      const response = await axios.get(
+        "http://api.tvtp.vn/v0/products?page=" + id,
+        {
+          headers: {
+            Authorization:
+              "Bearer cb68e963404f0b1b62229f37cf77013b7f97729b6722ae7d17e8315e9eabcbe3"
+          }
         }
-      });
-      this.products = this.products.concat(response.data.data).filter((el, index) => index < this.limit);
+      );
+      this.products = this.products
+        .concat(response.data.data)
+        .filter((el, index) => index < this.limit);
     },
     async limitShow() {
       this.limit = this.limit + 9;
@@ -2383,6 +2828,5 @@ export default {
       this.totalPages();
     }
   }
-}
+};
 </script>
-

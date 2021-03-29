@@ -2,32 +2,45 @@
   <div>
     <div v-if="$device.isDesktop">
       Layout Desktop
-      <nuxt/>
+      <nuxt />
     </div>
     <div v-else-if="$device.isTablet">
       Layout Tablet
-      <nuxt/>
+      <nuxt />
     </div>
     <div v-else>
-      <mobile-header/>
-      <nuxt/>
-      <mobile-footer/>
+      <mobile-header />
+      <nuxt />
+      <mobile-footer />
     </div>
+    <!-- <cart />
+    <nuxt />
+    <cart /> -->
   </div>
 </template>
 <script>
-import MobileHeader from '~/components/Header/MobileHeader.vue';
-import MobileFooter from '~/components/Footer/MobileFooter.vue';
+import MobileHeader from "~/components/Header/MobileHeader.vue";
+import MobileFooter from "~/components/Footer/MobileFooter.vue";
+// import Cart from "~/components/Cart/Cart.vue";
+// import Cartjs from "~/assets/js/cart.js";
 export default {
   components: {
     MobileHeader,
-    MobileFooter
+    MobileFooter,
+    // Cart
+  },
+  methods: {
+    addToCart(e) {
+      // var product_name=e.getAttribute('data-name')
+      console.log(e);
+    }
   }
-}
+};
 </script>
 <style>
 html {
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -37,7 +50,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
   margin: 0;
 }
@@ -71,4 +86,3 @@ html {
   background-color: #35495e;
 }
 </style>
-

@@ -21,6 +21,10 @@ module.exports = {
     '@/assets/css/cart.css',
     '@/assets/css/products_cate.css'
   ],
+  plugins: [
+    '~/plugins/main.js'
+  ],
+
   /*
   ** Customize the progress bar color
   */

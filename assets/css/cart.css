@@ -46,6 +46,7 @@
 }
 
 .mobile_cart .list-product .item .delete {
+  border: none;
   background: #c5cee0;
   cursor: pointer;
   font-size: 8px;
@@ -125,9 +126,17 @@
   color: #222b45;
 }
 
-.cart-content .row {
-  /* margin-right: 0; */
+input::-webkit-outer-spin-button.quantity-input,
+input::-webkit-inner-spin-button.quantity-input {
+    display: none; 
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }
+
+input[type=number].quantity-input {
+    -moz-appearance:textfield; /* Firefox */
+}
+
 
 .cart-content .btn {
   border: 1px solid #8f9bb3;
@@ -173,7 +182,7 @@
   color: #222b45;
 }
 
-.more .item .cart-viewmore b-a:focus {
+.more .item .cart-viewmore a:focus {
   outline: none !important;
 }
 .more .item .cart-viewmore .collapsed .fa-angle-up {
@@ -190,6 +199,14 @@
 
 .more .item .cart-viewmore .not-collapsed .fa-angle-down {
   display: none;
+}
+.btn-cart-viewmore{
+  border: none !important;
+  padding: 0 !important;
+  margin: 0!important;
+}
+.btn-cart-viewmore:focus{
+  box-shadow: none;
 }
 
 /* checkout  */

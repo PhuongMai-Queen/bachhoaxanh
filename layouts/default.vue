@@ -13,27 +13,15 @@
       <nuxt />
       <mobile-footer />
     </div>
-    <!-- <cart />
-    <nuxt />
-    <cart /> -->
   </div>
 </template>
 <script>
 import MobileHeader from "~/components/Header/MobileHeader.vue";
 import MobileFooter from "~/components/Footer/MobileFooter.vue";
-// import Cart from "~/components/Cart/Cart.vue";
-// import Cartjs from "~/assets/js/cart.js";
 export default {
   components: {
     MobileHeader,
     MobileFooter,
-    // Cart
-  },
-  methods: {
-    addToCart(e) {
-      // var product_name=e.getAttribute('data-name')
-      console.log(e);
-    }
   }
 };
 </script>

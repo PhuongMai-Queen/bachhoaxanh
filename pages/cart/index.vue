@@ -6,8 +6,15 @@
       <div class="cart-content">
         <div class="list-product">
           <div class="title">Giỏ hàng của bạn</div>
-          <div class="item" v-for="item in products" :key="item.id">
-            <button class="delete" type="button">Xóa</button>
+          <div
+            class="item"
+            v-for="item in products"
+            :key="item.id"
+            :id="`item-${item.id}`"
+          >
+            <button class="delete" type="button" @click="removeToCart(item.id)">
+              Xóa
+            </button>
             <img :src="item.thumbnail" width="100%" :alt="item.name" />
             <div class="info">
               <a href="" class="name">{{ item.name }}</a>
@@ -15,20 +22,39 @@
             </div>
             <div class="money">
               <div class="total-price">
-                <strong>{{ item.quantity*item.price }} đ</strong>
+                <strong :id="`total-price-${item.id}`"
+                  >{{
+                    new Intl.NumberFormat("en-US").format(
+                      item.quantity * item.price
+                    )
+                  }}
+                  đ</strong
+                >
               </div>
               <div class="quantity-group">
                 <div class="quantity-item">
-                  <i>-</i>
+                  <button
+                    type="button"
+                    @click="minusToCart(item.id, item.price)"
+                  >
+                    -
+                  </button>
                   <input
                     type="number"
                     name=""
-                    id=""
+                    :id="`quantity-input-${item.id}`"
                     :value="item.quantity"
                     min="0"
                     class="quantity-input"
+                    @change="updateToCart(item.id, item.price)"
                   />
-                  <i>+</i>
+                  <button
+                    type="button"
+                    @click="plusToCart(item.id, item.price)"
+                    id="plus"
+                  >
+                    +
+                  </button>
                 </div>
               </div>
             </div>
@@ -41,7 +67,7 @@
               <span>Tiền hàng</span>
             </div>
             <div class="col-6 text-right">
-              <strong>180.000₫</strong>
+              <strong id="total_price"></strong>
             </div>
           </div>
           <div class="row">
@@ -52,7 +78,9 @@
           </div>
           <div class="row">
             <div class="col-4">
-              <button class="btn btn-block">Xóa hết giỏ hàng</button>
+              <button class="btn btn-block" @click="deleteCart()">
+                Xóa hết giỏ hàng
+              </button>
             </div>
             <div class="col-4">
               <button class="btn btn-block">Dùng phiếu mua hàng</button>
@@ -78,10 +106,10 @@
 
           <div class="item">
             <div class="cart-viewmore">
-              <b-button v-b-toggle.viewmore
-              class="btn-cart-viewmore"
-                    variant="btn-cart-viewmore"
-
+              <b-button
+                v-b-toggle.viewmore
+                class="btn-cart-viewmore"
+                variant="btn-cart-viewmore"
                 >Xem thêm Khuyến mãi đặc biệt cho đơn 50.000₫
 
                 <font-awesome-icon
@@ -129,28 +157,87 @@ export default {
   methods: {
     async getData() {
       var cart_data = cart.getCookie("cart");
-      cart_data = JSON.parse(cart_data);
-      var product_data = [];
-      for (var i = 0; i < cart_data.length; i++) {
-        const response = await axios.get(
-          "http://api.tvtp.vn/v0/product-detail/" + cart_data[i].id,
-          {
-            headers: {
-              Authorization:
-                "Bearer cb68e963404f0b1b62229f37cf77013b7f97729b6722ae7d17e8315e9eabcbe3"
+      if (cart_data) {
+        cart_data = JSON.parse(cart_data);
+        var product_data = [];
+        for (var i = 0; i < cart_data.length; i++) {
+          const response = await axios.get(
+            "http://api.tvtp.vn/v0/product-detail/" + cart_data[i].id,
+            {
+              headers: {
+                Authorization:
+                  "Bearer cb68e963404f0b1b62229f37cf77013b7f97729b6722ae7d17e8315e9eabcbe3"
+              }
             }
-          }
-        );
-        var data = response.data.data;
-        data.quantity = cart_data[i].quantity;
-        product_data = product_data.concat(data);
-        // console.log(product_data);
-
-        // this.products = this.products.push(response.data);
-        // this.products = this.products.push(cart_data[i].quantity);
+          );
+          var data = response.data.data;
+          data.quantity = cart_data[i].quantity;
+          product_data = product_data.concat(data);
+        }
+        console.log(product_data);
+        console.log(cart_data);
+        this.products = product_data;
       }
-      console.log(product_data);
-      this.products = product_data;
+
+      this.totalPrice();
+    },
+
+    totalPrice() {
+      var total_price = 0;
+      var cart_data = cart.getCookie("cart");
+      if (cart_data) {
+        cart_data = JSON.parse(cart_data);
+        for (var i = 0; i < cart_data.length; i++) {
+          var quantity = cart_data[i].quantity;
+          var price = cart_data[i].price;
+          total_price += price * quantity;
+        }
+        total_price = new Intl.NumberFormat("en-US").format(total_price);
+      }
+      
+      document.getElementById("total_price").innerHTML = total_price + " đ";
+      console.log(total_price);
+    },
+
+    plusToCart(id, price) {
+      cart.plus(id, price);
+      var quantity_input = document.getElementById(`quantity-input-${id}`);
+      var quantity = Number(quantity_input.value);
+      quantity_input.value = quantity + 1;
+      console.log(quantity);
+      price = price * (quantity + 1);
+      price = new Intl.NumberFormat("en-US").format(price);
+      document.getElementById(`total-price-${id}`).innerHTML = price + " đ";
+      this.totalPrice();
+    },
+    minusToCart(id, price) {
+      cart.minus(id, price);
+      var quantity_input = document.getElementById(`quantity-input-${id}`);
+      var quantity = Number(quantity_input.value);
+      if (quantity <= 1) {
+        document.getElementById(`item-${id}`).style.display = "none";
+      } else {
+        quantity_input.value = quantity - 1;
+        price = price * (quantity - 1);
+        price = new Intl.NumberFormat("en-US").format(price);
+        document.getElementById(`total-price-${id}`).innerHTML = price + " đ";
+      }
+      console.log(quantity);
+      this.totalPrice();
+    },
+    removeToCart(id) {
+      cart.remove(id);
+      document.getElementById(`item-${id}`).style.display = "none";
+      this.totalPrice();
+    },
+    deleteCart() {
+      cart.delete();
+      var classItem = document.getElementsByClassName("item");
+      for (var i = 0; i < classItem.length; i++) {
+        classItem[i].style.display = "none";
+      }
+      // console.log(classItem[0]);
+      this.totalPrice();
     }
   }
 };

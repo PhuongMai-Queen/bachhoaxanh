@@ -97,7 +97,7 @@
   position: relative;
 }
 
-.mobile_cart .quantity-group .quantity-item i {
+.mobile_cart .quantity-group .quantity-item button {
   float: left;
   width: 31px;
   font-size: 23px;

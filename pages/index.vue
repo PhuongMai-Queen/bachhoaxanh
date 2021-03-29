@@ -349,7 +349,7 @@
                       <span>{{ item.price_formatted }}</span>
                     </div>
                     <div class="buy col-5">
-                      <button type="button" class="" @click="addToCart(item.id)">
+                      <button type="button" class="" @click="addToCart(item.id, item.price)">
                         MUA
                       </button>
                     </div>
@@ -2776,6 +2776,8 @@
 <script>
 import axios from "~/node_modules/axios";
 import { VueAgile } from "~/node_modules/vue-agile";
+import cart from "~/assets/js/cart.js";
+
 export default {
   components: {
     agile: VueAgile
@@ -2826,7 +2828,7 @@ export default {
       this.limit = this.limit + 9;
       this.products = [];
       this.totalPages();
-    }
+    },
   }
 };
 </script>

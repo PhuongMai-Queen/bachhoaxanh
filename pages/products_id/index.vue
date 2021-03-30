@@ -4,7 +4,7 @@
   </div>
   <div v-else-if="$device.isTablet">
     Content Tablet
-  </div>
+  </div>l
   <div v-else class="mobile_content">
     <b-sidebar id="sidebar-filter">
       <template #footer="{ hide }">
@@ -298,7 +298,7 @@
             </b-row>
           </b-col>
         </b-row>
-        <div class="scrollfilter fixtop">
+        <div class="scrollfilter fixtop" id="fixtop">
           <div class="more px80" id="btntop-showfilter">
             <i class="bhx-smanu"></i>
             <span>Lọc tìm</span>
@@ -788,6 +788,13 @@ export default {
   },
   async created() {
     this.totalPages();
+    window.onscroll = function() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.querySelector("#fixtop").style.display = "block";
+      } else {
+        document.querySelector("#fixtop").style.display = "none";
+      }
+    };
   },
   methods: {
     async totalPages() {

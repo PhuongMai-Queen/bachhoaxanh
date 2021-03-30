@@ -25,7 +25,7 @@
       </div>
       <div class="boxbuy-area">
         <div class="group-price">
-          {{product.price}}
+          {{product.price_formatted}}
         </div>
         <nuxt-link to="#" class="choosebuy">MUA NGAY</nuxt-link>
       </div>

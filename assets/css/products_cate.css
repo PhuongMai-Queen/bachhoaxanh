@@ -12,7 +12,7 @@
 .cateproduct_id{
   padding-top: 115px;
 }
-.box-filter span {
+.box-filter .col b {
   border: 1px solid #008848;
   border-radius: 5px;
   margin: 0 -11px 8px;
@@ -22,7 +22,7 @@
   position: relative;
   display: table;
 }
-.box-filter span b{
+.box-filter b{
   display: block;
   text-align: center;
   color: #008848;
@@ -58,7 +58,7 @@
   float: right;
   font-weight: 600;
 }
-.box-filter span > em {
+.box-filter .col em {
   position: absolute;
   height: 100%;
   right: -4px;
@@ -74,7 +74,7 @@
   border: none;
 }
 .box-filter{}
-.box-filter span em:after {
+.box-filter .col em:after {
   content: '';
   background-image: url(//cdn.tgdd.vn/bachhoaxanh/www/Content/images/bhx@2x.v202103231525.png);
   background-repeat: no-repeat;

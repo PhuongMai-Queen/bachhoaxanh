@@ -21,58 +21,34 @@
         </b-row>
         <b-row class="box-filter">
           <b-col>
-                <span :class=" showDismissibleAlert_count ? null : 'collapsed'"
-                      :aria-expanded=" showDismissibleAlert_count ? 'true' : 'false'"
-                      aria-controls="collapse-4"
-                      @click=" showDismissibleAlert_count = ! showDismissibleAlert_count">
-                    <b> Giá cao <br> đến thấp </b>
-                    <b-alert v-model="showDismissibleAlert_count">
-     <em></em>
-    </b-alert>
-                  </span>
+            <div  @click="showTick('gia-cao-den-thap')">
+              <b> Giá cao <br> đến thấp </b>
+              <em id="gia-cao-den-thap" style="display: none"></em>
+            </div>
           </b-col>
           <b-col>
-                       <span :class=" showDismissibleAlert_countdown? null : 'collapsed'"
-                             :aria-expanded=" showDismissibleAlert_countdown ? 'true' : 'false'"
-                             aria-controls="collapse-4"
-                             @click=" showDismissibleAlert_countdown = ! showDismissibleAlert_countdown">
-                    <b> Giá cao <br> đến thấp </b>
-                    <b-alert v-model="showDismissibleAlert_countdown">
-     <em></em>
-    </b-alert>
-                  </span>
+            <div  @click="showTick('gia-thap-den-cao')">
+              <b> Giá thấp <br> đến cao </b>
+              <em id="gia-thap-den-cao" style="display: none"></em>
+            </div>
           </b-col>
           <b-col>
-                        <span :class="showDismissibleAlert_sales? null : 'collapsed'"
-                              :aria-expanded=" showDismissibleAlert_sales? 'true' : 'false'"
-                              aria-controls="collapse-4"
-                              @click="showDismissibleAlert_sales = ! showDismissibleAlert_sales">
-                    <b> Khuyễn mãi  <br>nhiều hơn </b>
-                    <b-alert v-model="showDismissibleAlert_sales">
-     <em></em>
-    </b-alert>
-                  </span>
+            <div  @click="showTick('khuyen-mai-nhieu-hon')">
+              <b> Khuyễn mãi  <br>nhiều hơn </b>
+              <em id="khuyen-mai-nhieu-hon" style="display: none"></em>
+            </div>
           </b-col>
           <b-col>
-                      <span :class="showDismissible_bestsales ? null : 'collapsed'"
-                            :aria-expanded=" showDismissible_bestsales ? 'true' : 'false'"
-                            aria-controls="collapse-4"
-                            @click="showDismissible_bestsales = ! showDismissible_bestsales">
-                    <b> Sản phẩm <br> bán chạy </b>
-                    <b-alert v-model="showDismissible_bestsales">
-     <em></em>
-    </b-alert>
-                  </span></b-col>
+            <div  @click="showTick('san-pham-ban-chay')">
+              <b> Sản phẩm <br> bán chạy </b>
+              <em id="san-pham-ban-chay" style="display: none"></em>
+            </div>
+          </b-col>
           <b-col>
-                     <span :class="showDismissible_newproducts ? null : 'collapsed'"
-                           :aria-expanded=" showDismissible_newproducts ? 'true' : 'false'"
-                           aria-controls="collapse-4"
-                           @click="showDismissible_newproducts = ! showDismissible_newproducts">
-                    <b> Sản phẩm  <br> mới về  </b>
-                    <b-alert v-model="showDismissible_newproducts">
-     <em></em>
-    </b-alert>
-                  </span>
+            <div  @click="showTick('san-pham-moi-ve')">
+              <b> Sản phẩm  <br> mới về  </b>
+              <em id="san-pham-moi-ve" style="display: none"></em>
+            </div>
           </b-col>
         </b-row>
         <span></span>
@@ -83,60 +59,34 @@
         </b-row>
         <b-row class="box-filter">
           <b-col>
-                <span :class="nuocngot_dangcay ? null : 'collapsed'"
-                      :aria-expanded=" nuocngot_dangcay ? 'true' : 'false'"
-                      aria-controls="collapse-4"
-                      @click="nuocngot_dangcay = ! nuocngot_dangcay">
-                    <b> Nước ngọt <br> dạng cây  </b>
-                                    <b-alert v-model="nuocngot_dangcay">
-     <em></em>
-    </b-alert>
-                  </span>
+            <div  @click="showTick('nuoc-ngot-dang-cay')">
+              <b> Nước ngọt <br> dạng cây  </b>
+              <em id="nuoc-ngot-dang-cay" style="display: none"></em>
+            </div>
           </b-col>
           <b-col>
-                  <span :class="nuocngot_lonnho ? null : 'collapsed'"
-                        :aria-expanded=" nuocngot_lonnho ? 'true' : 'false'"
-                        aria-controls="collapse-4"
-                        @click="nuocngot_lonnho = ! nuocngot_lonnho">
-                    <b>
-                     Nước ngọt <br> lon nhỏ
-                    </b>
-                                   <b-alert v-model="nuocngot_lonnho">
-     <em></em>
-    </b-alert>
-                     </span>
+            <div  @click="showTick('nuoc-ngot-lon-nho')">
+              <b>Nước ngọt <br> lon nhỏ</b>
+              <em id="nuoc-ngot-lon-nho" style="display: none"></em>
+            </div>
           </b-col>
           <b-col>
-                  <span :class="nuocngot_chailon ? null : 'collapsed'"
-                        :aria-expanded=" nuocngot_chailon ? 'true' : 'false'"
-                        aria-controls="collapse-4"
-                        @click="nuocngot_chailon = ! nuocngot_chailon">
-                  <b> Nước ngọt <br> chai lớn </b>
-                                              <b-alert v-model="nuocngot_chailon">
-     <em></em>
-    </b-alert>
-                  </span>
+            <div  @click="showTick('nuoc-ngot-chai-lon')">
+              <b> Nước ngọt <br> chai lớn </b>
+              <em id="nuoc-ngot-chai-lon" style="display: none"></em>
+            </div>
           </b-col>
           <b-col>
-                <span :class="showDismissible_newproducts ? null : 'collapsed'"
-                      :aria-expanded=" nuocngot_chainho ? 'true' : 'false'"
-                      aria-controls="collapse-4"
-                      @click="nuocngot_chainho = ! nuocngot_chainho">
-                  <b>Nước ngọt <br> chai nhỏ  </b>
-                                  <b-alert v-model="nuocngot_chainho">
-     <em></em>
-    </b-alert>
-                </span></b-col>
+            <div  @click="showTick('nuoc-ngot-chai-nho')">
+              <b>Nước ngọt <br> chai nhỏ  </b>
+              <em id="nuoc-ngot-chai-nho" style="display: none"></em>
+            </div>
+          </b-col>
           <b-col>
-               <span :class=" nuocngot_dangloc ? null : 'collapsed'"
-                     :aria-expanded="  nuocngot_dangloc ? 'true' : 'false'"
-                     aria-controls="collapse-4"
-                     @click="nuocngot_dangloc = ! nuocngot_dangloc">
-                  <b>Nước ngọt <br> dạng lốc</b>
-                                 <b-alert v-model="nuocngot_dangloc">
-     <em></em>
-    </b-alert>
-                </span>
+            <div  @click="showTick('nuoc-ngot-dang-loc')">
+              <b>Nước ngọt <br> dạng lốc</b>
+              <em id="nuoc-ngot-dang-loc" style="display: none"></em>
+            </div>
           </b-col>
         </b-row>
       </b-container>
@@ -146,56 +96,28 @@
         </b-row>
         <b-row class="box-filter">
           <b-col>
-            <nuxt-link to="#">
-                      <span
-                        :aria-expanded="  brand1 ? 'true' : 'false'"
-                        aria-controls="collapse-4"
-                        @click="brand1 = ! brand1">
-                    <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="100%">
-                        <b-alert v-model="brand1">
-     <em></em>
-    </b-alert>
-                    </span>
-            </nuxt-link>
+            <div  @click="showTick('brand-1')">
+              <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="100%">
+              <em id="brand-1" style="display: none"></em>
+            </div>
           </b-col>
           <b-col>
-            <nuxt-link to="#">
-                       <span
-                         :aria-expanded="  brand2 ? 'true' : 'false'"
-                         aria-controls="collapse-4"
-                         @click="brand2 = ! brand2">
-                    <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="100%">
-                                            <b-alert v-model="brand2">
-     <em></em>
-    </b-alert>
-                    </span>
-            </nuxt-link>
+            <div  @click="showTick('brand-2')">
+              <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="100%">
+              <em id="brand-2" style="display: none"></em>
+            </div>
           </b-col>
           <b-col>
-            <nuxt-link to="#">
-                       <span
-                         :aria-expanded="  brand3 ? 'true' : 'false'"
-                         aria-controls="collapse-4"
-                         @click="brand3 = ! brand3">
-                    <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="100%">
-                                            <b-alert v-model="brand3">
-     <em></em>
-    </b-alert>
-                    </span>
-            </nuxt-link>
+            <div  @click="showTick('brand-3')">
+              <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="100%">
+              <em id="brand-3" style="display: none"></em>
+            </div>
           </b-col>
           <b-col>
-            <nuxt-link to="#">
-                    <span
-                      :aria-expanded="  brand5 ? 'true' : 'false'"
-                      aria-controls="collapse-4"
-                      @click="brand5 = ! brand5">
-                    <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="100%">
-                                         <b-alert v-model="brand5">
-     <em></em>
-    </b-alert>
-                    </span>
-            </nuxt-link>
+            <div  @click="showTick('brand-4')">
+              <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="100%">
+              <em id="brand-4" style="display: none"></em>
+            </div>
           </b-col>
         </b-row>
       </b-container>
@@ -768,22 +690,7 @@ export default {
       total: [],
       total_pages: null,
       error: null,
-      limit: 9,
-      showDismissibleAlert_count: false,
-      showDismissibleAlert_countdown: false,
-      showDismissibleAlert_sales: false,
-      showDismissible_bestsales: false,
-      showDismissible_newproducts: false,
-      nuocngot_dangcay:false,
-      nuocngot_lonnho:false,
-      nuocngot_chailon:false,
-      nuocngot_chainho:false,
-      nuocngot_dangloc:false,
-      brand1:false,
-      brand2:false,
-      brand3:false,
-      brand4:false,
-      brand5:false,
+      limit: 9
     }
   },
   async created() {
@@ -829,6 +736,13 @@ export default {
     viewMore(){
       document.querySelector("#minheight").style.maxHeight = "max-content";
       document.querySelector("#viewmore").style.display = "none";
+    },
+    showTick(name){
+      if(document.getElementById(name).style.display === "none"){
+        document.getElementById(name).style.display = "block";
+      }else{
+        document.getElementById(name).style.display = "none";
+      }
     }
   }
 }

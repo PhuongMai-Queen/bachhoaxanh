@@ -107,6 +107,8 @@
   font-weight: 400;
   padding: 3px;
   line-height: 14px;
+  border-top: 1px solid #e4e9f2;
+  min-height: 48px;
 }
 .cateproduct .product div .product-box img{
   border-top-left-radius: 7px;
@@ -136,6 +138,8 @@
 .cateproduct .product div .product-box .box-buy .buy button{
   border: none;
   background-color: #fff;
+  border-left: 1px solid #ececec;
+  padding-left: 3px;
 }
 .cateproduct .product .product-item{
   padding: 3px;
@@ -216,4 +220,42 @@
 }
 .cate-item-bottom{
   margin-bottom: 5px;
+}
+.updown .quantity-group .quantity-item{
+  display: flex;
+  border-top: 1px solid #e4e9f2;
+}
+.updown .quantity-group .quantity-item button{
+  text-align: center;
+  border: none;
+  border-top: 0;
+  height: 36px;
+  line-height: 30px;
+  cursor: pointer;
+  background: #fff;
+  font-style: normal;
+  position: relative;
+  width: calc(100%/3);
+  font-size: 20px;
+  color: #1f884c;
+}
+.updown .quantity-group .quantity-item .down{
+  border-right: 1px solid #ececec;
+  border-bottom-left-radius: 8px;
+}
+.updown .quantity-group .quantity-item .up{
+  border-bottom-right-radius: 8px;
+  border-left: 1px solid #ececec;
+}
+.updown .quantity-group .quantity-item .quantity-input{
+  font-size: 16px;
+  color: #333;
+  float: left;
+  width: calc(100%/3);
+  height: 36px;
+  text-align: center;
+  line-height: 30px;
+  border: 0;
+  border-radius: 0;
+  background: #f5f8fd;
 }

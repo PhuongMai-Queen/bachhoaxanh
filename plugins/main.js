@@ -8,7 +8,5 @@ Vue.mixin({
         addToCart(id, price) {
             cart.add(id, price);
         },
-
-
     }
 })

@@ -334,6 +334,15 @@
                           </div>
                         </a>
                       </div>
+<!--                      <div class="updown">-->
+<!--                        <div class="quantity-group">-->
+<!--                          <div class="quantity-item">-->
+<!--                            <button type="button" class="down">-</button>-->
+<!--                            <input type="number" value="1" class="quantity-input"/>-->
+<!--                            <button type="button" id="plus" class="up">+</button>-->
+<!--                          </div>-->
+<!--                        </div>-->
+<!--                      </div>-->
                     </div>
                   </div>
                 </div>
@@ -2980,7 +2989,6 @@ import {
   mdbNavItem,
   mdbCol
 } from "mdbvue";
-
 export default {
   components: {
     agile: VueAgile,
@@ -3095,7 +3103,7 @@ export default {
         }
       ]
       this.loading = false;
-    }, 1000)
+    }, 1000);
   },
   directives: {mdbScrollSpy}
 }

@@ -10,7 +10,7 @@
   font-size: 15px;
 }
 .cateproduct_id{
-  padding-top: 115px;
+  padding-top: 5%;
 }
 .box-filter .col b {
   border: 1px solid #008848;
@@ -132,11 +132,11 @@
   width: 100%;
   max-width: 640px;
 }
-.scrollfilter div.more.px80 {
+.scrollfilter div.more_procduct.px80 {
   width: 80px;
 }
 
-.scrollfilter div.more {
+.scrollfilter div.more_procduct {
   position: absolute;
   background: #f5f8fd;
   width: 60px;
@@ -201,5 +201,198 @@
   line-height: 14px;
   letter-spacing: -.9px;
 }
-/*heloo*/
+/*<!--    bộ lọc tìm kiếm -->*/
+.property {
+  display: block;
+  position: relative;
+  background: #fff;
+}
+.property .title-cate.px80 {
+  width: 80px;
+}
 
+.property .title-cate {
+  text-align: center;
+  padding: 4px 0;
+  position: absolute;
+  z-index: 1;
+  background: #f5f8fd;
+  width: 60px;
+  height: 48px;
+  margin: 0;
+  border-bottom: 1px solid #e4e9f2;
+  border-right: 1px solid #e4e9f2;
+  display: table;
+}
+.property .scroll-lst {
+  padding-top: 7px;
+  padding-left: 85px;
+  padding-right: 7px;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap !important;
+  -webkit-flex-wrap: wrap !important;
+  -ms-flex-wrap: wrap !important;
+  flex-wrap: wrap !important;
+  -ms-overflow-style: none;
+  -ms-scroll-snap-type: mandatory;
+  -ms-scroll-snap-points-x: snapInterval(0%,100%);
+  -ms-scroll-chaining: chained;
+  display: block;
+  overflow: auto;
+}
+.property .scroll-lst .it, .property .scroll-lst .viewmore {
+  display: inline-block;
+  color: #008945;
+  position: relative;
+  margin-left: 5px;
+}
+.property .scroll-lst .it h1, .property .scroll-lst .it p {
+  border-radius: 5px;
+  color: #008945;
+  margin: 7px 2px 3px;
+  font-size: 11px;
+  border: 1px solid #008945;
+  line-height: 14px;
+  width: 60px;
+  height: 37px;
+  max-height: 30px;
+  text-align: center;
+  overflow: hidden;
+  display: table-cell;
+  vertical-align: middle;
+}
+.property .scroll-lst .it h1 b, .property .scroll-lst .it p b {
+  font-weight: normal;
+  max-width: 60px;
+  display: block;
+  letter-spacing: -.9px;
+}
+.property .title-cate h1 {
+  color: #222b45;
+  height: 30px;
+  max-height: 30px;
+  overflow: hidden;
+  display: table-cell;
+  vertical-align: middle;
+}
+.property .title-cate h1 b {
+  width: 100%;
+  display: block;
+  font-weight: normal;
+  max-height: 30px;
+  font-size: 12px;
+  line-height: 16px;
+}
+.manufacture {
+  display: block;
+  background: #fff;
+  position: relative;
+  box-shadow: 0 5px 10px #e9e8e8;
+}
+.manufacture div.more_procduct.px80 {
+  width: 80px;
+}
+.manufacture div.more_procduct {
+  position: absolute;
+  background: #f5f8fd;
+  width: 60px;
+  height: 47px;
+  z-index: 1;
+  border-right: 1px solid #e4e9f2;
+  text-align: center;
+}
+.manufacture div.more_procduct i.bhx-smanu {
+  background-position: -173px -399px;
+  width: 13px;
+  height: 13px;
+
+}
+
+[class^="bhx-"], [class*="bhx-"] {
+  background-image: url(//cdn.tgdd.vn/bachhoaxanh/www/Content/images/bhx@2x.v202103302250.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  line-height: 30px;
+  vertical-align: middle;
+  background-size: 325px auto;
+}
+.manufacture div.more_procduct span {
+  display: block;
+  text-align: center;
+  color: #008848;
+  font-size: 12px;
+}
+.manufacture .scroll-lst.px80 {
+  padding-left: 82px;
+}
+
+.manufacture .scroll-lst {
+  display: block;
+  overflow: hidden;
+  padding-left: 62px;
+  padding-right: 7px;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap !important;
+  -webkit-flex-wrap: wrap !important;
+  -ms-flex-wrap: wrap !important;
+  flex-wrap: wrap !important;
+  -ms-overflow-style: none;
+  -ms-scroll-snap-type: mandatory;
+  -ms-scroll-snap-points-x: snapInterval(0%,100%);
+  -ms-scroll-chaining: chained;
+  position: relative;
+}
+.manufacture .it {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px 0 5px 5px;
+  width: 60px;
+  height: 37px;
+}
+.manufacture a {
+  display: block;
+  color: #0064c2;
+  border: 1px solid #008945;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 37px;
+}
+.manufacture a img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+.property .scroll-lst .viewmore {
+  text-align: center;
+  height: 30px;
+  width: 60px;
+  vertical-align: top;
+}
+
+.property .scroll-lst .it, .property .scroll-lst .viewmore {
+  display: inline-block;
+  color: #008945;
+  position: relative;
+  margin-left: 5px;
+}
+.property .scroll-lst .viewmore i {
+  background: #008945;
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+}
+.property .scroll-lst .viewmore span {
+  font-size: 12px;
+  display: block;
+  line-height: 10px;
+}

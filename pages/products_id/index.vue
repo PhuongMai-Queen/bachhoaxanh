@@ -6,6 +6,191 @@
     Content Tablet
   </div>
   <div v-else class="mobile_content">
+    <!--    bộ lọc tìm kiếm -->
+    <div class="property">
+      <div class="title-cate nolink px80" id="btn-showfilter">
+        <h1><b>Nước ngọt<br>các loại</b></h1>
+      </div>
+      <div class="scroll-lst px80 loaded">
+        <div class="it" data-value="17779:177136" data-id="17779:177136" data-href="/nuoc-ngot-cay" data-hash="cay">
+          <p><b>Nước ngọt<br>dạng cây</b></p>
+          <em></em>
+        </div>
+        <div class="it" data-value="17779:124491" data-id="17779:124491" data-href="/nuoc-ngot-lon" data-hash="lon">
+          <p><b>Nước ngọt<br>lon nhỏ</b></p>
+          <em></em>
+        </div>
+        <div class="it" data-value="17779:124493" data-id="17779:124493" data-href="/nuoc-ngot-chai" data-hash="chai">
+          <p><b>Nước ngọt<br>chai nhỏ</b></p>
+          <em></em>
+        </div>
+        <div class="it" data-value="17779:149374" data-id="17779:149374" data-href="/nuoc-ngot-chai-lon" data-hash="chai-lon">
+          <p><b>Nước ngọt<br>chai lớn</b></p>
+          <em></em>
+        </div>
+        <div class="it" data-value="17779:124494" data-id="17779:124494" data-href="/nuoc-ngot-loc" data-hash="loc">
+          <p><b>Nước ngọt<br>dạng lốc</b></p>
+          <em></em>
+        </div>
+        <div class="it" data-value="17779:124495" data-id="17779:124495" data-href="/nuoc-ngot-thung" data-hash="thung">
+          <p><b>Nước ngọt<br>thùng 24</b></p>
+          <em></em>
+        </div>
+        <div class="it sort" data-value="PriceDesc" data-hash="PriceDesc">
+          <p><b>Giá cao<br>đến thấp</b></p>
+          <em></em>
+        </div>
+        <div class="it sort" data-value="PriceAcs" data-hash="PriceAcs">
+          <p><b>Giá thấp<br>đến cao</b></p>
+          <em></em>
+        </div>
+        <div class="it sort" data-value="OnlyPromotion" data-hash="OnlyPromotion">
+          <p><b>Khuyến mãi<br>nhiều hơn</b></p>
+          <em></em>
+        </div>
+        <div class="it sort" data-value="TopSale" data-hash="TopSale">
+          <p><b>Sản phẩm<br>bán chạy</b></p>
+          <em></em>
+        </div>
+        <p class="viewmore">
+          <i></i>
+          <span>Xem thêm</span>
+        </p>
+
+      </div>
+    </div>
+    <div class="manufacture" >
+      <div class="more_procduct px80" id="btn-showfilter" v-b-toggle.sidebar-filter>
+        <i class="bhx-smanu"></i>
+        <span>Lọc tìm</span>
+      </div>
+      <div class="scroll-lst px80 loaded">
+        <div class="it">
+          <a data-id="22187" data-hash="pepsi" title="Pepsi" href="/nuoc-ngot-pepsi">
+            <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/pepsi-25092020163114.png" alt="Pepsi">
+
+            <em></em>
+          </a>
+        </div>
+        <div class="it">
+          <a data-id="21583" data-hash="coca-cola" title="Coca Cola" href="/nuoc-ngot-coca-cola">
+            <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/coca-cola-2309202010534.png" alt="Coca Cola">
+
+            <em></em>
+          </a>
+        </div>
+        <div class="it">
+          <a data-id="21662" data-hash="sprite" title="Sprite" href="/nuoc-ngot-sprite">
+            <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/sprite-24092020111818.png" alt="Sprite">
+
+            <em></em>
+          </a>
+        </div>
+        <div class="it">
+          <a data-id="22291" data-hash="fanta" title="Fanta" href="/nuoc-ngot-fanta">
+            <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/fanta-15032021112040.jpg" alt="Fanta">
+
+            <em></em>
+          </a>
+        </div>
+        <div class="it">
+          <a data-id="20970" data-hash="7-up" title="7 Up" href="/nuoc-ngot-7-up">
+            <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/7-up-2109202095322.png" alt="7 Up">
+
+            <em></em>
+          </a>
+        </div>
+        <div class="it">
+          <a data-id="21730" data-hash="schweppes" title="Schweppes" href="/nuoc-ngot-schweppes">
+            <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/schweppes-12032021213452.jpg" alt="Schweppes">
+
+            <em></em>
+          </a>
+        </div>
+        <div class="it">
+          <a data-id="22125" data-hash="mirinda" title="Mirinda" href="/nuoc-ngot-mirinda">
+            <img width="65" height="40" class="lazy initial loaded" data-src="//cdn.tgdd.vn/Brand/11/mirinda-25092020145639.png" alt="Mirinda" src="//cdn.tgdd.vn/Brand/11/mirinda-25092020145639.png" data-was-processed="true">
+
+            <em></em>
+          </a>
+        </div>
+        <div class="it">
+          <a data-id="21561" data-hash="chuong-duong" title="Chương Dương" href="/nuoc-ngot-chuong-duong">
+            <img width="65" height="40" class="lazy initial loaded" data-src="//cdn.tgdd.vn/Brand/11/chuong-duong-1403202121425.jpg" alt="Chương Dương" src="//cdn.tgdd.vn/Brand/11/chuong-duong-1403202121425.jpg" data-was-processed="true">
+
+            <em></em>
+          </a>
+        </div>
+        <div class="it">
+          <p class="viewmore">
+            <i></i>
+            <span>Xem thêm</span>
+          </p>
+        </div>
+
+      </div>
+    </div>
+    <div class="groupcate">
+        <div class="scrollfilter fixtop" id="fixtop">
+          <div class="more_procduct px80" id="btntop-showfilter">
+            <i class="bhx-smanu"></i>
+            <span>Lọc tìm</span>
+          </div>
+          <div class="scroll-lst px80 loaded"><div class="it"><a data-id="22187" data-hash="pepsi" title="Pepsi" href="/nuoc-ngot-pepsi"> <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/pepsi-25092020163114.png" alt="Pepsi"> <em></em> </a></div><div class="it" data-value="17779:177136" data-id="17779:177136" data-href="/nuoc-ngot-cay" data-hash="cay" title="Nước ngọt dạng cây"><span><b>Nước ngọt<br>dạng cây</b></span> <em></em></div><div class="it"><a data-id="21583" data-hash="coca-cola" title="Coca Cola" href="/nuoc-ngot-coca-cola"> <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/coca-cola-2309202010534.png" alt="Coca Cola"> <em></em> </a></div><div class="it" data-value="17779:124491" data-id="17779:124491" data-href="/nuoc-ngot-lon" data-hash="lon" title="Nước ngọt lon nhỏ"><span><b>Nước ngọt<br>lon nhỏ</b></span> <em></em></div><div class="it"><a data-id="21662" data-hash="sprite" title="Sprite" href="/nuoc-ngot-sprite"> <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/sprite-24092020111818.png" alt="Sprite"> <em></em> </a></div><div class="it" data-value="17779:124493" data-id="17779:124493" data-href="/nuoc-ngot-chai" data-hash="chai" title="Nước ngọt chai nhỏ"><span><b>Nước ngọt<br>chai nhỏ</b></span> <em></em></div><div class="it"><a data-id="22291" data-hash="fanta" title="Fanta" href="/nuoc-ngot-fanta"> <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/fanta-15032021112040.jpg" alt="Fanta"> <em></em> </a></div><div class="it" data-value="17779:149374" data-id="17779:149374" data-href="/nuoc-ngot-chai-lon" data-hash="chai-lon" title="Nước ngọt chai lớn"><span><b>Nước ngọt<br>chai lớn</b></span> <em></em></div><div class="it"><a data-id="20970" data-hash="7-up" title="7 Up" href="/nuoc-ngot-7-up"> <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/7-up-2109202095322.png" alt="7 Up"> <em></em> </a></div><div class="it" data-value="17779:124494" data-id="17779:124494" data-href="/nuoc-ngot-loc" data-hash="loc" title="Nước ngọt dạng lốc"><span><b>Nước ngọt<br>dạng lốc</b></span> <em></em></div><div class="it"><p class="viewmore_procduct"><i></i> <span>Xem thêm</span></p></div></div>
+        </div>
+        <b-row style="display: none">
+          <b-col v-b-toggle.sidebar-filter  style="outline: none;">
+
+            <b-row class="serch_collab">
+              <span >Lọc tìm <br> <font-awesome-icon :icon="['fas', 'search']" ></font-awesome-icon></span>
+            </b-row>
+          </b-col>
+          <b-col cols="8">
+            <b-row class="mb-2">
+              <b-col>
+                <div class="listgroup">
+                  <nuxt-link to="#">
+                    <span>
+                    <img src="assets/images/brand_products/pepsi-25092020163114.png" width="90%">
+                    </span>
+                  </nuxt-link>
+                  <nuxt-link to="#">
+                    <span> <img src="assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
+                  </nuxt-link>
+                  <nuxt-link to="#">
+                    <span> <img src="assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
+                  </nuxt-link>
+                  <nuxt-link to="#">
+                    <span> <img src="assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
+                  </nuxt-link>
+                  <nuxt-link to="#">
+                    <span> <img src="assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
+                  </nuxt-link>
+                  <nuxt-link to="#">
+                    <span> <img src="assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
+                  </nuxt-link>
+                  <nuxt-link to="#">
+                    <span> <img src="assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
+                  </nuxt-link>
+                  <nuxt-link to="#">
+                    <span> <img src="assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
+                  </nuxt-link>
+                  <nuxt-link to="#">
+                    <span> <img src="assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
+                  </nuxt-link>
+                  <nuxt-link to="#">
+                    <span> <img src="assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
+                  </nuxt-link>
+                  <nuxt-link to="#">
+                    <span> <img src="assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
+                  </nuxt-link>
+                </div>
+              </b-col>
+            </b-row>
+          </b-col>
+        </b-row>
+    </div>
+    <!--        ====end ============-->
     <b-sidebar id="sidebar-filter">
       <template #footer="{ hide }">
         <div class="d-flex align-items-right px-3 py-2">
@@ -126,161 +311,7 @@
         <b-button class="filter-apcept">Áp dụng</b-button>
       </div>
     </b-sidebar>
-    <div class="groupcate">
-      <b-container class="bv-example-row">
-        <b-row>
-          <b-col v-b-toggle.sidebar-filter  style="outline: none;">
-            <b-row class="products_id">
-              <span>Nước ngọt<br>các loại </span>
-            </b-row>
-            <b-row class="serch_collab">
-              <span >Lọc tìm <br> <font-awesome-icon :icon="['fas', 'search']" ></font-awesome-icon></span>
-            </b-row>
-          </b-col>
-          <b-col cols="8">
-            <b-row class="mb-2">
-              <b-col order="1">
-                <div class="listgroup">
-                  <nuxt-link to="#">
-                    <span>Nước ngọt<br> trái cây </span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span>Nước ngọt<br> các loại</span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span>Nước ngọt<br> các loại</span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span>Nước ngọt<br> các loại</span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span>Nước ngọt<br> các loại</span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span>Nước ngọt<br> các loại</span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span>Nước ngọt<br> các loại</span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span>Nước ngọt<br> các loại</span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span>Nước ngọt<br> các loại</span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span>Nước ngọt<br> các loại</span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span>Nước ngọt<br> các loại</span>
-                  </nuxt-link>
-                </div>
-              </b-col>
-            </b-row>
-            <b-row class="mb-2">
-              <b-col>
-                <div class="listgroup">
-                  <nuxt-link to="#">
-                    <span>
-                    <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="90%">
-                    </span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span> <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span> <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span> <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span> <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span> <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span> <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span> <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span> <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span> <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span> <img src="~/assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
-                  </nuxt-link>
-                </div>
-              </b-col>
-            </b-row>
-          </b-col>
-        </b-row>
-        <div class="scrollfilter fixtop" id="fixtop">
-          <div class="more px80" id="btntop-showfilter">
-            <i class="bhx-smanu"></i>
-            <span>Lọc tìm</span>
-          </div>
-          <div class="scroll-lst px80 loaded"><div class="it"><a data-id="22187" data-hash="pepsi" title="Pepsi" href="/nuoc-ngot-pepsi"> <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/pepsi-25092020163114.png" alt="Pepsi"> <em></em> </a></div><div class="it" data-value="17779:177136" data-id="17779:177136" data-href="/nuoc-ngot-cay" data-hash="cay" title="Nước ngọt dạng cây"><span><b>Nước ngọt<br>dạng cây</b></span> <em></em></div><div class="it"><a data-id="21583" data-hash="coca-cola" title="Coca Cola" href="/nuoc-ngot-coca-cola"> <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/coca-cola-2309202010534.png" alt="Coca Cola"> <em></em> </a></div><div class="it" data-value="17779:124491" data-id="17779:124491" data-href="/nuoc-ngot-lon" data-hash="lon" title="Nước ngọt lon nhỏ"><span><b>Nước ngọt<br>lon nhỏ</b></span> <em></em></div><div class="it"><a data-id="21662" data-hash="sprite" title="Sprite" href="/nuoc-ngot-sprite"> <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/sprite-24092020111818.png" alt="Sprite"> <em></em> </a></div><div class="it" data-value="17779:124493" data-id="17779:124493" data-href="/nuoc-ngot-chai" data-hash="chai" title="Nước ngọt chai nhỏ"><span><b>Nước ngọt<br>chai nhỏ</b></span> <em></em></div><div class="it"><a data-id="22291" data-hash="fanta" title="Fanta" href="/nuoc-ngot-fanta"> <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/fanta-15032021112040.jpg" alt="Fanta"> <em></em> </a></div><div class="it" data-value="17779:149374" data-id="17779:149374" data-href="/nuoc-ngot-chai-lon" data-hash="chai-lon" title="Nước ngọt chai lớn"><span><b>Nước ngọt<br>chai lớn</b></span> <em></em></div><div class="it"><a data-id="20970" data-hash="7-up" title="7 Up" href="/nuoc-ngot-7-up"> <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/7-up-2109202095322.png" alt="7 Up"> <em></em> </a></div><div class="it" data-value="17779:124494" data-id="17779:124494" data-href="/nuoc-ngot-loc" data-hash="loc" title="Nước ngọt dạng lốc"><span><b>Nước ngọt<br>dạng lốc</b></span> <em></em></div><div class="it"><p class="viewmore"><i></i> <span>Xem thêm</span></p></div></div>
-        </div>
-        <b-row style="display: none">
-          <b-col v-b-toggle.sidebar-filter  style="outline: none;">
 
-            <b-row class="serch_collab">
-              <span >Lọc tìm <br> <font-awesome-icon :icon="['fas', 'search']" ></font-awesome-icon></span>
-            </b-row>
-          </b-col>
-          <b-col cols="8">
-            <b-row class="mb-2">
-              <b-col>
-                <div class="listgroup">
-                  <nuxt-link to="#">
-                    <span>
-                    <img src="assets/images/brand_products/pepsi-25092020163114.png" width="90%">
-                    </span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span> <img src="assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span> <img src="assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span> <img src="assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span> <img src="assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span> <img src="assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span> <img src="assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span> <img src="assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span> <img src="assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span> <img src="assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
-                  </nuxt-link>
-                  <nuxt-link to="#">
-                    <span> <img src="assets/images/brand_products/pepsi-25092020163114.png" width="90%"></span>
-                  </nuxt-link>
-                </div>
-              </b-col>
-            </b-row>
-          </b-col>
-        </b-row>
-      </b-container>
-    </div>
-    <span></span>
     <div class="cate cateproduct cateproduct_id">
       <div class="product row">
         <div class="product-item col-4">
@@ -650,7 +681,7 @@
           </div>
         </div>
       </div>
-      <div class="viewmore">
+      <div class="viewmore_procduct">
         <span>Còn 123 sản phẩm  <b>đồ uống các loại</b>
           <font-awesome-icon :icon="['fas', 'angle-down']"></font-awesome-icon>
         </span>
@@ -670,7 +701,7 @@
             Ngoài nước ngọt ra nước giải khát còn có thêm những biến thể khác như <a href="https://www.bachhoaxanh.com/nuoc-ngot-nuoc-tang-luc" name="Nước tăng lực chính hãng Bách Hoá XANH" target="_blank" title="Nước tăng lực chính hãng Bách Hoá XANH">nước tăng lực</a>, <a href="https://www.bachhoaxanh.com/nuoc-ngot-bu-khoang" name="Nước bù khoáng, nước uống trong thể thao" target="_blank" title="Nước bù khoáng, nước uống trong thể thao">nước bù khoáng</a> hay thậm chí là nước uống thảo dược giúp bổ sung dưỡng chất và tăng cường sức khoẻ.
             <div class="ovlarticle"></div>
           </article>
-          <div id="viewmore" class="xemthem" @click="viewMore">Xem thêm</div>
+          <div id="viewmore_procduct" class="xemthem" @click="viewmore_procduct">Xem thêm</div>
         </div>
       </div>
     </div>
@@ -733,9 +764,9 @@ export default {
       this.products = [];
       this.totalPages();
     },
-    viewMore(){
+    viewmore_procduct(){
       document.querySelector("#minheight").style.maxHeight = "max-content";
-      document.querySelector("#viewmore").style.display = "none";
+      document.querySelector("#viewmore_procduct").style.display = "none";
     },
     showTick(name){
       if(document.getElementById(name).style.display === "none"){

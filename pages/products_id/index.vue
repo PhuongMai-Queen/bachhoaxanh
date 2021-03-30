@@ -4,7 +4,7 @@
   </div>
   <div v-else-if="$device.isTablet">
     Content Tablet
-  </div>l
+  </div>
   <div v-else class="mobile_content">
     <b-sidebar id="sidebar-filter">
       <template #footer="{ hide }">
@@ -788,6 +788,9 @@ export default {
   },
   async created() {
     this.totalPages();
+
+  },
+  mounted() {
     window.onscroll = function() {
       if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         document.querySelector("#fixtop").style.display = "block";

@@ -785,7 +785,7 @@
             uống thảo dược giúp bổ sung dưỡng chất và tăng cường sức khoẻ.
             <div class="ovlarticle"></div>
           </article>
-          <div id="viewmore_procduct" class="xemthem" @click="viewmore_procduct">Xem thêm</div>
+          <div id="viewmore" class="xemthem" @click="viewmore_procduct">Xem thêm</div>
         </div>
       </div>
     </div>
@@ -815,7 +815,7 @@ export default {
   },
   mounted() {
     window.onscroll = function () {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      if (document.body.scrollTop > 10   || document.documentElement.scrollTop > 10 ) {
         document.querySelector("#fixtop").style.display = "block";
       } else {
         document.querySelector("#fixtop").style.display = "none";
@@ -851,7 +851,7 @@ export default {
     },
     viewmore_procduct() {
       document.querySelector("#minheight").style.maxHeight = "max-content";
-      document.querySelector("#viewmore_procduct").style.display = "none";
+      document.querySelector("#viewmore").style.display = "none";
     },
     showTick(name) {
       if (document.getElementById(name).style.display === "none") {

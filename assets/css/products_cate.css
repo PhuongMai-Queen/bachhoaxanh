@@ -34,7 +34,7 @@
   color: #222b45;
   margin-bottom: 10px;
   padding-left: 5px;
-  margin-top: 3%;
+  margin-top: 10%;
 }
 .footer-filter{
   position: fixed;
@@ -62,7 +62,7 @@
 .box-filter .col em {
   position: absolute;
   height: 100%;
-  right: -4px;
+  right: 14px;
   top: -4px;
   width: 100%;
 }
@@ -398,10 +398,10 @@
   line-height: 10px;
 }
 .viewmore{
-  width: 75px;
+  width: 64px;
   background: #fff;
   color: #008848;
-  font-size: 14px;
+  font-size: 13px;
   display: flex;
   margin: 0 8px;
   height: 37px;
@@ -409,4 +409,7 @@
   align-items: center;
   border-radius: 8px;
   border: 1px solid #008848;
+}
+.b-icon.bi {
+  display: none !important;
 }

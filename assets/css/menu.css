@@ -1,5 +1,9 @@
-.b-sidebar{
-  width: 100% !important;
+.b-sidebar > .b-sidebar-footer{
+  width: 100%;
+}
+.b-sidebar-footer .align-items-right{
+  padding: 0 !important;
+  position: relative;
 }
 .b-sidebar-body nav .mainnav .col-8{
   background-color: #fff;
@@ -25,57 +29,37 @@
 }
 .b-sidebar-footer .align-items-right .btn-secondary {
   color: #000;
-  padding: 14px 0;
+  padding: 15px 42px;
   background-color: #F5F8FD;
   border: none;
+  position: absolute;
+  right: 0;
 }
 .b-sidebar-footer .align-items-right .btn-secondary:active{
   color: #000;
   background-color: #F5F8FD;
 }
-/*.nav-pills .nav-item{*/
-/*  width: 100%;*/
-/*  padding: 20px 0px 20px 5px;*/
-/*}*/
-.list-group-item,
 .promotion-navbar{
   background-color: #F5F8FD;
   border: none;
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: bold;
   padding: 20px 0px 20px 5px;
   color: #1d1d1d;
 }
-.list-group-item,
-.promotion-navbar{
-  background-color: #F5F8FD;
-  border: none;
-  text-transform: uppercase;
-  font-size: 10px;
-  font-weight: bold;
-  padding: 20px 0px 20px 5px;
-  color: #1d1d1d;
+.promotion-navbar img{
+  width: 6%;
 }
 .list-group-item.active{
   background: #fff;
   border-left: 5px solid #00ac5b;
   color: #037841 !important;
 }
-/*.nav-pills .nav-item a{*/
-/*  padding: 0;*/
-/*  line-height: 16px;*/
-/*  font-size: 11px;*/
-/*  font-weight: bold;*/
-/*  color: #1d1d1d;*/
-/*  text-transform: uppercase;*/
-/*}*/
 .input-menu-search{
   background-color: #fff;
-  padding: 13.5px;
-  position: fixed;
-  width: 66%;
-  z-index: 2;
+  padding: 14px;
+  position: relative;
 }
 .input-menu-search svg{
   position: absolute;
@@ -140,4 +124,37 @@
   width: 65%;
   height: 736px;
   overflow-y: scroll;
+}
+/* Menu Mobile */
+#sidebar-header .b-sidebar-body .container{
+  padding: 0;
+}
+#sidebar-header .b-sidebar-body .container .menu-top{
+  border-bottom: 1px solid #c5cee0;
+  width: 100%;
+  margin: 0;
+}
+#sidebar-header .b-sidebar-body .container .menu-top-left{
+  padding: 0;
+  border-right: 1px solid #c5cee0;
+}
+#sidebar-header .b-sidebar-body .container .menu-top-left a {
+  display: block;
+  text-align: center;
+}
+
+#sidebar-header .b-sidebar-body .container .menu-top-left a img {
+  width: 40%;
+  text-align: center;
+}
+.mobile-item-menu .item{
+  color: #037841;
+  padding: 15px 0px 15px 18px;
+}
+.mobile-item-menu .item a{
+  display: block;
+  font-size: 11px;
+  font-weight: bold;
+  color: #1d1d1d;
+  text-transform: uppercase;
 }

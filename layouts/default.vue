@@ -3,7 +3,7 @@
     <div v-if="$device.isDesktop">
       <desktop-header />
       <div class="container">
-        <div class="row">
+        <div class="row" style="margin: 0;">
           <div class="col-2"></div>
           <div class="col-10 content_desktop">
             <nuxt />

@@ -1,3 +1,4 @@
+/* MOBILE HEADER */
 .mobile_header {
   background-color: #037841;
   padding: 5px 0;
@@ -141,4 +142,168 @@
 .mobile_header_cart span{
   font-size: 12px;
   color: #fff;
+}
+
+/* DESKTOP HEADER */
+.desktop_header{
+  background-color: #008848;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+.desktop_logo img{
+  width: 118%;
+}
+.desktop_header nav{
+  position: fixed;
+  background-color: #fff;
+  top: 2%;
+  border-radius: 4px 4px 0 0;
+  z-index: 11;
+  width: 14%;
+  padding: 8px 0;
+  height: 100%;
+  /*overflow-y: scroll;*/
+}
+.desktop_header nav span{
+  color: #656565;
+  font-size: 12px;
+  font-weight: 600;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 10px;
+}
+.desktop_header nav span img{
+  width: 12%;
+}
+.desktop_header nav ul{
+  margin-top: 10px;
+  list-style: none;
+}
+.desktop_header nav ul li a
+{
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #1d1d1d;
+  padding: 10px 12px;
+}
+.desktop_header nav ul li a svg{
+  position: absolute;
+  right: 12px;
+}
+.desktop_header nav ul li.collapsed a .fa-angle-down,
+.desktop_header nav ul li.not-collapsed .fa-angle-up{
+  display: block;
+}
+.desktop_header nav ul li.collapsed a .fa-angle-up,
+.desktop_header nav ul li.not-collapsed .fa-angle-down{
+  display: none;
+}
+.desktop_header nav ul .show ul{
+  margin: 0;
+  padding-left: 10px;
+}
+.desktop_header nav ul .show ul li a{
+  display: block;
+  color: #1d1d1d;
+  padding: 6px 7px 6px 10px;
+  font-size: 12px !important;
+  text-transform: none !important;
+  font-weight: 400;
+}
+.desktop_header nav ul .show ul li a:hover{
+  text-decoration: none;
+  color: #008848;
+}
+.desktop_header nav ul .input-side-search{
+  padding: 10px 12px;
+}
+.desktop_header nav ul .input-side-search input{
+  color: #333;
+  font-size: 12px;
+}
+.desktop_header nav ul .menu-side-bottom a{
+  color: #1d1d1d;
+  font-size: 12px;
+  line-height: 30px;
+  padding: 0 10px;
+}
+.desktop_header nav ul .menu-side-bottom a:hover{
+  text-decoration: none;
+}
+.desktop_header nav ul .menu-side-bottom a img{
+  width: 8%;
+}
+/*::-webkit-scrollbar {*/
+/*  width: 3px;*/
+/*}*/
+
+/*!* Track *!*/
+/*::-webkit-scrollbar-track {*/
+/*  background: #f1f1f1;*/
+/*}*/
+
+/*!* Handle *!*/
+/*::-webkit-scrollbar-thumb {*/
+/*  background: #03784154;*/
+/*  border-radius: 20px;*/
+/*}*/
+
+/*!* Handle on hover *!*/
+/*::-webkit-scrollbar-thumb:hover{*/
+/*  background: #037841;*/
+/*  width: 6px;*/
+/*}*/
+.desktop_loca{
+  margin: 8px 0;
+  background-color: #057541;
+  padding: 5px;
+  border-radius: 3px;
+  color: #fff;
+}
+.desktop_loca .loca-parentwrapper{
+  display: flex;
+}
+.desktop_loca .loca-parentwrapper .loca-wrapper{
+  line-height: 15px;
+  display: block;
+  font-size: 11px;
+  height: auto;
+  padding-left: 8px;
+  text-align: left;
+}
+.desktop_loca .loca-parentwrapper .loca-wrapper .current_locate .change{
+  text-decoration: underline;
+}
+.desktop_header .container .mainsearch{
+  position: relative;
+  padding-top: 8px;
+  padding-right: 0;
+}
+.desktop_header .container .mainsearch svg{
+  position: absolute;
+  top: 18px;
+  right: 30px;
+  color: #DBDBDB;
+}
+.desktop_header .container .histories{
+  padding-left: 0;
+}
+.desktop_header .container .histories a{
+  display: inline-block;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  padding: 10px 5px;
+}
+.desktop_header .container .histories a:hover{
+  text-decoration: none;
+}
+.desktop_header .container .desktop_header_cart{
+  padding: 20px 8px;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: #037540;
 }

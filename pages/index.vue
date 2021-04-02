@@ -1,6 +1,42 @@
 <template>
   <div v-if="$device.isDesktop">
-    Content Desktop
+    <div class="desktop_content_banner">
+      <agile :autoplay="true">
+        <div>
+          <img src="~/assets/images/banner/banner_1.jpg" width="100%">
+        </div>
+        <div>
+          <img src="~/assets/images/banner/banner_2.jpg" width="100%">
+        </div>
+        <div>
+          <img src="~/assets/images/banner/banner_3.jpg" width="100%">
+        </div>
+        <div>
+          <img src="~/assets/images/banner/banner_4.jpg"
+               width="100%">
+        </div>
+        <div>
+          <img src="~/assets/images/banner/banner_5.jpg"
+               width="100%">
+        </div>
+        <div>
+          <img src="~/assets/images/banner/banner_6.jpg" width="100%">
+        </div>
+      </agile>
+      <div class="groupcate">
+        <div class="namegroup">Nhóm hàng thường mua</div>
+        <div class="listgroup">
+          <a href="#">
+            <img src="//cdn.tgdd.vn/Products/Images/2386/bhx/sua-tuoi-cac-loai-202103201452535875.jpg">
+            <span>Sữa tươi các loại</span>
+          </a>
+          <a href="#">
+            <img src="//cdn.tgdd.vn/Products/Images/2386/bhx/sua-tuoi-cac-loai-202103201452535875.jpg">
+            <span>Sữa tươi các loại</span>
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
   <div v-else-if="$device.isTablet">
     Content Tablet

@@ -158,19 +158,36 @@
 }
 .agile__dots{
   position: absolute;
-  bottom: 0;
+  bottom: 5%;
+  left: 43%;
+  margin-bottom: 0;
 }
-.agile__dot button{
+.agile__dots .agile__dot button{
   border: none;
+  width: 8px;
   border-radius: 50%;
-  height: 12px;
+  height: 8px;
   background: #d6d6d6;
 }
-.agile__dot--current button{
+.agile__dots .agile__dot--current button{
   background: #03763E;
 }
-.agile__dot{
+.agile__dots .agile__dot{
   padding: 0 5px;
+}
+.agile__actions button{
+  border: none;
+  margin-top: -11%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  z-index: 1;
+}
+.desktop_content_banner .agile__actions .agile__nav-button--prev{
+  margin-left: 2%;
+}
+.desktop_content_banner .agile__actions .agile__nav-button--next{
+  margin-right: 2%;
 }
 .tips{
   background-color: #fff;
@@ -259,3 +276,51 @@
   border-radius: 0;
   background: #f5f8fd;
 }
+
+/* Css Desktop */
+.content_desktop{
+  padding-right: 0;
+  padding-left: 40px;
+  padding-top: 57px;
+}
+.desktop_content_banner{
+  margin: 10px 0;
+}
+.desktop_content_banner .groupcate{
+  margin: 10px 0;
+  background: #fff;
+  border-radius: 4px;
+}
+.desktop_content_banner .groupcate .namegroup{
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px;
+}
+.desktop_content_banner .groupcate .listgroup{
+  display: flow-root;
+}
+.desktop_content_banner .groupcate .listgroup a{
+  float: left;
+  overflow: hidden;
+  margin-bottom: 10px;
+  width: 10%;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+}
+.desktop_content_banner .groupcate .listgroup a img{
+  display: block;
+  width: 45px;
+  height: 45px;
+  margin: 0 auto 5px;
+  border-radius: 50px;
+}
+.desktop_content_banner .groupcate .listgroup span{
+  display: block;
+  line-height: 1.3em;
+  font-size: 13px;
+  color: #0064c2;
+  text-align: center;
+  padding: 0 5px;
+}
+

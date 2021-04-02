@@ -144,7 +144,7 @@
 </template>
 <script>
   export default {
-    mounted() {
+    beforeMount() {
       window.onscroll = function () {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
           document.querySelector("#back-top").style.display = "block";

@@ -741,7 +741,7 @@
           </div>
         </div>
       </div>
-      <div class="viewmore_procduct">
+      <div class="viewmore">
         <span>Còn 123 sản phẩm  <b>đồ uống các loại</b>
           <font-awesome-icon :icon="['fas', 'angle-down']"></font-awesome-icon>
         </span>
@@ -749,7 +749,6 @@
     </div>
     <div class="contain-boxintro">
       <div class="boxintro " data-video="">
-
         <div class="contain-article article">
           <article class="article minheight" id="minheight">
             <a href="https://www.bachhoaxanh.com/nuoc-ngot" name="Nước ngọt chính hãng tại Bách Hoá XANH" target="_self"

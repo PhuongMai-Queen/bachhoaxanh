@@ -90,8 +90,12 @@
   border: 1px solid #c5cee0;
   border-radius: 4px;
 }
-.cateproduct .product{
-  margin: 5px;
+.cateproduct{
+  background: #fff;
+  border-left: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-top: 0;
+  padding: 10px;
 }
 .cateproduct .product div .product-box{
   background: #fff;
@@ -323,4 +327,266 @@
   text-align: center;
   padding: 0 5px;
 }
-
+.list_groupfeature .groupfeature{
+  background-color: #fff;
+  margin: 0 0 20px 0;
+}
+.list_groupfeature .grouptitle{
+  padding: 7px 10px 12px;
+  background: #e9edf0;
+  text-transform: uppercase;
+  line-height: 1.3em;
+  color: #4a4a4a;
+  font-weight: 600;
+  margin-top: 5px;
+  font-size: 15px;
+  border-left: 4px solid #008848;
+}
+.list_groupfeature .groupfeature .cateproduct .product .product-name{
+  overflow: hidden;
+  line-height: 1.5em;
+  font-size: 13px;
+  color: #333;
+  padding: 10px 0 0;
+  margin-bottom: 7px;
+  max-height: 31px;
+  font-weight: normal;
+}
+.list_groupfeature .groupfeature .cateproduct .product .price{
+  font-size: 13px;
+  color: #b10e0e;
+  font-weight: normal;
+}
+.list_groupfeature .groupfeature .cateproduct .product img{
+  min-height: 200px;
+}
+.list_groupfeature .groupfeature .cateproduct .product a:hover{
+  text-decoration: none;
+}
+.list_groupfeature .groupfeature .cateproduct .product .buy{
+  font-size: 13px;
+  color: #008848;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 64px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid #008848;
+  background-color: #fff;
+  margin: 15px 0 10px 0;
+}
+.list_groupfeature .groupfeature .viewmore{
+  color: #0064c2;
+  border: none;
+  cursor: pointer;
+}
+.hometips{
+  background-color: #fff;
+  margin: 5px 0;
+}
+.hometips .hometitle{
+  padding: 10px;
+  color: #4a4a4a;
+  font-weight: 700;
+  background: #fff;
+  text-transform: uppercase;
+}
+.hometips .hometitle a{
+  font-size: 15px;
+}
+.hometips .hometitle a:hover{
+  text-decoration: none;
+}
+.hometips .row{
+  margin: 0;
+}
+.hometips .newvideo {
+  width: 600px;
+  float: left;
+  display: flex;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.hometips .row .newlist a{
+  display: flex;
+}
+.hometips .row .newlist a img{
+  width: 25%;
+  height: 40px;
+  margin-right: 10px;
+}
+.hometips .row .newlist a:first-child,
+.hometips .row .newlist a:last-child{
+  border-top: none;
+  padding-top: 0;
+}
+.hometips .row .newlist a{
+  padding-top: 10px;
+  margin-bottom: 10px;
+  border-top: 1px solid #f3f3f3;
+}
+.hometips .row .newlist a:hover{
+  text-decoration: none;
+}
+.hometips .row .newlist a p{
+  display: block;
+  overflow: hidden;
+  line-height: 1.3em;
+  font-size: 13px;
+  color: #4a4a4a;
+  margin: 0;
+}
+.hometips .row .newlist .viewother{
+  color: #288ad6;
+  font-size: 13px;
+}
+.evoucher{
+  margin-top: 15px;
+  background: #fff;
+}
+.evoucher .voucher-title {
+  display: flow-root;
+  padding: 12px 18px;
+  font-size: 15px;
+  color: #2f76ce;
+  font-weight: 500;
+  background: #feefa3;
+}
+.evoucher .voucher-title .voucher-title-left{
+  float: left;
+}
+.evoucher .voucher-title .voucher-tip a{
+  float: right;
+}
+.evoucher .voucher-title svg{
+  font-size: 21px;
+  margin-right: 10px;
+  color: #FFA929;
+}
+.evoucher .voucher-main {
+  padding: 16px;
+  line-height: 20px;
+}
+.evoucher .voucher-main .voucher-pricechoose {
+  margin: 10px 0;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  flex: 1 100%;
+  clear: both;
+}
+.evoucher .voucher-main .voucher-pricechoose button {
+  padding: 10px 0;
+  border: 1px solid #d6d6d6;
+  width: 108px;
+  display: inline-block;
+  border-radius: 2px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center;
+  background: none;
+}
+.evoucher .voucher-main .voucher-pricechoose button label{
+  margin: 0;
+}
+.evoucher .voucher-main .voucher-number {
+  margin: 10px 0;
+  margin-bottom: 2px;
+}
+.evoucher .voucher-main .voucher-number .qty {
+  display: inline-block;
+  width: 20%;
+}
+.evoucher .voucher-main .voucher-number .qty span {
+  vertical-align: top;
+  display: inline-block;
+  font-size: 16px;
+  height: 28px;
+  cursor: pointer;
+  border: 1px solid #ededed;
+  color: #333;
+  width: 34px;
+  text-align: center;
+  background: #f1f1f1;
+  background: -webkit-linear-gradient(#fff, #f1f1f1);
+  background: -o-linear-gradient(#fff, #f1f1f1);
+  background: -moz-linear-gradient(#fff, #f1f1f1);
+  background: linear-gradient(#fff, #f1f1f1);
+  border-right: solid 1px #d8d8d8;
+  box-sizing: border-box;
+}
+.evoucher .voucher-main .voucher-number .qty input {
+  height: 28px;
+  line-height: 28px;
+  border: 1px solid #ededed;
+  padding: 0 5px;
+  width: 40px;
+  margin-left: -5px;
+  text-align: center;
+  border-radius: 0;
+  box-sizing: border-box;
+  background: #fff;
+}
+.evoucher .voucher-main .voucher-number .qty input::-webkit-outer-spin-button,
+.evoucher .voucher-main .voucher-number .qty input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.evoucher .voucher-main .voucher-number span.down {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  line-height: 25px;
+}
+.evoucher .voucher-main .voucher-number span.up {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  margin-left: -5px;
+  line-height: 28px;
+}
+.evoucher .voucher-main .voucher-number  .voucher-totalprice {
+  display: inline-block;
+  width: 48%;
+}
+.evoucher .voucher-main .voucher-number .voucher-totalprice .total {
+  font-weight: bold;
+  color: #008840;
+}
+.evoucher .voucher-main .voucher-phone{
+  margin-bottom: 15px;
+}
+.evoucher .voucher-main .voucher-phone input {
+  padding: 10px 20px 10px 15px;
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+  width: 50%;
+  margin-top: 9px;
+  outline: none;
+}
+.evoucher .voucher-main .voucher-payment .payments a{
+  margin-right: 10px;
+  height: 50px;
+  line-height: 16px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff !important;
+  border: 0;
+  text-align: center;
+  border-radius: 4px;
+  background: #008848;
+  cursor: pointer;
+  outline: none;
+}
+.evoucher .voucher-main .voucher-payment .payments a:hover{
+  text-decoration: none;
+}
+.evoucher .voucher-main .voucher-payment .payments {
+  margin: 15px 0;
+}
+.evoucher .voucher-main .voucher-payment .payments a img:first-child{
+  width: 5%;
+}
+.evoucher .voucher-main .voucher-payment .payments a img:last-child{
+  width: 12%;
+}

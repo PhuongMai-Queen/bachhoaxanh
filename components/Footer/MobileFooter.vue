@@ -144,15 +144,15 @@
 </template>
 <script>
   export default {
-    beforeMount() {
-      window.onscroll = function () {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          document.querySelector("#back-top").style.display = "block";
-        } else {
-          document.querySelector("#back-top").style.display = "none";
-        }
-      };
-    },
+    // beforeMount() {
+    //   window.onscroll = function () {
+    //     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    //       document.querySelector("#back-top").style.display = "block";
+    //     } else {
+    //       document.querySelector("#back-top").style.display = "none";
+    //     }
+    //   };
+    // },
     methods:{
       topFunction() {
         document.body.scrollTop = 0;

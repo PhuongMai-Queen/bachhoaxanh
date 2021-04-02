@@ -40,6 +40,7 @@
 
 .linkfooter .row {
   margin: 0;
+  background-color: #fff;
 }
 
 .mobile_footer .linkfooter .row div ul {
@@ -72,15 +73,12 @@
   font-weight: 500;
 }
 
-.tgdd-ref .row {
-  margin: 0;
-}
-
 .mobile_footer .tgdd-ref {
   border-top: 1px solid #dcdcdc;
   border-bottom: 1px solid #dcdcdc;
   padding: 10px;
   text-align: center;
+  background-color: #fff;
 }
 
 .mobile_footer .tgdd-ref div div {
@@ -223,7 +221,9 @@
   padding: 3px 10px 5px;
   font-size: 12px;
 }
-
+.content-col-right .desktop_footer .detail div .recruitment{
+  padding: 0 10px;
+}
 .content-col-right .desktop_footer .detail div .linkfooter ul li::marker {
   font-size: 8px;
   color: #288ad6;
@@ -238,6 +238,11 @@
   float: left;
   font-size: 12px;
   line-height: 28px;
+}
+.content-col-right .desktop_footer .detail div .recruitment a:first-child:hover,
+.content-col-right .desktop_footer .detail div .stores div:first-child a:hover,
+.content-col-right .desktop_footer .detail div .stores div:last-child a:hover{
+  text-decoration: none;
 }
 
 .content-col-right .desktop_footer .detail div .recruitment a:last-child {

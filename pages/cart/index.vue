@@ -1,5 +1,173 @@
 <template>
-  <div v-if="$device.isDesktop">Content Desktop</div>
+  <div v-if="$device.isDesktop">
+        <div class="desktop_cart container-fluid">
+      <div class="cart-content">
+        <div class="list-product">
+          <div class="title">Giỏ hàng của bạn</div>
+          <div
+            class="item"
+            v-for="item in products"
+            :key="item.id"
+            :id="`item-${item.id}`"
+          >
+            <button class="delete" type="button" @click="removeToCart(item.id)">
+              Xóa
+            </button>
+            <img :src="item.thumbnail" width="100%" :alt="item.name" />
+            <div class="info">
+              <a href="" class="name">{{ item.name }}</a>
+              <p class="unit-price">{{ item.price_formatted }}</p>
+            </div>
+            <div class="money">
+              <div class="total-price">
+                <strong :id="`total-price-${item.id}`"
+                  >{{
+                    new Intl.NumberFormat("en-US").format(
+                      item.quantity * item.price
+                    )
+                  }}
+                  đ</strong
+                >
+              </div>
+              <div class="quantity-group">
+                <div class="quantity-item">
+                  <button
+                    type="button"
+                    @click="minusToCart(item.id, item.price)"
+                  >
+                    -
+                  </button>
+                  <input
+                    type="number"
+                    name=""
+                    :id="`quantity-input-${item.id}`"
+                    :value="item.quantity"
+                    min="0"
+                    class="quantity-input"
+                    @change="updateToCart(item.id, item.price)"
+                  />
+                  <button
+                    type="button"
+                    @click="plusToCart(item.id, item.price)"
+                    id="plus"
+                  >
+                    +
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="summary">
+          <div class="row">
+            <div class="col-6">
+              <span>Tiền hàng</span>
+            </div>
+            <div class="col-6 text-right">
+              <strong id="total_price"></strong>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <span>Phí giao dự kiến</span>
+            </div>
+            <div class="col-6 text-right">40.000₫</div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <!-- <button class="btn btn-block" @click="deleteCart()">
+                Xóa hết giỏ hàng
+              </button> -->
+              <b-button
+                v-b-modal.delete-cart-model
+                class="btn btn-block"
+                variant="btn-outline-success"
+              >
+                Xóa hết giỏ hàng
+              </b-button>
+
+              <b-modal
+                id="delete-cart-model"
+                ref="model"
+                @ok="deleteCart"
+                hide-header
+                hide-footer
+              >
+                <!-- <b-button @click="hide()">Hide Modal</b-button> -->
+                <template #default="{ ok, cancel }">
+                  Bạn muốn xóa tất cả sản phẩm trong giỏ hàng này?
+                  <div class="row">
+                    <div class="col-6">
+                      <b-button @click="ok()" class="btn btn-success btn-block">
+                        ĐỒNG Ý
+                      </b-button>
+                    </div>
+                    <div class="col-6">
+                      <b-button
+                        variant="btn-outline-success"
+                        @click="cancel()"
+                        class="btn btn-outline-success btn-block"
+                      >
+                        KHÔNG
+                      </b-button>
+                    </div>
+                  </div>
+                </template>
+              </b-modal>
+            </div>
+            <div class="col-4">
+              <button class="btn btn-block">Dùng phiếu mua hàng</button>
+            </div>
+            <div class="col-4">
+              <a class="btn btn-block btn-order" href="/cart/checkout"
+                >Đặt hàng</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="more">
+          <div class="item">
+            <div class="buymore">
+              <nuxt-link to="#"> <strong>Mua thêm</strong> </nuxt-link>
+              (còn 5 lần miễn phí giao đơn từ 100.000đ)
+              <span class="text-muted">
+                không tính hàng nặng, to: Bia, Nước các loại</span
+              >
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="cart-viewmore">
+              <b-button
+                v-b-toggle.viewmore
+                class="btn-cart-viewmore"
+                variant="btn-cart-viewmore"
+                >Xem thêm Khuyến mãi đặc biệt cho đơn 50.000₫
+
+                <font-awesome-icon
+                  :icon="['fas', 'angle-down']"
+                ></font-awesome-icon>
+                <font-awesome-icon
+                  :icon="['fas', 'angle-up']"
+                ></font-awesome-icon>
+              </b-button>
+              <b-collapse id="viewmore" class="mt-2">
+                <div class="row">
+                  <div class="col-3">Sản phẩm 1</div>
+                  <div class="col-3">Sản phẩm 2</div>
+                  <div class="col-3">Sản phẩm 3</div>
+                  <div class="col-3">Sản phẩm 4</div>
+                </div>
+              </b-collapse>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
   <div v-else-if="$device.isTablet">Content Tablet</div>
   <div v-else>
     <div class="mobile_cart container-fluid">
@@ -78,9 +246,45 @@
           </div>
           <div class="row">
             <div class="col-4">
-              <button class="btn btn-block" @click="deleteCart()">
+              <!-- <button class="btn btn-block" @click="deleteCart()">
                 Xóa hết giỏ hàng
-              </button>
+              </button> -->
+              <b-button
+                v-b-modal.delete-cart-model
+                class="btn btn-block"
+                variant="btn-outline-success"
+              >
+                Xóa hết giỏ hàng
+              </b-button>
+
+              <b-modal
+                id="delete-cart-model"
+                ref="model"
+                @ok="deleteCart"
+                hide-header
+                hide-footer
+              >
+                <!-- <b-button @click="hide()">Hide Modal</b-button> -->
+                <template #default="{ ok, cancel }">
+                  Bạn muốn xóa tất cả sản phẩm trong giỏ hàng này?
+                  <div class="row">
+                    <div class="col-6">
+                      <b-button @click="ok()" class="btn btn-success btn-block">
+                        ĐỒNG Ý
+                      </b-button>
+                    </div>
+                    <div class="col-6">
+                      <b-button
+                        variant="btn-outline-success"
+                        @click="cancel()"
+                        class="btn btn-outline-success btn-block"
+                      >
+                        KHÔNG
+                      </b-button>
+                    </div>
+                  </div>
+                </template>
+              </b-modal>
             </div>
             <div class="col-4">
               <button class="btn btn-block">Dùng phiếu mua hàng</button>
@@ -194,7 +398,7 @@ export default {
         }
         total_price = new Intl.NumberFormat("en-US").format(total_price);
       }
-      
+
       document.getElementById("total_price").innerHTML = total_price + " đ";
       console.log(total_price);
     },

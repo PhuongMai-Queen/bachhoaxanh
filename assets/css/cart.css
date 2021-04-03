@@ -1,5 +1,6 @@
-.mobile_cart {
-  padding-top: 50px;}
+.mobile_cart, .desktop_cart {
+  padding-top: 50px;
+}
 
 .clear {
   content: '';
@@ -128,13 +129,15 @@
 
 input::-webkit-outer-spin-button.quantity-input,
 input::-webkit-inner-spin-button.quantity-input {
-    display: none; 
-    -webkit-appearance: none;
-    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+  display: none;
+  -webkit-appearance: none;
+  margin: 0;
+  /* <-- Apparently some margin are still there even though it's hidden */
 }
 
 input[type=number].quantity-input {
-    -moz-appearance:textfield; /* Firefox */
+  -moz-appearance: textfield;
+  /* Firefox */
 }
 
 
@@ -185,6 +188,7 @@ input[type=number].quantity-input {
 .more .item .cart-viewmore a:focus {
   outline: none !important;
 }
+
 .more .item .cart-viewmore .collapsed .fa-angle-up {
   display: none;
 }
@@ -200,27 +204,29 @@ input[type=number].quantity-input {
 .more .item .cart-viewmore .not-collapsed .fa-angle-down {
   display: none;
 }
-.btn-cart-viewmore{
+
+.btn-cart-viewmore {
   border: none !important;
   padding: 0 !important;
-  margin: 0!important;
+  margin: 0 !important;
 }
-.btn-cart-viewmore:focus{
+
+.btn-cart-viewmore:focus {
   box-shadow: none;
 }
 
 /* checkout  */
 
-.mobile_checkout.container-fluid {
+.mobile_checkout.container-fluid, .desktop_checkout.container-fluid {
   padding: 0;
   padding-top: 50px;
 }
 
-.mobile_checkout .checkout-content {
+.checkout-content {
   background-color: #e9edf0;
 }
 
-.mobile_checkout .get-address {
+.get-address {
   background-color: #fff;
 }
 
@@ -272,9 +278,9 @@ input[type=number].quantity-input {
   padding: 15px;
 }
 
-.mobile_checkout .checkout-content .col-4{
-padding-left: 5px;
-padding-right: 5px;
+.mobile_checkout .checkout-content .col-4 {
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .step .title {
@@ -282,13 +288,14 @@ padding-right: 5px;
   font-weight: bold;
 }
 
-.step a{
+.step a {
   color: #222b45;
 }
 
-a span.text-muted{
+a span.text-muted {
   font-size: 0.9em;
 }
-a span.text-muted.privacy{
+
+a span.text-muted.privacy {
   font-size: 0.7em;
 }

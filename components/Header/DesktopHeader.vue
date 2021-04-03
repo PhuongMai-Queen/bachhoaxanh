@@ -63,8 +63,11 @@
           </nuxt-link>
         </div>
         <div class="col-1 desktop_header_cart">
-          <font-awesome-icon :icon="['fas', 'shopping-basket']"></font-awesome-icon>
-          <span>Giỏ hàng</span>
+            <nuxt-link to="/cart/">
+              <font-awesome-icon :icon="['fas', 'shopping-basket']"></font-awesome-icon>
+              <span>Giỏ hàng</span>
+
+            </nuxt-link>
         </div>
       </div>
     </div>

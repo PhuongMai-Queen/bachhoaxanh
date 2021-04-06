@@ -1,35 +1,83 @@
 <template>
   <div v-if="$device.isDesktop">
-    Content Desktop
-  </div>
-  <div v-else-if="$device.isTablet">
-    Content Tablet
-  </div>
-  <div v-else class="mobile_product">
-    <div class="product_slide">
-      <img :src="product.thumbnail" class='zoom' data-zoom-image="" style="width: 100%;">
-    </div>
-    <div class="group-info">
-      <div class="info-product">
-        <p class="description">
-          <span class="product-name">
-            {{product.name}}
-          </span>
-          <span class="product-details">
-            {{product.short_description}}
-          </span>
-          <span class="show-details">
-            Xem chi tiết
-          </span>
-        </p>
-      </div>
-      <div class="boxbuy-area">
-        <div class="group-price">
-          {{product.price_formatted}}
+    <div class="colcontent">
+      <ul class="breadcrumb">
+        <li>
+          <a href="#">
+            Trang Chủ
+            <font-awesome-icon :icon="['fas', 'angle-right']"  class="breadcrumb__icon"/>
+          </a>
+        </li>
+        <li>
+          <a href="#">Sữa chua các loại</a>
+        </li>
+      </ul>
+      <div class="rowdetail">
+        <div class="product_img">
+          <img :src="product.thumbnail" style="width: 415px; height: 375px">
         </div>
-        <nuxt-link to="#" class="choosebuy">MUA NGAY</nuxt-link>
+        <div class="product_info">
+          <h1 class="nameproduct">{{product.name}}</h1>
+          <div class="expireddate"></div>
+          <div class="ratinglist-price">
+            <div class="boxprice">
+              <strong>{{product.price_formatted}}</strong>
+            </div>
+          </div>
+          <a href="#" class="choosebuy">CHỌN MUA</a>
+          <div class="shipping">
+            <div>
+              <font-awesome-icon :icon="['far', 'clock']"  class="bhx-sship"/>
+              <span> Đặt online giao tận nhà ĐÚNG GIỜ (nếu trễ tặng PMH 50.000₫)</span>
+            </div>
+            <div>
+              <font-awesome-icon :icon="['fas', 'redo']"  class="bhx-sship"/>
+              <span> Đổi, trả sản phẩm trong 48 giờ </span>
+              <a href="#" id="detailReturn">(Xem chi tiết)</a>
+            </div>
+          </div>
+          <div class="product_info-banner">
+            <a href="#" title="RAU AN TOÀN 4K FARM TẶNG">
+              <img src="https://cdn.tgdd.vn/bachhoaxanh/banners/2516/rau-an-toan-4k-farm-tang-03032021143649.jpg">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="relative">
+        <h3 class="titledt">Sản phẩm liên quan</h3>
+      </div>
+
+    </div>
+  </div>
+
+  <div v-else class="mobile_product">
+    <div class="bg-product_slide">
+      <div class="product_slide">
+        <img :src="product.thumbnail" class='zoom' data-zoom-image="" style="width: 100%;">
+      </div>
+      <div class="group-info">
+        <div class="info-product">
+          <p class="description">
+            <span class="product-name">
+              {{product.name}}
+            </span>
+            <span class="product-details">
+              {{product.short_description}}
+            </span>
+            <span class="show-details">
+              Xem chi tiết
+            </span>
+          </p>
+        </div>
+        <div class="boxbuy-area">
+          <div class="group-price">
+            {{product.price_formatted}}
+          </div>
+          <nuxt-link to="#" class="choosebuy">MUA NGAY</nuxt-link>
+        </div>
       </div>
     </div>
+
     <div class="group_product-item">
       <div class="cate cateproduct">
         <h3 class="titledt">Sản phẩm liên quan</h3>

@@ -1,654 +1,270 @@
 <template>
   <div v-if="$device.isDesktop">
-    <div class="groupcate top">
+    <div class="groupcate_desktop top">
+      <div class="groupcate-inline_desktop">
+        <div class="sub_desktop">
+          <a class="title-cate_desktop active_desktop " href="nuoc-ngot-nuoc-tra-giai-khat">
+            <h1>Nước ngọt, nước trà</h1>
+          </a>
 
+          <a href="/nuoc-ngot" class="">
+
+            <h2>Nước ngọt các loại</h2>
+          </a>
+          <a href="/nuoc-tra" class=" ">
+
+            <h2>Nước trà giải khát</h2>
+          </a>
+        </div>
+      </div>
+      <a class="more_desktop" data-top="top"></a>
       <!-- ========================================================-->
-      <div class="manufacture top maincate" style="" data-ismaincate="True" data-iscatesearch="False">
-        <form class="catesearch">
-          <input class="searchcate" onkeyup="category.searchManu(this);" id="catesearch" placeholder="Tìm thương hiệu"
-                 autocomplete="off">
-          <div class="reset" style="display: none;"><i class="bhx-closemenu"></i></div>
-          <div class="butcatesearch">
-            <i class="bhx-search"></i>
-          </div>
-          <div class="resultsearch" style="display:none;">
+      <div class="manufacture_desktop top_desktop maincate_desktop" style="" >
+        <form class="catesearch_desktop">
+          <b-form-input class="searchcate_desktop"  placeholder="Tìm thương hiệu"></b-form-input>
+          <font-awesome-icon v-b-toggle.sidebar-footer :icon="['fas', 'search']" class="butcatesearch_desktop"></font-awesome-icon>
+          <div class="resultsearch_desktop" style="display:none;">
             <ul>
-              <li data-id="22187" data-hash="pepsi" data-search="pepsi,Pepsi,Pepsi">Pepsi</li>
-              <li data-id="22699" data-hash="lipton" data-search="lipton,Lipton,Lipton">Lipton</li>
-              <li data-id="22125" data-hash="mirinda" data-search="mirinda,Mirinda,Mirinda">Mirinda</li>
-              <li data-id="20970" data-hash="7-up" data-search="7-up,7 Up,7 Up">7 Up</li>
-              <li data-id="23763" data-hash="evervess" data-search="evervess,Evervess,Evervess">Evervess</li>
-              <li data-id="23067" data-hash="fuze-tea" data-search="fuze-tea,Fuze Tea,Fuze Tea">Fuze Tea</li>
-              <li data-id="21417" data-hash="c2" data-search="c2,C2,C2">C2</li>
-              <li data-id="21646" data-hash="cozy" data-search="cozy,Cozy,Cozy">Cozy</li>
-              <li data-id="21961" data-hash="drthanh" data-search="drthanh,Dr.Thanh,Dr.Thanh">Dr.Thanh</li>
-              <li data-id="21267" data-hash="vfresh" data-search="vfresh,Vfresh,Vfresh">Vfresh</li>
-              <li data-id="23175" data-hash="khong-do" data-search="khong-do,Không Độ,Khong Do">Không Độ</li>
-              <li data-id="21583" data-hash="coca-cola" data-search="coca-cola,Coca Cola,Coca Cola">Coca Cola</li>
-              <li data-id="21662" data-hash="sprite" data-search="sprite,Sprite,Sprite">Sprite</li>
-              <li data-id="21529" data-hash="tea-plus" data-search="tea-plus,Tea Plus,Tea Plus">Tea Plus</li>
-              <li data-id="22291" data-hash="fanta" data-search="fanta,Fanta,Fanta">Fanta</li>
-              <li data-id="22649" data-hash="kirin" data-search="kirin,Kirin,Kirin">Kirin</li>
-              <li data-id="22545" data-hash="itoen" data-search="itoen,ITOEN,ITOEN">ITOEN</li>
-              <li data-id="21033" data-hash="yeos" data-search="yeos,Yeos,Yeos">Yeos</li>
-              <li data-id="21730" data-hash="schweppes" data-search="schweppes,Schweppes,Schweppes">Schweppes</li>
-              <li data-id="22836" data-hash="boganic" data-search="boganic,Boganic,Boganic">Boganic</li>
-              <li data-id="23390" data-hash="pokka" data-search="pokka,Pokka,Pokka">Pokka</li>
-              <li data-id="21561" data-hash="chuong-duong" data-search="chuong-duong,Chương Dương,Chuong Duong">Chương
-                Dương
-              </li>
-              <li data-id="21082" data-hash="wonderfarm" data-search="wonderfarm,Wonderfarm,Wonderfarm">Wonderfarm</li>
-              <li data-id="23285" data-hash="new-choice" data-search="new-choice,New Choice,New Choice">New Choice</li>
-              <li data-id="21624" data-hash="sun-hee" data-search="sun-hee,Sun-Hee,Sun-Hee">Sun-Hee</li>
+              <li >Pepsi</li>
+              <li>Lipton</li>
+              <li>Mirinda</li>
+              <li>7 Up</li>
+              <li>Evervess</li>
+              <li>Fuze Tea</li>
+              <li>C2</li>
+              <li>Cozy</li>
+              <li>Dr.Thanh</li>
+              <li>Vfresh</li>
+              <li>Không Độ</li>
+              <li>Coca Cola</li>
+              <li>Sprite</li>
+              <li>Tea Plus</li>
+              <li>Fanta</li>
+              <li>Kirin</li>
+              <li>ITOEN</li>
+              <li>Yeos</li>
+              <li>Schweppes</li>
+              <li>Boganic</li>
+              <li>Pokka</li>
+              <li>Chương Dương </li>
+              <li>Wonderfarm</li>
+              <li>New Choice</li>
+              <li>Sun-Hee</li>
             </ul>
           </div>
         </form>
         <ul>
           <li>
-            <a data-id="22187" data-hash="pepsi" title="Pepsi">
+            <a  >
               <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/pepsi-25092020163114.png" alt="Pepsi">
               <em></em>
-              <i class="bhx-checkmanu"></i>
+             <i></i>
             </a>
           </li>
           <li>
-            <a data-id="22699" data-hash="lipton" title="Lipton">
+            <a  title="Lipton">
               <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/lipton-14032021221921.jpg" alt="Lipton">
               <em></em>
-              <i class="bhx-checkmanu"></i>
+             <i></i>
             </a>
           </li>
           <li>
-            <a data-id="22125" data-hash="mirinda" title="Mirinda">
+            <a  title="Mirinda">
               <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/mirinda-25092020145639.png" alt="Mirinda">
               <em></em>
-              <i class="bhx-checkmanu"></i>
+             <i></i>
             </a>
           </li>
           <li>
-            <a data-id="20970" data-hash="7-up" title="7 Up">
+            <a  title="7 Up">
               <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/7-up-2109202095322.png" alt="7 Up">
               <em></em>
-              <i class="bhx-checkmanu"></i>
+             <i></i>
             </a>
           </li>
           <li>
-            <a data-id="23763" data-hash="evervess" title="Evervess">
+            <a title="Evervess">
               <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/evervess-09032021113517.jpg" alt="Evervess">
               <em></em>
-              <i class="bhx-checkmanu"></i>
-            </a>
-          </li>
-          <li>
-            <a data-id="23067" data-hash="fuze-tea" title="Fuze Tea">
-              <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/fuze-tea-1503202113250.jpg" alt="Fuze Tea">
-              <em></em>
-              <i class="bhx-checkmanu"></i>
-            </a>
-          </li>
-          <li>
-            <a data-id="21417" data-hash="c2" title="C2">
-              <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/c2-14032021212318.jpg" alt="C2">
-              <em></em>
-              <i class="bhx-checkmanu"></i>
+             <i></i>
             </a>
           </li>
         </ul>
-        <span class="moremanu top">Xem thêm</span>
+        <span class="moremanu_desktop top_desktop">Xem thêm
+         <font-awesome-icon v-b-toggle.sidebar-footer :icon="['fas', 'angle-down']"></font-awesome-icon>
+        </span>
+
         <ul class="morebrand top" style="display: none;">
           <li>
-            <a data-id="21646" data-hash="cozy" title="Cozy">
+            <a title="Cozy">
               <img width="65" height="40" class="lazy initial loaded"
                    data-src="//cdn.tgdd.vn/Brand/11/cozy-14032021215252.jpg" alt="Cozy"
                    src="//cdn.tgdd.vn/Brand/11/cozy-14032021215252.jpg" data-was-processed="true">
               <em></em>
-              <i class="bhx-checkmanu"></i>
+             <i></i>
             </a>
           </li>
           <li>
-            <a data-id="21961" data-hash="drthanh" title="Dr.Thanh">
+            <a  title="Dr.Thanh">
               <img width="65" height="40" class="lazy initial loaded"
                    data-src="//cdn.tgdd.vn/Brand/11/drthanh-050320211354.jpg" alt="Dr.Thanh"
                    src="//cdn.tgdd.vn/Brand/11/drthanh-050320211354.jpg" data-was-processed="true">
               <em></em>
-              <i class="bhx-checkmanu"></i>
+             <i></i>
             </a>
           </li>
           <li>
-            <a data-id="21267" data-hash="vfresh" title="Vfresh">
+            <a title="Vfresh">
               <img width="65" height="40" class="lazy initial loaded"
                    data-src="//cdn.tgdd.vn/Brand/11/vfresh-1303202114943.jpg" alt="Vfresh"
                    src="//cdn.tgdd.vn/Brand/11/vfresh-1303202114943.jpg" data-was-processed="true">
               <em></em>
-              <i class="bhx-checkmanu"></i>
+             <i></i>
             </a>
           </li>
           <li>
-            <a data-id="23175" data-hash="khong-do" title="Không Độ">
+            <a title="Không Độ">
               <img width="65" height="40" class="lazy initial loaded"
                    data-src="//cdn.tgdd.vn/Brand/11/khong-do-13032021235513.jpg" alt="Không Độ"
                    src="//cdn.tgdd.vn/Brand/11/khong-do-13032021235513.jpg" data-was-processed="true">
               <em></em>
-              <i class="bhx-checkmanu"></i>
+             <i></i>
             </a>
           </li>
           <li>
-            <a data-id="21583" data-hash="coca-cola" title="Coca Cola">
+            <a title="Coca Cola">
               <img width="65" height="40" class="lazy initial loaded"
                    data-src="//cdn.tgdd.vn/Brand/11/coca-cola-2309202010534.png" alt="Coca Cola"
                    src="//cdn.tgdd.vn/Brand/11/coca-cola-2309202010534.png" data-was-processed="true">
               <em></em>
-              <i class="bhx-checkmanu"></i>
+             <i></i>
             </a>
           </li>
           <li>
-            <a data-id="21662" data-hash="sprite" title="Sprite">
+            <a  title="Sprite">
               <img width="65" height="40" class="lazy initial loaded"
                    data-src="//cdn.tgdd.vn/Brand/11/sprite-24092020111818.png" alt="Sprite"
                    src="//cdn.tgdd.vn/Brand/11/sprite-24092020111818.png" data-was-processed="true">
               <em></em>
-              <i class="bhx-checkmanu"></i>
+             <i></i>
             </a>
           </li>
           <li>
-            <a data-id="21529" data-hash="tea-plus" title="Tea Plus">
+            <a  title="Tea Plus">
               <img width="65" height="40" class="lazy initial loaded"
                    data-src="//cdn.tgdd.vn/Brand/11/tea-plus-0903202120842.jpg" alt="Tea Plus"
                    src="//cdn.tgdd.vn/Brand/11/tea-plus-0903202120842.jpg" data-was-processed="true">
               <em></em>
-              <i class="bhx-checkmanu"></i>
+             <i></i>
             </a>
           </li>
           <li>
-            <a data-id="22291" data-hash="fanta" title="Fanta">
+            <a  title="Fanta">
               <img width="65" height="40" class="lazy initial loaded"
                    data-src="//cdn.tgdd.vn/Brand/11/fanta-15032021112040.jpg" alt="Fanta"
                    src="//cdn.tgdd.vn/Brand/11/fanta-15032021112040.jpg" data-was-processed="true">
               <em></em>
-              <i class="bhx-checkmanu"></i>
+             <i></i>
             </a>
           </li>
           <li>
-            <a data-id="22649" data-hash="kirin" title="Kirin">
+            <a  title="Kirin">
               <img width="65" height="40" class="lazy initial loaded"
                    data-src="//cdn.tgdd.vn/Brand/11/kirin-140320210131.jpg" alt="Kirin"
                    src="//cdn.tgdd.vn/Brand/11/kirin-140320210131.jpg" data-was-processed="true">
               <em></em>
-              <i class="bhx-checkmanu"></i>
+             <i></i>
             </a>
           </li>
           <li>
-            <a data-id="22545" data-hash="itoen" title="ITOEN">
+            <a  title="ITOEN">
               <img width="65" height="40" class="lazy initial loaded"
                    data-src="//cdn.tgdd.vn/Brand/11/itoen-13032021233129.jpg" alt="ITOEN"
                    src="//cdn.tgdd.vn/Brand/11/itoen-13032021233129.jpg" data-was-processed="true">
               <em></em>
-              <i class="bhx-checkmanu"></i>
+             <i></i>
             </a>
           </li>
           <li>
-            <a data-id="21033" data-hash="yeos" title="Yeos">
+            <a  title="Yeos">
               <img width="65" height="40" class="lazy initial loaded"
                    data-src="//cdn.tgdd.vn/Brand/11/yeos-12032021204041.jpg" alt="Yeos"
                    src="//cdn.tgdd.vn/Brand/11/yeos-12032021204041.jpg" data-was-processed="true">
               <em></em>
-              <i class="bhx-checkmanu"></i>
+             <i></i>
             </a>
           </li>
           <li>
-            <a data-id="21730" data-hash="schweppes" title="Schweppes">
+            <a  title="Schweppes">
               <img width="65" height="40" class="lazy initial loaded"
                    data-src="//cdn.tgdd.vn/Brand/11/schweppes-12032021213452.jpg" alt="Schweppes"
                    src="//cdn.tgdd.vn/Brand/11/schweppes-12032021213452.jpg" data-was-processed="true">
               <em></em>
-              <i class="bhx-checkmanu"></i>
+             <i></i>
             </a>
           </li>
           <li>
-            <a data-id="22836" data-hash="boganic" title="Boganic">
+            <a  title="Boganic">
               <img width="65" height="40" class="lazy initial loaded"
                    data-src="//cdn.tgdd.vn/Brand/11/boganic-15032021221529.jpg" alt="Boganic"
                    src="//cdn.tgdd.vn/Brand/11/boganic-15032021221529.jpg" data-was-processed="true">
               <em></em>
-              <i class="bhx-checkmanu"></i>
+             <i></i>
             </a>
           </li>
           <li>
-            <a data-id="23390" data-hash="pokka" title="Pokka">
+            <a  title="Pokka">
               <img width="65" height="40" class="lazy initial loaded"
                    data-src="//cdn.tgdd.vn/Brand/11/pokka-15032021131751.jpg" alt="Pokka"
                    src="//cdn.tgdd.vn/Brand/11/pokka-15032021131751.jpg" data-was-processed="true">
               <em></em>
-              <i class="bhx-checkmanu"></i>
+             <i></i>
             </a>
           </li>
           <li>
-            <a data-id="21561" data-hash="chuong-duong" title="Chương Dương">
+            <a  title="Chương Dương">
               <img width="65" height="40" class="lazy initial loaded"
                    data-src="//cdn.tgdd.vn/Brand/11/chuong-duong-1403202121425.jpg" alt="Chương Dương"
                    src="//cdn.tgdd.vn/Brand/11/chuong-duong-1403202121425.jpg" data-was-processed="true">
               <em></em>
-              <i class="bhx-checkmanu"></i>
+             <i></i>
             </a>
           </li>
           <li>
-            <a data-id="21082" data-hash="wonderfarm" title="Wonderfarm">
+            <a  title="Wonderfarm">
               <img width="65" height="40" class="lazy initial loaded"
                    data-src="//cdn.tgdd.vn/Brand/11/wonderfarm-11032021101827.jpg" alt="Wonderfarm"
                    src="//cdn.tgdd.vn/Brand/11/wonderfarm-11032021101827.jpg" data-was-processed="true">
               <em></em>
-              <i class="bhx-checkmanu"></i>
+             <i></i>
             </a>
           </li>
           <li>
-            <a data-id="23285" data-hash="new-choice" title="New Choice">
+            <a  title="New Choice">
               <img width="65" height="40" class="lazy initial loaded"
                    data-src="//cdn.tgdd.vn/Brand/11/new-choice-1203202116186.jpg" alt="New Choice"
                    src="//cdn.tgdd.vn/Brand/11/new-choice-1203202116186.jpg" data-was-processed="true">
               <em></em>
-              <i class="bhx-checkmanu"></i>
+             <i></i>
             </a>
           </li>
           <li>
-            <a data-id="21624" data-hash="sun-hee" title="Sun-Hee">
+            <a  title="Sun-Hee">
               <img width="65" height="40" class="lazy initial loaded"
                    data-src="//cdn.tgdd.vn/Brand/11/sun-hee-0603202121845.jpg" alt="Sun-Hee"
                    src="//cdn.tgdd.vn/Brand/11/sun-hee-0603202121845.jpg" data-was-processed="true">
               <em></em>
-              <i class="bhx-checkmanu"></i>
+             <i></i>
             </a>
           </li>
         </ul>
       </div>
       <!--      ===================================================================-->
-      <div class="boxproduct group ">
-        <ul class="cate">
-          <li class="hideExpired product hasNotUnit" data-product="84392" data-sku="9892850000344"
-              data-maxqtyonbill="0" data-priceonbill="30.000₫" data-personalize="false"><a
-            href="/nuoc-ngot/nuoc-giai-khat-mirinda-huong-xa-xi-390ml-x6"
-            title="6 chai nước ngọt Mirinda hương xá xị 390ml">
-            <div class="boximg" title="6 chai nước ngọt Mirinda hương xá xị 390ml"><img width="160" height="160"
-                                                                                        src="https://cdn.tgdd.vn/Products/Images/2443/84392/bhx/6-chai-nuoc-ngot-mirinda-huong-xa-xi-390ml-202103201620266312_300x300.jpg"
-                                                                                        alt="6 chai nước ngọt Mirinda hương xá xị 390ml">
-            </div>
-            <h3 class="product-name">6 chai nước ngọt Mirinda xá xị 390ml</h3>
-            <div class="removepoint"><span>HSD còn 3 tháng</span></div>
-            <div class="price"><strong>30.000₫</strong> <span>42.000₫</span> <label>-29%</label> <span class="unit">(5.000₫/chai)</span>
-            </div>
-          </a> <a class="buy">Chọn mua</a>
-          </li>
-          <li class="hideExpired product box-resize hasNotUnit" data-product="83581" data-sku="8934588843051"
-              data-maxqtyonbill="0" data-priceonbill="7.500₫" data-personalize="false"><a
-            href="/nuoc-bu-khoang/7up-revive-500ml" title="Nước bù khoáng Revive muối khoáng 500ml">
-            <div class="boximg" title="Nước bù khoáng Revive muối khoáng 500ml"><img width="160" height="160"
-                                                                                     src="https://cdn.tgdd.vn/Products/Images/8965/83581/bhx/nuoc-bu-khoang-revive-muoi-khoang-500ml-202103290114572956_300x300.jpg"
-                                                                                     alt="Nước bù khoáng Revive muối khoáng 500ml">
-            </div>
-            <h3 class="product-name">Nước uống bù khoáng Revive 500ml</h3>
-            <div class="removepoint"><span>HSD còn 59 ngày</span></div>
-            <div class="price"><strong>7.500₫</strong> <span>10.000₫</span> <label>-25%</label></div>
-          </a> <a class="buy hasNearlyExpired">Chọn mua</a>
-            <div class="updown hasNearlyExpired">
-              <div class="down"><span></span></div>
-              <input class="number" value="0" maxlength="50" pattern="[0-9]*" type="number">
-              <div class="up"><span></span><span></span></div>
-            </div>
-          </li>
-          <li class="hideExpired product hasNotUnit" data-product="84392" data-sku="9892850000344"
-              data-maxqtyonbill="0" data-priceonbill="30.000₫" data-personalize="false"><a
-            href="/nuoc-ngot/nuoc-giai-khat-mirinda-huong-xa-xi-390ml-x6"
-            title="6 chai nước ngọt Mirinda hương xá xị 390ml">
-            <div class="boximg" title="6 chai nước ngọt Mirinda hương xá xị 390ml"><img width="160" height="160"
-                                                                                        src="https://cdn.tgdd.vn/Products/Images/2443/84392/bhx/6-chai-nuoc-ngot-mirinda-huong-xa-xi-390ml-202103201620266312_300x300.jpg"
-                                                                                        alt="6 chai nước ngọt Mirinda hương xá xị 390ml">
-            </div>
-            <h3 class="product-name">6 chai nước ngọt Mirinda xá xị 390ml</h3>
-            <div class="removepoint"><span>HSD còn 3 tháng</span></div>
-            <div class="price"><strong>30.000₫</strong> <span>42.000₫</span> <label>-29%</label> <span class="unit">(5.000₫/chai)</span>
-            </div>
-          </a> <a class="buy">Chọn mua</a>
-          </li>
-          <li class="hideExpired product box-resize hasNotUnit" data-product="83581" data-sku="8934588843051"
-              data-maxqtyonbill="0" data-priceonbill="7.500₫" data-personalize="false"><a
-            href="/nuoc-bu-khoang/7up-revive-500ml" title="Nước bù khoáng Revive muối khoáng 500ml">
-            <div class="boximg" title="Nước bù khoáng Revive muối khoáng 500ml"><img width="160" height="160"
-                                                                                     src="https://cdn.tgdd.vn/Products/Images/8965/83581/bhx/nuoc-bu-khoang-revive-muoi-khoang-500ml-202103290114572956_300x300.jpg"
-                                                                                     alt="Nước bù khoáng Revive muối khoáng 500ml">
-            </div>
-            <h3 class="product-name">Nước uống bù khoáng Revive 500ml</h3>
-            <div class="removepoint"><span>HSD còn 59 ngày</span></div>
-            <div class="price"><strong>7.500₫</strong> <span>10.000₫</span> <label>-25%</label></div>
-          </a> <a class="buy hasNearlyExpired">Chọn mua</a>
-            <div class="updown hasNearlyExpired">
-              <div class="down"><span></span></div>
-              <input class="number" value="0" maxlength="50" pattern="[0-9]*" type="number">
-              <div class="up"><span></span><span></span></div>
-            </div>
-          </li>
-          <li class="hideExpired product hasNotUnit" data-product="84392" data-sku="9892850000344"
-              data-maxqtyonbill="0" data-priceonbill="30.000₫" data-personalize="false"><a
-            href="/nuoc-ngot/nuoc-giai-khat-mirinda-huong-xa-xi-390ml-x6"
-            title="6 chai nước ngọt Mirinda hương xá xị 390ml">
-            <div class="boximg" title="6 chai nước ngọt Mirinda hương xá xị 390ml"><img width="160" height="160"
-                                                                                        src="https://cdn.tgdd.vn/Products/Images/2443/84392/bhx/6-chai-nuoc-ngot-mirinda-huong-xa-xi-390ml-202103201620266312_300x300.jpg"
-                                                                                        alt="6 chai nước ngọt Mirinda hương xá xị 390ml">
-            </div>
-            <h3 class="product-name">6 chai nước ngọt Mirinda xá xị 390ml</h3>
-            <div class="removepoint"><span>HSD còn 3 tháng</span></div>
-            <div class="price"><strong>30.000₫</strong> <span>42.000₫</span> <label>-29%</label> <span class="unit">(5.000₫/chai)</span>
-            </div>
-          </a> <a class="buy">Chọn mua</a>
-          </li>
-          <li class="hideExpired product box-resize hasNotUnit" data-product="83581" data-sku="8934588843051"
-              data-maxqtyonbill="0" data-priceonbill="7.500₫" data-personalize="false"><a
-            href="/nuoc-bu-khoang/7up-revive-500ml" title="Nước bù khoáng Revive muối khoáng 500ml">
-            <div class="boximg" title="Nước bù khoáng Revive muối khoáng 500ml"><img width="160" height="160"
-                                                                                     src="https://cdn.tgdd.vn/Products/Images/8965/83581/bhx/nuoc-bu-khoang-revive-muoi-khoang-500ml-202103290114572956_300x300.jpg"
-                                                                                     alt="Nước bù khoáng Revive muối khoáng 500ml">
-            </div>
-            <h3 class="product-name">Nước uống bù khoáng Revive 500ml</h3>
-            <div class="removepoint"><span>HSD còn 59 ngày</span></div>
-            <div class="price"><strong>7.500₫</strong> <span>10.000₫</span> <label>-25%</label></div>
-          </a> <a class="buy hasNearlyExpired">Chọn mua</a>
-            <div class="updown hasNearlyExpired">
-              <div class="down"><span></span></div>
-              <input class="number" value="0" maxlength="50" pattern="[0-9]*" type="number">
-              <div class="up"><span></span><span></span></div>
-            </div>
-          </li>
-          <li class="hideExpired product hasNotUnit" data-product="84392" data-sku="9892850000344"
-              data-maxqtyonbill="0" data-priceonbill="30.000₫" data-personalize="false"><a
-            href="/nuoc-ngot/nuoc-giai-khat-mirinda-huong-xa-xi-390ml-x6"
-            title="6 chai nước ngọt Mirinda hương xá xị 390ml">
-            <div class="boximg" title="6 chai nước ngọt Mirinda hương xá xị 390ml"><img width="160" height="160"
-                                                                                        src="https://cdn.tgdd.vn/Products/Images/2443/84392/bhx/6-chai-nuoc-ngot-mirinda-huong-xa-xi-390ml-202103201620266312_300x300.jpg"
-                                                                                        alt="6 chai nước ngọt Mirinda hương xá xị 390ml">
-            </div>
-            <h3 class="product-name">6 chai nước ngọt Mirinda xá xị 390ml</h3>
-            <div class="removepoint"><span>HSD còn 3 tháng</span></div>
-            <div class="price"><strong>30.000₫</strong> <span>42.000₫</span> <label>-29%</label> <span class="unit">(5.000₫/chai)</span>
-            </div>
-          </a> <a class="buy">Chọn mua</a>
-          </li>
-          <li class="hideExpired product box-resize hasNotUnit" data-product="83581" data-sku="8934588843051"
-              data-maxqtyonbill="0" data-priceonbill="7.500₫" data-personalize="false"><a
-            href="/nuoc-bu-khoang/7up-revive-500ml" title="Nước bù khoáng Revive muối khoáng 500ml">
-            <div class="boximg" title="Nước bù khoáng Revive muối khoáng 500ml"><img width="160" height="160"
-                                                                                     src="https://cdn.tgdd.vn/Products/Images/8965/83581/bhx/nuoc-bu-khoang-revive-muoi-khoang-500ml-202103290114572956_300x300.jpg"
-                                                                                     alt="Nước bù khoáng Revive muối khoáng 500ml">
-            </div>
-            <h3 class="product-name">Nước uống bù khoáng Revive 500ml</h3>
-            <div class="removepoint"><span>HSD còn 59 ngày</span></div>
-            <div class="price"><strong>7.500₫</strong> <span>10.000₫</span> <label>-25%</label></div>
-          </a> <a class="buy hasNearlyExpired">Chọn mua</a>
-            <div class="updown hasNearlyExpired">
-              <div class="down"><span></span></div>
-              <input class="number" value="0" maxlength="50" pattern="[0-9]*" type="number">
-              <div class="up"><span></span><span></span></div>
-            </div>
-          </li>
-        </ul>
+      <div class="boxproduct_desktop group_desktop ">
+
       </div>
 <!--      ============================================================================================-->
 
-      <div class="manufacture top maincate" style="" data-ismaincate="True" data-iscatesearch="False">
-        <form class="catesearch">
-          <input class="searchcate" onkeyup="category.searchManu(this);" id="catesearch" placeholder="Tìm thương hiệu"
-                 autocomplete="off">
-          <div class="reset" style="display: none;"><i class="bhx-closemenu"></i></div>
-          <div class="butcatesearch">
-            <i class="bhx-search"></i>
-          </div>
-          <div class="resultsearch" style="display:none;">
-            <ul>
-              <li data-id="22187" data-hash="pepsi" data-search="pepsi,Pepsi,Pepsi">Pepsi</li>
-              <li data-id="22699" data-hash="lipton" data-search="lipton,Lipton,Lipton">Lipton</li>
-              <li data-id="22125" data-hash="mirinda" data-search="mirinda,Mirinda,Mirinda">Mirinda</li>
-              <li data-id="20970" data-hash="7-up" data-search="7-up,7 Up,7 Up">7 Up</li>
-              <li data-id="23763" data-hash="evervess" data-search="evervess,Evervess,Evervess">Evervess</li>
-              <li data-id="23067" data-hash="fuze-tea" data-search="fuze-tea,Fuze Tea,Fuze Tea">Fuze Tea</li>
-              <li data-id="21417" data-hash="c2" data-search="c2,C2,C2">C2</li>
-              <li data-id="21646" data-hash="cozy" data-search="cozy,Cozy,Cozy">Cozy</li>
-              <li data-id="21961" data-hash="drthanh" data-search="drthanh,Dr.Thanh,Dr.Thanh">Dr.Thanh</li>
-              <li data-id="21267" data-hash="vfresh" data-search="vfresh,Vfresh,Vfresh">Vfresh</li>
-              <li data-id="23175" data-hash="khong-do" data-search="khong-do,Không Độ,Khong Do">Không Độ</li>
-              <li data-id="21583" data-hash="coca-cola" data-search="coca-cola,Coca Cola,Coca Cola">Coca Cola</li>
-              <li data-id="21662" data-hash="sprite" data-search="sprite,Sprite,Sprite">Sprite</li>
-              <li data-id="21529" data-hash="tea-plus" data-search="tea-plus,Tea Plus,Tea Plus">Tea Plus</li>
-              <li data-id="22291" data-hash="fanta" data-search="fanta,Fanta,Fanta">Fanta</li>
-              <li data-id="22649" data-hash="kirin" data-search="kirin,Kirin,Kirin">Kirin</li>
-              <li data-id="22545" data-hash="itoen" data-search="itoen,ITOEN,ITOEN">ITOEN</li>
-              <li data-id="21033" data-hash="yeos" data-search="yeos,Yeos,Yeos">Yeos</li>
-              <li data-id="21730" data-hash="schweppes" data-search="schweppes,Schweppes,Schweppes">Schweppes</li>
-              <li data-id="22836" data-hash="boganic" data-search="boganic,Boganic,Boganic">Boganic</li>
-              <li data-id="23390" data-hash="pokka" data-search="pokka,Pokka,Pokka">Pokka</li>
-              <li data-id="21561" data-hash="chuong-duong" data-search="chuong-duong,Chương Dương,Chuong Duong">Chương
-                Dương
-              </li>
-              <li data-id="21082" data-hash="wonderfarm" data-search="wonderfarm,Wonderfarm,Wonderfarm">Wonderfarm</li>
-              <li data-id="23285" data-hash="new-choice" data-search="new-choice,New Choice,New Choice">New Choice</li>
-              <li data-id="21624" data-hash="sun-hee" data-search="sun-hee,Sun-Hee,Sun-Hee">Sun-Hee</li>
-            </ul>
-          </div>
-        </form>
-        <ul>
-          <li>
-            <a data-id="22187" data-hash="pepsi" title="Pepsi">
-              <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/pepsi-25092020163114.png" alt="Pepsi">
-              <em></em>
-              <i class="bhx-checkmanu"></i>
-            </a>
-          </li>
-          <li>
-            <a data-id="22699" data-hash="lipton" title="Lipton">
-              <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/lipton-14032021221921.jpg" alt="Lipton">
-              <em></em>
-              <i class="bhx-checkmanu"></i>
-            </a>
-          </li>
-          <li>
-            <a data-id="22125" data-hash="mirinda" title="Mirinda">
-              <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/mirinda-25092020145639.png" alt="Mirinda">
-              <em></em>
-              <i class="bhx-checkmanu"></i>
-            </a>
-          </li>
-          <li>
-            <a data-id="20970" data-hash="7-up" title="7 Up">
-              <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/7-up-2109202095322.png" alt="7 Up">
-              <em></em>
-              <i class="bhx-checkmanu"></i>
-            </a>
-          </li>
-          <li>
-            <a data-id="23763" data-hash="evervess" title="Evervess">
-              <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/evervess-09032021113517.jpg" alt="Evervess">
-              <em></em>
-              <i class="bhx-checkmanu"></i>
-            </a>
-          </li>
-          <li>
-            <a data-id="23067" data-hash="fuze-tea" title="Fuze Tea">
-              <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/fuze-tea-1503202113250.jpg" alt="Fuze Tea">
-              <em></em>
-              <i class="bhx-checkmanu"></i>
-            </a>
-          </li>
-          <li>
-            <a data-id="21417" data-hash="c2" title="C2">
-              <img width="65" height="40" src="//cdn.tgdd.vn/Brand/11/c2-14032021212318.jpg" alt="C2">
-              <em></em>
-              <i class="bhx-checkmanu"></i>
-            </a>
-          </li>
-        </ul>
-        <span class="moremanu top">Xem thêm</span>
-        <ul class="morebrand top" style="display: none;">
-          <li>
-            <a data-id="21646" data-hash="cozy" title="Cozy">
-              <img width="65" height="40" class="lazy initial loaded"
-                   data-src="//cdn.tgdd.vn/Brand/11/cozy-14032021215252.jpg" alt="Cozy"
-                   src="//cdn.tgdd.vn/Brand/11/cozy-14032021215252.jpg" data-was-processed="true">
-              <em></em>
-              <i class="bhx-checkmanu"></i>
-            </a>
-          </li>
-          <li>
-            <a data-id="21961" data-hash="drthanh" title="Dr.Thanh">
-              <img width="65" height="40" class="lazy initial loaded"
-                   data-src="//cdn.tgdd.vn/Brand/11/drthanh-050320211354.jpg" alt="Dr.Thanh"
-                   src="//cdn.tgdd.vn/Brand/11/drthanh-050320211354.jpg" data-was-processed="true">
-              <em></em>
-              <i class="bhx-checkmanu"></i>
-            </a>
-          </li>
-          <li>
-            <a data-id="21267" data-hash="vfresh" title="Vfresh">
-              <img width="65" height="40" class="lazy initial loaded"
-                   data-src="//cdn.tgdd.vn/Brand/11/vfresh-1303202114943.jpg" alt="Vfresh"
-                   src="//cdn.tgdd.vn/Brand/11/vfresh-1303202114943.jpg" data-was-processed="true">
-              <em></em>
-              <i class="bhx-checkmanu"></i>
-            </a>
-          </li>
-          <li>
-            <a data-id="23175" data-hash="khong-do" title="Không Độ">
-              <img width="65" height="40" class="lazy initial loaded"
-                   data-src="//cdn.tgdd.vn/Brand/11/khong-do-13032021235513.jpg" alt="Không Độ"
-                   src="//cdn.tgdd.vn/Brand/11/khong-do-13032021235513.jpg" data-was-processed="true">
-              <em></em>
-              <i class="bhx-checkmanu"></i>
-            </a>
-          </li>
-          <li>
-            <a data-id="21583" data-hash="coca-cola" title="Coca Cola">
-              <img width="65" height="40" class="lazy initial loaded"
-                   data-src="//cdn.tgdd.vn/Brand/11/coca-cola-2309202010534.png" alt="Coca Cola"
-                   src="//cdn.tgdd.vn/Brand/11/coca-cola-2309202010534.png" data-was-processed="true">
-              <em></em>
-              <i class="bhx-checkmanu"></i>
-            </a>
-          </li>
-          <li>
-            <a data-id="21662" data-hash="sprite" title="Sprite">
-              <img width="65" height="40" class="lazy initial loaded"
-                   data-src="//cdn.tgdd.vn/Brand/11/sprite-24092020111818.png" alt="Sprite"
-                   src="//cdn.tgdd.vn/Brand/11/sprite-24092020111818.png" data-was-processed="true">
-              <em></em>
-              <i class="bhx-checkmanu"></i>
-            </a>
-          </li>
-          <li>
-            <a data-id="21529" data-hash="tea-plus" title="Tea Plus">
-              <img width="65" height="40" class="lazy initial loaded"
-                   data-src="//cdn.tgdd.vn/Brand/11/tea-plus-0903202120842.jpg" alt="Tea Plus"
-                   src="//cdn.tgdd.vn/Brand/11/tea-plus-0903202120842.jpg" data-was-processed="true">
-              <em></em>
-              <i class="bhx-checkmanu"></i>
-            </a>
-          </li>
-          <li>
-            <a data-id="22291" data-hash="fanta" title="Fanta">
-              <img width="65" height="40" class="lazy initial loaded"
-                   data-src="//cdn.tgdd.vn/Brand/11/fanta-15032021112040.jpg" alt="Fanta"
-                   src="//cdn.tgdd.vn/Brand/11/fanta-15032021112040.jpg" data-was-processed="true">
-              <em></em>
-              <i class="bhx-checkmanu"></i>
-            </a>
-          </li>
-          <li>
-            <a data-id="22649" data-hash="kirin" title="Kirin">
-              <img width="65" height="40" class="lazy initial loaded"
-                   data-src="//cdn.tgdd.vn/Brand/11/kirin-140320210131.jpg" alt="Kirin"
-                   src="//cdn.tgdd.vn/Brand/11/kirin-140320210131.jpg" data-was-processed="true">
-              <em></em>
-              <i class="bhx-checkmanu"></i>
-            </a>
-          </li>
-          <li>
-            <a data-id="22545" data-hash="itoen" title="ITOEN">
-              <img width="65" height="40" class="lazy initial loaded"
-                   data-src="//cdn.tgdd.vn/Brand/11/itoen-13032021233129.jpg" alt="ITOEN"
-                   src="//cdn.tgdd.vn/Brand/11/itoen-13032021233129.jpg" data-was-processed="true">
-              <em></em>
-              <i class="bhx-checkmanu"></i>
-            </a>
-          </li>
-          <li>
-            <a data-id="21033" data-hash="yeos" title="Yeos">
-              <img width="65" height="40" class="lazy initial loaded"
-                   data-src="//cdn.tgdd.vn/Brand/11/yeos-12032021204041.jpg" alt="Yeos"
-                   src="//cdn.tgdd.vn/Brand/11/yeos-12032021204041.jpg" data-was-processed="true">
-              <em></em>
-              <i class="bhx-checkmanu"></i>
-            </a>
-          </li>
-          <li>
-            <a data-id="21730" data-hash="schweppes" title="Schweppes">
-              <img width="65" height="40" class="lazy initial loaded"
-                   data-src="//cdn.tgdd.vn/Brand/11/schweppes-12032021213452.jpg" alt="Schweppes"
-                   src="//cdn.tgdd.vn/Brand/11/schweppes-12032021213452.jpg" data-was-processed="true">
-              <em></em>
-              <i class="bhx-checkmanu"></i>
-            </a>
-          </li>
-          <li>
-            <a data-id="22836" data-hash="boganic" title="Boganic">
-              <img width="65" height="40" class="lazy initial loaded"
-                   data-src="//cdn.tgdd.vn/Brand/11/boganic-15032021221529.jpg" alt="Boganic"
-                   src="//cdn.tgdd.vn/Brand/11/boganic-15032021221529.jpg" data-was-processed="true">
-              <em></em>
-              <i class="bhx-checkmanu"></i>
-            </a>
-          </li>
-          <li>
-            <a data-id="23390" data-hash="pokka" title="Pokka">
-              <img width="65" height="40" class="lazy initial loaded"
-                   data-src="//cdn.tgdd.vn/Brand/11/pokka-15032021131751.jpg" alt="Pokka"
-                   src="//cdn.tgdd.vn/Brand/11/pokka-15032021131751.jpg" data-was-processed="true">
-              <em></em>
-              <i class="bhx-checkmanu"></i>
-            </a>
-          </li>
-          <li>
-            <a data-id="21561" data-hash="chuong-duong" title="Chương Dương">
-              <img width="65" height="40" class="lazy initial loaded"
-                   data-src="//cdn.tgdd.vn/Brand/11/chuong-duong-1403202121425.jpg" alt="Chương Dương"
-                   src="//cdn.tgdd.vn/Brand/11/chuong-duong-1403202121425.jpg" data-was-processed="true">
-              <em></em>
-              <i class="bhx-checkmanu"></i>
-            </a>
-          </li>
-          <li>
-            <a data-id="21082" data-hash="wonderfarm" title="Wonderfarm">
-              <img width="65" height="40" class="lazy initial loaded"
-                   data-src="//cdn.tgdd.vn/Brand/11/wonderfarm-11032021101827.jpg" alt="Wonderfarm"
-                   src="//cdn.tgdd.vn/Brand/11/wonderfarm-11032021101827.jpg" data-was-processed="true">
-              <em></em>
-              <i class="bhx-checkmanu"></i>
-            </a>
-          </li>
-          <li>
-            <a data-id="23285" data-hash="new-choice" title="New Choice">
-              <img width="65" height="40" class="lazy initial loaded"
-                   data-src="//cdn.tgdd.vn/Brand/11/new-choice-1203202116186.jpg" alt="New Choice"
-                   src="//cdn.tgdd.vn/Brand/11/new-choice-1203202116186.jpg" data-was-processed="true">
-              <em></em>
-              <i class="bhx-checkmanu"></i>
-            </a>
-          </li>
-          <li>
-            <a data-id="21624" data-hash="sun-hee" title="Sun-Hee">
-              <img width="65" height="40" class="lazy initial loaded"
-                   data-src="//cdn.tgdd.vn/Brand/11/sun-hee-0603202121845.jpg" alt="Sun-Hee"
-                   src="//cdn.tgdd.vn/Brand/11/sun-hee-0603202121845.jpg" data-was-processed="true">
-              <em></em>
-              <i class="bhx-checkmanu"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <!--      ===================================================================-->
     </div>
   </div>
   <div v-else-if="$device.isTablet">
@@ -702,7 +318,8 @@
           <p><b>Sản phẩm<br>bán chạy</b></p>
           <em></em>
         </div>
-        <div class="it"><p class="viewmore"><span>Xem thêm</span></p></div>
+        <div class="it" ><p class="viewmore"><span>Xem thêm</span></p></div>
+
       </div>
     </div>
     <div class="manufacture">
@@ -767,6 +384,7 @@
           </a>
         </div>
         <div class="it"><p class="viewmore"><span>Xem thêm</span></p></div>
+
       </div>
     </div>
     <div class="groupcate">
@@ -1500,6 +1118,13 @@ export default {
     viewmore_procduct() {
       document.querySelector("#minheight").style.maxHeight = "max-content";
       document.querySelector("#viewmore").style.display = "none";
+    },
+    viewmore_brand() {
+      if (document.querySelector("#more_brand").style.display === "none") {
+        document.querySelector("#more_brand").style.display = "block";
+      } else {
+        document.querySelector("#more_brand").style.display = "none";
+      }
     },
     showTick(name) {
       if (document.getElementById(name).style.display === "none") {

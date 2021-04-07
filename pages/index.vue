@@ -41,6 +41,7 @@
                 <nuxt-link to="#">
                   <div class="boximg">
                     <img :src="product.thumbnail" width="100%">
+
                   </div>
                   <h3 class="product-name">{{ product.name }}</h3>
                   <div class="price">{{ product.price_formatted }}</div>

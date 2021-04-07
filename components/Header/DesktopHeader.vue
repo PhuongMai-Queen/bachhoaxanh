@@ -6,7 +6,7 @@
           <h3><img src="~assets/images/general/menu_desktop.png"> DANH MỤC SẢN PHẨM</h3>
           <b-nav vertical>
             <li class="item-menu" v-for="cate in categories" :key="cate.id">
-              <nuxt-link to="#">{{cate.name}}</nuxt-link>
+              <nuxt-link :to="{ name: 'products_id-id', params: { id: cate.id }}">{{cate.name}}</nuxt-link>
             </li>
             <div class="menu-side-bottom input-side-search">
               <b-form-input placeholder="Nhập nhóm hàng cần tìm..."></b-form-input>

@@ -260,10 +260,30 @@
         </ul>
       </div>
       <!--      ===================================================================-->
-      <div class="boxproduct_desktop group_desktop ">
-
+      <div class="list_groupfeature group_desktop ">
+        <div class="groupfeature row">
+          <div class="cateproduct col-3" v-for="product in product_bycate" :key="product.id">
+              <div class="product">
+                <nuxt-link to="">
+                  <div class="boximg">
+                    <img :src="product.thumbnail" width="100%">
+                  </div>
+                  <h3 class="product-name">{{ product.name }}</h3>
+                  <div class="price">{{ product.price_formatted }}</div>
+                  <button type="button" class="buy ">Chọn mua</button>
+                </nuxt-link>
+              </div>
+          </div>
+          <div>
+            <div class="viewmore">
+              <span>Xem thêm sản phẩm sữa uống các loại
+                <font-awesome-icon :icon="['fas', 'angle-down']"></font-awesome-icon>
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
-<!--      ============================================================================================-->
+<!--      ====================================================================-->
 
     </div>
   </div>
@@ -1057,81 +1077,19 @@
     </div>
   </div>
 </template>
+
 <script>
 import axios from "~/node_modules/axios";
-import {VueAgile} from '~/node_modules/vue-agile'
-
 export default {
-  components: {
-    agile: VueAgile
-  },
-  data() {
+  async asyncData ({ params }) {
+    console.log(`${params.id}`);
+    let { data } = await axios.get(`https://api-idp.kpis.vn/v1/client/products?limit=24&store_id=&name=&category_ids/${params.id}`, {
+      headers: {
+        Authorization: 'Bearer cb68e963404f0b1b62229f37cf77013b7f97729b6722ae7d17e8315e9eabcbe3'
+      }
+    })
     return {
-      products: [],
-      data: [],
-      total: [],
-      total_pages: null,
-      error: null,
-      limit: 9
-    }
-  },
-  async created() {
-    this.totalPages();
-
-  },
-  mounted() {
-    window.onscroll = function () {
-      if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-        document.querySelector("#fixtop").style.display = "block";
-      } else {
-        document.querySelector("#fixtop").style.display = "none";
-      }
-    };
-  },
-  methods: {
-    async totalPages() {
-      const response = await axios.get('http://api.tvtp.vn/v0/products', {
-        headers: {
-          Authorization: 'Bearer cb68e963404f0b1b62229f37cf77013b7f97729b6722ae7d17e8315e9eabcbe3'
-        }
-      });
-      this.total_pages = response.data.meta.pagination['total_pages'];
-      this.total = response.data.meta.pagination['total'];
-      var i = 0;
-      for (i = 1; i <= this.total_pages; i++) {
-        this.getData(i);
-      }
-    },
-    async getData(id) {
-      const response = await axios.get('http://api.tvtp.vn/v0/products?page=' + id, {
-        headers: {
-          Authorization: 'Bearer cb68e963404f0b1b62229f37cf77013b7f97729b6722ae7d17e8315e9eabcbe3'
-        }
-      });
-      this.products = this.products.concat(response.data.data).filter((el, index) => index < this.limit);
-    },
-    async limitShow() {
-      this.limit = this.limit + 9;
-      this.products = [];
-      this.totalPages();
-    },
-    viewmore_procduct() {
-      document.querySelector("#minheight").style.maxHeight = "max-content";
-      document.querySelector("#viewmore").style.display = "none";
-    },
-    viewmore_brand() {
-      if (document.querySelector("#more_brand").style.display === "none") {
-        document.querySelector("#more_brand").style.display = "block";
-      } else {
-        document.querySelector("#more_brand").style.display = "none";
-      }
-    },
-    showTick(name) {
-      if (document.getElementById(name).style.display === "none") {
-        document.getElementById(name).style.display = "block";
-      } else {
-        document.getElementById(name).style.display = "none";
-      }
+      product_bycate: data.data
     }
   }
 }

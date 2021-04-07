@@ -622,200 +622,23 @@
         <b-button class="filter-apcept">Áp dụng</b-button>
       </div>
     </b-sidebar>
-
     <div class="cate cateproduct cateproduct_id">
       <div class="product row">
-        <div class="product-item col-4">
+        <div class="product-item col-4" v-for="product in product_bycate" :key="product.id">
           <div class="product-box">
             <nuxt-link to="#">
               <img
-                src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png"
+                :src="product.thumbnail"
                 width="100%">
             </nuxt-link>
             <div class="productinfo">
-              <h3 class="product-name">6 lon nước ngọt Mirinda xá xị 330ml</h3>
+              <h3 class="product-name">{{ product.name }}</h3>
             </div>
             <div class="box-buy">
               <nuxt-link to="#">
                 <div class="row">
                   <div class="price col-7">
-                    <span>38.000₫</span>
-                  </div>
-                  <div class="buy col-5"><span>MUA</span></div>
-                </div>
-              </nuxt-link>
-            </div>
-          </div>
-        </div>
-        <div class="product-item col-4">
-          <div class="product-box">
-            <nuxt-link to="#">
-              <img
-                src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png"
-                width="100%">
-            </nuxt-link>
-            <div class="productinfo">
-              <h3 class="product-name">6 lon nước ngọt Mirinda xá xị 330ml</h3>
-            </div>
-            <div class="box-buy">
-              <nuxt-link to="#">
-                <div class="row">
-                  <div class="price col-7">
-                    <span>38.000₫</span>
-                  </div>
-                  <div class="buy col-5"><span>MUA</span></div>
-                </div>
-              </nuxt-link>
-            </div>
-          </div>
-        </div>
-        <div class="product-item col-4">
-          <div class="product-box">
-            <nuxt-link to="#">
-              <img
-                src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png"
-                width="100%">
-            </nuxt-link>
-            <div class="productinfo">
-              <h3 class="product-name">6 lon nước ngọt Mirinda xá xị 330ml</h3>
-            </div>
-            <div class="box-buy">
-              <nuxt-link to="#">
-                <div class="row">
-                  <div class="price col-7">
-                    <span>38.000₫</span>
-                  </div>
-                  <div class="buy col-5"><span>MUA</span></div>
-                </div>
-              </nuxt-link>
-            </div>
-          </div>
-        </div>
-        <div class="product-item col-4">
-          <div class="product-box">
-            <nuxt-link to="#">
-              <img
-                src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png"
-                width="100%">
-            </nuxt-link>
-            <div class="productinfo">
-              <h3 class="product-name">6 lon nước ngọt Mirinda xá xị 330ml</h3>
-            </div>
-            <div class="box-buy">
-              <nuxt-link to="#">
-                <div class="row">
-                  <div class="price col-7">
-                    <span>38.000₫</span>
-                  </div>
-                  <div class="buy col-5"><span>MUA</span></div>
-                </div>
-              </nuxt-link>
-            </div>
-          </div>
-        </div>
-        <div class="product-item col-4">
-          <div class="product-box">
-            <nuxt-link to="#">
-              <img
-                src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png"
-                width="100%">
-            </nuxt-link>
-            <div class="productinfo">
-              <h3 class="product-name">6 lon nước ngọt Mirinda xá xị 330ml</h3>
-            </div>
-            <div class="box-buy">
-              <nuxt-link to="#">
-                <div class="row">
-                  <div class="price col-7">
-                    <span>38.000₫</span>
-                  </div>
-                  <div class="buy col-5"><span>MUA</span></div>
-                </div>
-              </nuxt-link>
-            </div>
-          </div>
-        </div>
-        <div class="product-item col-4">
-          <div class="product-box">
-            <nuxt-link to="#">
-              <img
-                src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png"
-                width="100%">
-            </nuxt-link>
-            <div class="productinfo">
-              <h3 class="product-name">6 lon nước ngọt Mirinda xá xị 330ml</h3>
-            </div>
-            <div class="box-buy">
-              <nuxt-link to="#">
-                <div class="row">
-                  <div class="price col-7">
-                    <span>38.000₫</span>
-                  </div>
-                  <div class="buy col-5"><span>MUA</span></div>
-                </div>
-              </nuxt-link>
-            </div>
-          </div>
-        </div>
-        <div class="product-item col-4">
-          <div class="product-box">
-            <nuxt-link to="#">
-              <img
-                src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png"
-                width="100%">
-            </nuxt-link>
-            <div class="productinfo">
-              <h3 class="product-name">6 lon nước ngọt Mirinda xá xị 330ml</h3>
-            </div>
-            <div class="box-buy">
-              <nuxt-link to="#">
-                <div class="row">
-                  <div class="price col-7">
-                    <span>38.000₫</span>
-                  </div>
-                  <div class="buy col-5"><span>MUA</span></div>
-                </div>
-              </nuxt-link>
-            </div>
-          </div>
-        </div>
-        <div class="product-item col-4">
-          <div class="product-box">
-            <nuxt-link to="#">
-              <img
-                src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png"
-                width="100%">
-            </nuxt-link>
-            <div class="productinfo">
-              <h3 class="product-name">6 lon nước ngọt Mirinda xá xị 330ml</h3>
-            </div>
-            <div class="box-buy">
-              <nuxt-link to="#">
-                <div class="row">
-                  <div class="price col-7">
-                    <span>38.000₫</span>
-                  </div>
-                  <div class="buy col-5"><span>MUA</span></div>
-                </div>
-              </nuxt-link>
-            </div>
-          </div>
-        </div>
-        <div class="product-item col-4">
-          <div class="product-box">
-            <nuxt-link to="#">
-              <img
-                src="https://cdn.tgdd.vn/Products/Images/2443/205993/bhx/feature/6-lon-nuoc-ngot-mirinda-huong-xa-xi-330ml-202102072040594539.png"
-                width="100%">
-            </nuxt-link>
-            <div class="productinfo">
-              <h3 class="product-name">6 lon nước ngọt Mirinda xá xị 330ml</h3>
-            </div>
-            <div class="box-buy">
-              <nuxt-link to="#">
-                <div class="row">
-                  <div class="price col-7">
-                    <span>38.000₫</span>
+                    <span>{{ product.price_formatted }}</span>
                   </div>
                   <div class="buy col-5"><span>MUA</span></div>
                 </div>
@@ -1077,13 +900,14 @@
     </div>
   </div>
 </template>
-
 <script>
 import axios from "~/node_modules/axios";
 export default {
+  data() {
+    product_bycate: []
+  },
   async asyncData ({ params }) {
-    console.log(`${params.id}`);
-    let { data } = await axios.get(`https://api-idp.kpis.vn/v1/client/products?limit=24&store_id=&name=&category_ids/${params.id}`, {
+    let { data } = await axios.get(`https://api-idp.kpis.vn/v1/client/products?limit=24&store_id=&name=&category_ids=${params.id}`, {
       headers: {
         Authorization: 'Bearer cb68e963404f0b1b62229f37cf77013b7f97729b6722ae7d17e8315e9eabcbe3'
       }
@@ -1094,4 +918,5 @@ export default {
   }
 }
 </script>
+
 

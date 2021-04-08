@@ -31,7 +31,7 @@
             </div>
             <div class="mobile-item-menu">
               <div class="item" v-for="cate in categories" :key="cate.id">
-                <nuxt-link to="#">{{cate.name}}</nuxt-link>
+                <nuxt-link :to="{ name: 'products_id-id', params: { id: cate.id }}">{{cate.name}}</nuxt-link>
               </div>
             </div>
             <nuxt-link to="#" class="promotion-navbar">

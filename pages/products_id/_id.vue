@@ -270,17 +270,15 @@
                   </div>
                 </nuxt-link>
                   <h3 class="product-name">{{ product.name }}</h3>
-                  <div class="price">{{ product.price_formatted }}</div>
+                  <div class="price">{{ product.price_formated }}</div>
                   <button type="button" class="buy ">Chọn mua</button>
               </div>
           </div>
-          <div>
-            <div class="viewmore">
-              <span>Xem thêm sản phẩm sữa uống các loại
+        </div>
+        <div class="viewmore">
+              <span>Xem thêm sản phẩm
                 <font-awesome-icon :icon="['fas', 'angle-down']"></font-awesome-icon>
               </span>
-            </div>
-          </div>
         </div>
       </div>
 <!--      ====================================================================-->
@@ -635,11 +633,9 @@
               <nuxt-link to="#">
                 <div class="row">
                   <div class="price col-7">
-                    <span>{{ product.price_formatted }}</span>
+                    <span>{{ product.price_formated }}</span>
                   </div>
-                  <button type="button" class="" >
-                    MUA
-                  </button>
+                  <button type="button" class="buy ">Mua</button>
                 </div>
               </nuxt-link>
             </div>
@@ -901,6 +897,7 @@
 </template>
 <script>
 import axios from "~/node_modules/axios";
+import cart from '~/assets/js/cart.js'
 export default {
   data() {
     product_bycate: []

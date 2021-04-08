@@ -36,9 +36,9 @@
           </b-nav>
         </nav>
         <div class="col-2"></div>
-        <div class="col-2 desktop_logo">
+        <nuxt-link to="/" class="col-2 desktop_logo">
           <img src="~/assets/images/general/logo.png" width="100%" v-b-toggle.sidebar-footer style="outline: none;">
-        </div>
+        </nuxt-link>
         <div class="col-2 desktop_loca">
           <div class="loca-parentwrapper">
               <div class="loca-icon">
@@ -66,7 +66,6 @@
             <nuxt-link to="/cart/">
               <font-awesome-icon :icon="['fas', 'shopping-basket']"></font-awesome-icon>
               <span>Giỏ hàng</span>
-
             </nuxt-link>
         </div>
       </div>

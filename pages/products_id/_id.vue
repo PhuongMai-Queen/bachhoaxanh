@@ -264,14 +264,14 @@
         <div class="groupfeature row">
           <div class="cateproduct col-3" v-for="product in product_bycate" :key="product.id">
               <div class="product">
-                <nuxt-link to="">
+                <nuxt-link :to="{ name: 'product-id', params: { id: product.id }}">
                   <div class="boximg">
                     <img :src="product.thumbnail" width="100%">
                   </div>
+                </nuxt-link>
                   <h3 class="product-name">{{ product.name }}</h3>
                   <div class="price">{{ product.price_formatted }}</div>
                   <button type="button" class="buy ">Chọn mua</button>
-                </nuxt-link>
               </div>
           </div>
           <div>
@@ -286,9 +286,6 @@
 <!--      ====================================================================-->
 
     </div>
-  </div>
-  <div v-else-if="$device.isTablet">
-    Content Tablet
   </div>
   <div v-else class="mobile_content">
     <!--    bộ lọc tìm kiếm -->
@@ -626,7 +623,7 @@
       <div class="product row">
         <div class="product-item col-4" v-for="product in product_bycate" :key="product.id">
           <div class="product-box">
-            <nuxt-link to="#">
+            <nuxt-link :to="{ name: 'product-id', params: { id: product.id }}">
               <img
                 :src="product.thumbnail"
                 width="100%">
@@ -640,7 +637,9 @@
                   <div class="price col-7">
                     <span>{{ product.price_formatted }}</span>
                   </div>
-                  <div class="buy col-5"><span>MUA</span></div>
+                  <button type="button" class="" >
+                    MUA
+                  </button>
                 </div>
               </nuxt-link>
             </div>

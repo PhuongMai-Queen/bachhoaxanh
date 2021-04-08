@@ -9,13 +9,8 @@
             <nuxt />
           </div>
         </div>
-
       </div>
       <desktop-footer />
-    </div>
-    <div v-else-if="$device.isTablet">
-      Layout Tablet
-      <nuxt />
     </div>
     <div v-else>
       <mobile-header />

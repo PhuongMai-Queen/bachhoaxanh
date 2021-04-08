@@ -3,6 +3,7 @@
   margin: 0;
 }
 .mobile_header {
+  width: 100%;
   background-color: #037841;
   padding: 5px 0;
   position: fixed;
@@ -47,6 +48,11 @@
   text-align: center;
   line-height: 16px;
   padding: 0;
+}
+
+.mobile_header .col-2 button {
+  background-color: #037841;
+  border: none;
 }
 
 .mobile_header .col-2 a {
@@ -225,6 +231,9 @@
 }
 .desktop_loca .loca-parentwrapper{
   display: flex;
+  border: none;
+  background-color: #037540;
+  color: #fff;
 }
 .desktop_loca .loca-parentwrapper .loca-wrapper{
   line-height: 15px;

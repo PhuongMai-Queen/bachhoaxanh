@@ -1,6 +1,6 @@
 <template>
   <div v-if="$device.isDesktop">
-    <div class="desktop_checkout container-fluid">
+    <div class="desktop_checkout">
       <div class="checkout-content">
         <nuxt-link to="/cart/" class="back-to-cart">
           <font-awesome-icon
@@ -275,7 +275,7 @@
   </div>
   <div v-else-if="$device.isTablet">Content Tablet</div>
   <div v-else>
-    <div class="mobile_checkout container-fluid">
+    <div class="mobile_checkout">
       <div class="checkout-content">
         <nuxt-link to="/cart/" class="back-to-cart">
           <font-awesome-icon

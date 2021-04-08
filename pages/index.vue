@@ -38,7 +38,7 @@
           <div class="cateproduct col-3" v-for="product in products" :key="product.id">
             <div class="product" v-if="product.categories == cate.name">
               <div>
-                <nuxt-link to="#">
+                <nuxt-link to="">
                   <div class="boximg">
                     <img :src="product.thumbnail" width="100%">
 

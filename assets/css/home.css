@@ -180,12 +180,15 @@
   padding: 0 5px;
 }
 .agile__actions button{
+  background: #028848;
   border: none;
   margin-top: -11%;
-  width: 20px;
-  height: 20px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   z-index: 1;
+  font-size: 18px;
+  color: #fff;
 }
 .desktop_content_banner .agile__actions .agile__nav-button--prev{
   margin-left: 2%;

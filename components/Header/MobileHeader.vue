@@ -44,14 +44,17 @@
           <font-awesome-icon :icon="['fas', 'search']"></font-awesome-icon>
         </div>
         <div class="col-2">
-          <div class="loca">
+          <button class="loca" v-b-modal.address-popup>
             <div class="loca-parentwrapper">
               <div class="loca-wrapper">
                 <span>Giao tại</span>
                 <div class="current_locate">Phường...</div>
               </div>
             </div>
-          </div>
+            <b-modal id="address-popup">
+              <p class="my-4">Hello from modal!</p>
+            </b-modal>
+          </button>
         </div>
         <div class="div-col col-2">
           <nuxt-link to="#">

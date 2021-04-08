@@ -3,6 +3,7 @@
   margin: 0;
 }
 .mobile_header {
+  width: 100%;
   background-color: #037841;
   padding: 5px 0;
   position: fixed;
@@ -47,6 +48,11 @@
   text-align: center;
   line-height: 16px;
   padding: 0;
+}
+
+.mobile_header .col-2 button {
+  background-color: #037841;
+  border: none;
 }
 
 .mobile_header .col-2 a {
@@ -159,7 +165,7 @@
   top: 2%;
   border-radius: 4px 4px 0 0;
   z-index: 11;
-  width: 13%;
+  width: 210px;
   padding: 8px 0;
   height: 100%;
 }
@@ -226,6 +232,9 @@
 }
 .desktop_loca .loca-parentwrapper{
   display: flex;
+  border: none;
+  background-color: #037540;
+  color: #fff;
 }
 .desktop_loca .loca-parentwrapper .loca-wrapper{
   line-height: 15px;
@@ -263,10 +272,15 @@
   text-decoration: none;
 }
 .desktop_header .container .desktop_header_cart{
-  padding: 20px 8px;
+  padding: 15px 8px;
+  background-color: #037540;
+}
+.desktop_header .container .desktop_header_cart a{
   font-size: 11px;
   color: #fff;
   text-transform: uppercase;
   font-weight: 500;
-  background-color: #037540;
+}
+.desktop_header .container .desktop_header_cart a:hover{
+  text-decoration: none;
 }

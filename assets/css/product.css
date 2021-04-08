@@ -509,3 +509,197 @@ a {
   padding: 20px 0 10px 0;
   font-size: 20px;
 }
+
+.rowinfo {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.leftcolrelate {
+  width: 531px;
+}
+
+.rightcolrelate {
+  background: #fff;
+  width: 354px;
+  margin-left: 27px;
+}
+
+.leftcolrelate .details {
+  margin-bottom: 10px;
+  padding-left: 15px;
+  background-color: #fff;
+}
+
+.textinfpro {
+  display: block;
+  padding: 15px 0;
+  background: #fff;
+  color: #4a4a4a;
+  font-size: 20px;
+}
+.short-description {
+  display: block;
+  padding: 5px;
+  font-size: 14px;
+  line-height: 25px;
+}
+.infoproduct li {
+  display: block;
+  overflow: hidden;
+  background: #fff;
+  border-bottom: 1px solid #ecf0f1;
+  padding: 10px 5px;
+}
+.infoproduct li span {
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  font-size: 13px;
+  color: #999;
+  width: 18%;
+}
+.infoproduct li div {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 13px;
+  color: #4a4a4a;
+  width: 80%;
+}
+.vote-Product {
+  padding: 10px;
+  border-top: 3px solid #e9edf0;
+  border-bottom: 3px solid #e9edf0;
+  font-size: 12px;
+}
+.vote-Product .messageConfirm {
+  float: left;
+  margin-right: 5px;
+  margin-top: 2px;
+}
+.vote-Product .main .icon_Product {
+  display: flex;
+  margin-left: 5px;
+}
+.icon_Product .bl-vote {
+  border: 1px solid #288ad6;
+  border-radius: 4px;
+  width: 130px;
+  padding-top: 2px;
+  margin-right: 6px;
+  line-height: 1px;
+  box-sizing: border-box;
+  font-size: 12px;
+  cursor: pointer;
+  display: inline;
+  white-space: nowrap;
+  text-align: center;
+  padding-right: 2px;
+  text-decoration: none;
+  color: #288ad6;
+}
+.icon_Product .icon-smile-s {
+  margin-top: 1px;
+  margin-right: 5px;
+}
+.boxrating .title {
+  width: 100%;
+  overflow: hidden;
+}
+.boxrating .title > h4 {
+  font-size: 20px;
+  padding: 10px 0;
+  line-height: 1.3;
+  text-align: left;
+  font-weight: bold;
+  float: left;
+}
+.groupcate {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 5px;
+  background: #fff;
+  border-radius: 4px;
+  min-height: 222px;
+}
+.namegroup {
+  display: block;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 25px 10px 15px 10px;
+}
+.listgroup {
+  display: block;
+  overflow: hidden;
+}
+.listgroup a {
+  float: left;
+  overflow: hidden;
+  margin-bottom: 15px;
+  width: 20%;
+  text-align: center;
+  text-decoration: none;
+  color: #288ad6;
+}
+.listgroup span {
+  display: block;
+  line-height: 1.3em;
+  font-size: 12px;
+  color: #288ad6;
+  text-align: center;
+}
+.homehews {
+  min-height: 312px;
+}
+.bartitle {
+  display: block;
+  overflow: hidden;
+}
+.bartitle .hometitle {
+  float: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  overflow: hidden;
+  line-height: 1.3em;
+  background: #fff;
+  padding: 15px 10px 10px;
+  color: #4a4a4a;
+  font-size: 13px;
+}
+.homehews a.viewother {
+  text-align: center;
+  float: right;
+  margin-right: 10px;
+  padding-top: 15px;
+}
+.homehews a {
+  display: block;
+  overflow: hidden;
+  color: #288ad6;
+  font-size: 11px;
+  padding: 10px;
+  min-height: 16px;
+  text-decoration: none;
+}
+.homehews > a {
+  border-top: 1px solid #f3f3f3;
+  padding: 12px 0;
+  margin: 0 10px;
+}
+.homehews a img {
+  float: left;
+  width: 65px;
+  height: auto;
+  margin-right: 10px;
+  min-height: 30px;
+  max-height: 32px;
+}
+.homehews a p {
+  color: #4a4a4a;
+  width: calc(100% - 75px);
+  float: left;
+  margin: 0;
+}

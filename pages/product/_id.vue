@@ -427,7 +427,6 @@
 
     </div>
   </div>
-
   <div v-else class="mobile_product">
     <div class="bg-product_slide">
       <div class="product_slide">
@@ -847,7 +846,6 @@ export default {
       headers: {
         Authorization: 'Bearer cb68e963404f0b1b62229f37cf77013b7f97729b6722ae7d17e8315e9eabcbe3'
       }
-
     })
     return {
       product: data.data

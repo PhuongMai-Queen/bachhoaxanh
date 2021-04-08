@@ -201,7 +201,6 @@
 }
 .desktop_header nav ul{
   display: block;
-  padding-top: 10px;
   border-top: 1px solid #e5e5e5;
 }
 .desktop_header nav ul .input-side-search{
@@ -255,7 +254,7 @@
 .desktop_header .container .mainsearch svg{
   position: absolute;
   top: 18px;
-  right: 30px;
+  right: 20px;
   color: #DBDBDB;
 }
 .desktop_header .container .histories{

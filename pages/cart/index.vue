@@ -1,6 +1,6 @@
 <template>
   <div v-if="$device.isDesktop">
-        <div class="desktop_cart container-fluid">
+        <div class="desktop_cart">
       <div class="cart-content">
         <div class="list-product">
           <div class="title">Giỏ hàng của bạn</div>
@@ -170,7 +170,7 @@
   </div>
   <div v-else-if="$device.isTablet">Content Tablet</div>
   <div v-else>
-    <div class="mobile_cart container-fluid">
+    <div class="mobile_cart">
       <div class="cart-content">
         <div class="list-product">
           <div class="title">Giỏ hàng của bạn</div>

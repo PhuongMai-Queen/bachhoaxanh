@@ -23,89 +23,88 @@
           <img src="~/assets/images/banner/banner_6.jpg" width="100%">
         </div>
       </agile>
-      <div class="groupcate">
-        <div class="namegroup">Nhóm hàng thường mua</div>
-        <div class="listgroup">
-          <a href="#" v-for="cate in categories" :key="cate.id">
-            <img :src="cate.image_url">
-            <span>{{cate.name}}</span>
-          </a>
-        </div>
+    </div>
+    <div class="groupcate">
+      <div class="namegroup">Nhóm hàng thường mua</div>
+      <div class="listgroup">
+        <a href="#" v-for="cate in categoriesProductTopSale" :key="cate.id">
+          <img :src="cate.image_url">
+          <span>{{cate.name}}</span>
+        </a>
       </div>
-      <div class="list_groupfeature" v-for="cate in categories" :key="cate.id">
-        <h2 class="grouptitle">{{cate.name}}</h2>
-        <div class="groupfeature row">
-          <div class="cateproduct col-3" v-for="product in products" :key="product.id">
-            <div class="product" v-if="product.categories == cate.name">
-              <div>
-                <nuxt-link to="">
-                  <div class="boximg">
-                    <img :src="product.thumbnail" width="100%">
+    </div>
+    <div class="list_groupfeature" v-for="cate in categories" :key="cate.id">
+      <h2 class="grouptitle">{{cate.name}}</h2>
+      <div class="groupfeature row">
+        <div class="cateproduct col-3" v-for="product in products" :key="product.id">
+          <div class="product" v-if="product.categories == cate.name">
+            <div>
+              <nuxt-link to="">
+                <div class="boximg">
+                  <img :src="product.thumbnail" width="100%">
 
-                  </div>
-                  <h3 class="product-name">{{ product.name }}</h3>
-                  <div class="price">{{ product.price_formatted }}</div>
-                  <button type="button" class="buy ">Chọn mua</button>
-                </nuxt-link>
-              </div>
-            </div>
-          </div>
-          <div v-if="total-limit > 0">
-            <div class="viewmore" @click="limitShow()">
-              <span>Xem thêm {{ total - limit }} sản phẩm sữa uống các loại
-                <font-awesome-icon :icon="['fas', 'angle-down']"></font-awesome-icon>
-              </span>
+                </div>
+                <h3 class="product-name">{{ product.name }}</h3>
+                <div class="price">{{ product.price_formatted }}</div>
+                <button type="button" class="buy ">Chọn mua</button>
+              </nuxt-link>
             </div>
           </div>
         </div>
       </div>
-      <div class="hometips">
-        <div class="hometitle">
-          <nuxt-link to="#">Mẹo hay trong gia đình</nuxt-link>
+      <div class="viewmore">
+            <span>Xem thêm sản phẩm
+              <font-awesome-icon :icon="['fas', 'angle-down']"></font-awesome-icon>
+            </span>
+      </div>
+    </div>
+    <div class="hometips">
+      <div class="hometitle">
+        <nuxt-link to="#">Mẹo hay trong gia đình</nuxt-link>
+      </div>
+      <div class="row">
+        <div class="newvideo col-8">
+          <iframe width="100%" height="326" src="https://www.youtube.com/embed/WeRLE0DyDEo"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
         </div>
-        <div class="row">
-          <div class="newvideo col-8">
-            <iframe width="100%" height="326" src="https://www.youtube.com/embed/WeRLE0DyDEo"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-          </div>
-          <div class="newlist col-4">
-            <nuxt-link to="#">
-              <img
-                src="https://cdn.tgdd.vn/Files/2021/03/20/1336836/be-an-thoa-thich-voi-banh-trung-ibo-vua-ngon-lai-bo-duong-202103201455237916.jpg">
-              <p>Bé ăn thỏa thích với bánh trứng I.B.O vừa ngon lại bổ... </p>
-            </nuxt-link>
-            <nuxt-link to="#">
-              <img
-                src="https://cdn.tgdd.vn/Files/2021/03/20/1336854/tat-tan-tat-nhung-cach-tiet-trung-do-dung-chai-lo-trong-nha-khong-can-may-moc-hien-dai-202103201517561890.jpg">
-              <p>Tất tần tật những cách tiệt trùng đồ dùng, chai lọ trong... </p>
-            </nuxt-link>
-            <nuxt-link to="#">
-              <img
-                src="https://cdn.tgdd.vn/Files/2017/09/17/1022409/cach-got-vo-khoai-so-khong-so-bi-ngua-tay-202103211425170172.jpg">
-              <p>Cách gọt vỏ khoai sọ không sợ bị...</p>
-            </nuxt-link>
-            <nuxt-link to="#">
-              <img
-                src="https://cdn.tgdd.vn/Files/2021/03/20/1336844/nuoc-nha-dam-chuong-duong-thuc-uong-tuyet-voi-danh-cho-suc-khoe-202103201451194842.jpg">
-              <p>Nước nha đam Chương Dương thức uống tuyệt... </p>
-            </nuxt-link>
-            <nuxt-link to="#">
-              <img
-                src="https://cdn.tgdd.vn/Files/2021/03/20/1336818/cach-lam-tiet-canh-bang-cu-den-da-ngon-an-toan-lai-con-dep-da-202103201347197210.jpg">
-              <p>Cách làm tiết canh bằng củ dền đã ngon an toàn lại còn... </p>
-            </nuxt-link>
-            <nuxt-link to="#">
-              <img
-                src="https://cdn.tgdd.vn/Files/2021/03/20/1336781/4-nguyen-lieu-dau-goi-tu-thien-nhien-giup-toc-khoe-bong-muot-cua-phu-nu-viet-thoi-xa-xua-202103201153268534.jpg">
-              <p>4 nguyên liệu dầu gội từ thiên nhiên giúp tóc khỏe... </p>
-            </nuxt-link>
-            <nuxt-link to="#" class="viewother">Xem các tin bài khác »</nuxt-link>
-          </div>
+        <div class="newlist col-4">
+          <nuxt-link to="#">
+            <img
+              src="https://cdn.tgdd.vn/Files/2021/03/20/1336836/be-an-thoa-thich-voi-banh-trung-ibo-vua-ngon-lai-bo-duong-202103201455237916.jpg">
+            <p>Bé ăn thỏa thích với bánh trứng I.B.O vừa ngon lại bổ... </p>
+          </nuxt-link>
+          <nuxt-link to="#">
+            <img
+              src="https://cdn.tgdd.vn/Files/2021/03/20/1336854/tat-tan-tat-nhung-cach-tiet-trung-do-dung-chai-lo-trong-nha-khong-can-may-moc-hien-dai-202103201517561890.jpg">
+            <p>Tất tần tật những cách tiệt trùng đồ dùng, chai lọ trong... </p>
+          </nuxt-link>
+          <nuxt-link to="#">
+            <img
+              src="https://cdn.tgdd.vn/Files/2017/09/17/1022409/cach-got-vo-khoai-so-khong-so-bi-ngua-tay-202103211425170172.jpg">
+            <p>Cách gọt vỏ khoai sọ không sợ bị...</p>
+          </nuxt-link>
+          <nuxt-link to="#">
+            <img
+              src="https://cdn.tgdd.vn/Files/2021/03/20/1336844/nuoc-nha-dam-chuong-duong-thuc-uong-tuyet-voi-danh-cho-suc-khoe-202103201451194842.jpg">
+            <p>Nước nha đam Chương Dương thức uống tuyệt... </p>
+          </nuxt-link>
+          <nuxt-link to="#">
+            <img
+              src="https://cdn.tgdd.vn/Files/2021/03/20/1336818/cach-lam-tiet-canh-bang-cu-den-da-ngon-an-toan-lai-con-dep-da-202103201347197210.jpg">
+            <p>Cách làm tiết canh bằng củ dền đã ngon an toàn lại còn... </p>
+          </nuxt-link>
+          <nuxt-link to="#">
+            <img
+              src="https://cdn.tgdd.vn/Files/2021/03/20/1336781/4-nguyen-lieu-dau-goi-tu-thien-nhien-giup-toc-khoe-bong-muot-cua-phu-nu-viet-thoi-xa-xua-202103201153268534.jpg">
+            <p>4 nguyên liệu dầu gội từ thiên nhiên giúp tóc khỏe... </p>
+          </nuxt-link>
+          <nuxt-link to="#" class="viewother">Xem các tin bài khác »</nuxt-link>
         </div>
       </div>
-      <div class="evoucher">
+    </div>
+    <div class="evoucher">
         <div class="voucher-title">
           <div class="voucher-title-left">
             <font-awesome-icon :icon="['fas', 'money-check-alt']"></font-awesome-icon>
@@ -180,7 +179,6 @@
           </div>
         </div>
       </div>
-    </div>
   </div>
   <div v-else-if="$device.isTablet">
     Content Tablet
@@ -3192,7 +3190,8 @@ export default {
       error: null,
       limit: 9,
       limit_cate: 8,
-      selected: ''
+      selected: '',
+      categoriesProductTopSale: []
     }
   },
   async created() {
@@ -3229,8 +3228,14 @@ export default {
           Authorization: 'Bearer cb68e963404f0b1b62229f37cf77013b7f97729b6722ae7d17e8315e9eabcbe3'
         }
       });
+      const categoriesProductTopSale = await axios.get('https://api-idp.kpis.vn/v1/client/categories-product-top-sale', {
+        headers: {
+          Authorization: 'Bearer cb68e963404f0b1b62229f37cf77013b7f97729b6722ae7d17e8315e9eabcbe3'
+        }
+      });
       this.products = this.products.concat(response.data.data).filter((el, index) => index < this.limit);
       this.categories = categories.data.data;
+      this.categoriesProductTopSale = categoriesProductTopSale.data.data;
     },
     async limitShow() {
       this.limit = this.limit + 9;
@@ -3242,62 +3247,6 @@ export default {
         document.querySelector("#collapse-step").style.display = "block";
       }
     }
-  },
-  mounted() {
-    setTimeout(() => {
-      this.scrollSections2 = [
-        {
-          id: "cate_1",
-          title: "Thịt, cá, trứng, rau"
-        },
-        {
-          id: "cate_2",
-          title: "Sữa uống các loại"
-
-        },
-        {
-          id: "cate_3",
-          title: "Đồ uống các loại"
-        },
-        {
-          id: "cate_4",
-          title: "Mì, cháo, phở, bún"
-        },
-        {
-          id: "cate_5",
-          title: "Dầu ăn, gia vị"
-        },
-        {
-          id: "cate_6",
-          title: " Chăm sóc cá nhân "
-        },
-        {
-          id: "cate_7",
-          title: "Gạo, bột, đồ khô"
-        },
-        {
-          id: "cate_8",
-          title: "Đồ mát, đông lạnh"
-        },
-        {
-          id: "cate_9",
-          title: "Vệ sinh nhà cửa"
-        },
-        {
-          id: "cate_10",
-          title: "Vệ sinh nhà cửa"
-        },
-        {
-          id: "cate_11",
-          title: "Đồ dùng gia đình"
-        },
-        {
-          id: "cate_12",
-          title: "Xả kho giá sốc"
-        }
-      ]
-      this.loading = false;
-    }, 1000);
   },
   directives: {mdbScrollSpy}
 }

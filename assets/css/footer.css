@@ -171,6 +171,7 @@
   width: 50%;
   height: 24px;
   vertical-align: middle;
+  border-left: 1px solid #ccc;
 }
 
 .content-col-right .desktop_footer .benefits > div p,
@@ -218,9 +219,14 @@
 
 .content-col-right .desktop_footer .detail div .linkfooter {
   width: 100%;
-  padding: 3px 10px 5px;
-  font-size: 12px;
+  padding: 3px 15px 5px;
+  font-size: 11px;
+  line-height: 25px;
 }
+.content-col-right .desktop_footer .detail div .linkfooter .row .col-4{
+  padding-left: 0;
+}
+
 .content-col-right .desktop_footer .detail div .recruitment{
   padding: 0 10px;
 }
@@ -272,10 +278,22 @@
   font-size: 13px;
   color: #4a4a4a;
   margin-right: 10px;
+  width: 70%;
 }
 
 .content-col-right .desktop_footer .detail div .linkfooter_bottom_1 a img:last-child {
   width: 80%;
+}
+
+.content-col-right .desktop_footer .detail div .stores{
+  text-align: center;
+}
+.content-col-right .desktop_footer .detail div .nofollow{
+  padding-left: 50px;
+}
+
+.content-col-right .desktop_footer .detail div .linkfooter_bottom_2{
+  padding-left: 40px;
 }
 
 .content-col-right .desktop_footer .detail div .stores div svg {

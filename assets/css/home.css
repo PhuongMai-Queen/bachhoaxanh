@@ -160,10 +160,14 @@
   border-radius: 8px;
   border: 1px solid #008848;
 }
+@media only screen and (min-width: 1440px){
+  .agile__dots{
+    left: 43%;
+  }
+}
 .agile__dots{
   position: absolute;
   bottom: 5%;
-  left: 43%;
   margin-bottom: 0;
 }
 .agile__dots .agile__dot button{

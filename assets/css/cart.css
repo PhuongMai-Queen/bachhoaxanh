@@ -217,8 +217,8 @@ input[type=number].quantity-input {
 
 /* checkout  */
 
-.mobile_checkout.container-fluid, .desktop_checkout.container-fluid {
-  padding: 0 10px 0 0;
+.mobile_checkout{
+  padding: 50px 0 0 0;
 }
 
 .checkout-content {
